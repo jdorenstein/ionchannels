@@ -1,0 +1,27 @@
+ORGANIZE FILE STRUCTURE
+	projects->trp->docs,geneset,phylo,000.command.txt
+		keep fastas in the geneset folder
+		all commands are in this file
+		keep external materials (downloads, presupplied files) in docs
+		keep all alignments and phylogenetic trees in phylo 
+
+-----------------------------13.07.02-------------
+PREPARE THE CANDIDATE GENESET
+
+place human trp geneset fasta in geneset folder (geneset.trp.hsa.fa)
+
+create fast file containing trpn for ciona 
+
+create "candidate.geneset.fa" -> contains the human and ciona fasta files
+
+######
+
+BLAST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET
+
+*location of BLAST db (octProteomeDB):
+	/Users/ionchannel/research/tools/db/blast/oct.proteome/***
+*location of FASTA file (geneset.candidate.fa)
+	/Users/ionchannel/research/projects/trp/geneset/***
+
+*commands:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/trp/geneset/geneset.candidate.fa -out /Users/ionchannel/research/projects/trp/geneset/out.blast.001 -num_alignments 10 -num_descriptions 10 2>/Users/ionchannel/research/projects/trp/geneset/out.temperror -num_threads 2 &
