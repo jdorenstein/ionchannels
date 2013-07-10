@@ -1,0 +1,179 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|Q8NEC5|CTSR1_HUMAN Cation channel sperm-associated protein 1
+OS=Homo sapiens GN=CATSPER1 PE=1 SV=3
+
+Length=780
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28793754  Hsa-CACNA1C                                             71.2    9e-13
+lcl|28801028  Hsa-SCN2A2                                              67.8    1e-11
+lcl|28804846  Hsa-CACNA1A                                             67.8    1e-11
+lcl|28790753  Hsa-SCN1A                                               61.2    1e-09
+lcl|28785915  Hsa-PKD2                                                59.7    3e-09
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3899240332
+
+
+Query= sp|Q96P56|CTSR2_HUMAN Cation channel sperm-associated protein 2
+OS=Homo sapiens GN=CATSPER2 PE=1 SV=2
+
+Length=530
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28787118  No best human hit identifed in Excel file               76.3    1e-14
+lcl|28804846  Hsa-CACNA1A                                             72.8    2e-13
+lcl|28790753  Hsa-SCN1A                                               70.9    6e-13
+lcl|28801028  Hsa-SCN2A2                                              70.5    1e-12
+lcl|28793754  Hsa-CACNA1C                                             66.2    2e-11
+lcl|28801024  No best human hit identifed in Excel file               52.8    2e-07
+lcl|28809093  Hsa-VGCNL1                                              52.0    5e-07
+lcl|28803722  Hsa-TPCN1                                               51.6    5e-07
+lcl|28803744  Hsa-TPCN2                                               45.8    4e-05
+lcl|28787354  Hsa-KCNB2                                               38.9    0.004
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.136    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2503275918
+
+
+Query= sp|Q7RTX7|CTSR4_HUMAN Cation channel sperm-associated protein 4
+OS=Homo sapiens GN=CATSPER4 PE=1 SV=1
+
+Length=472
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              77.4    5e-15
+lcl|28790753  Hsa-SCN1A                                               57.8    7e-09
+lcl|28809093  Hsa-VGCNL1                                              54.7    7e-08
+lcl|28804846  Hsa-CACNA1A                                             53.9    1e-07
+lcl|28801024  No best human hit identifed in Excel file               52.8    2e-07
+lcl|28803744  Hsa-TPCN2                                               44.7    6e-05
+lcl|28785915  Hsa-PKD2                                                43.5    1e-04
+lcl|28793754  Hsa-CACNA1C                                             43.5    2e-04
+lcl|28803722  Hsa-TPCN1                                               39.7    0.002
+lcl|28787118  No best human hit identifed in Excel file               36.2    0.027
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2178985164
+
+
+Query= sp|Q86XQ3|CTSR3_HUMAN Cation channel sperm-associated protein 3
+OS=Homo sapiens GN=CATSPER3 PE=1 SV=1
+
+Length=398
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28790753  Hsa-SCN1A                                               62.0    2e-10
+lcl|28801028  Hsa-SCN2A2                                              58.5    3e-09
+lcl|28809093  Hsa-VGCNL1                                              54.3    6e-08
+lcl|28793754  Hsa-CACNA1C                                             49.3    2e-06
+lcl|28785915  Hsa-PKD2                                                48.5    4e-06
+lcl|28803722  Hsa-TPCN1                                               45.8    2e-05
+lcl|28803744  Hsa-TPCN2                                               45.4    3e-05
+lcl|28804846  Hsa-CACNA1A                                             38.9    0.003
+lcl|28784664  Hsa-KCNA2                                               37.4    0.008
+lcl|28809142  Hsa-KCNC2                                               35.0    0.040
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1770653100
+
+
+Query= sp|Q96D96|HVCN1_HUMAN Voltage-gated hydrogen channel 1 OS=Homo
+sapiens GN=HVCN1 PE=1 SV=1
+
+Length=273
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28788339  Hsa-HVCN1                                                153    1e-43
+lcl|28793586  No best human hit identifed in Excel file               53.1    3e-08
+lcl|28796718  Hsa-TPTE2                                               43.1    7e-05
+lcl|28809093  Hsa-VGCNL1                                              35.8    0.019
+lcl|28803453  Hsa-SEC16A                                              33.1    0.12 
+lcl|28809414  Hsa-PIGG                                                30.8    0.69 
+lcl|28801028  Hsa-SCN2A2                                              30.4    0.84 
+lcl|28790753  Hsa-SCN1A                                               30.4    0.96 
+lcl|28809142  Hsa-KCNC2                                               29.3    1.6  
+lcl|28797256  No best human hit identifed in Excel file               29.6    1.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1062519736
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,723 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|Q8NHX9|TPC2_HUMAN Two pore calcium channel protein 2 OS=Homo
+sapiens GN=TPCN2 PE=1 SV=2
+
+Length=752
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28803744  Hsa-TPCN2                                                536    2e-178
+lcl|28803722  Hsa-TPCN1                                                169    3e-44 
+lcl|28787118  No best human hit identifed in Excel file               97.1    8e-21 
+lcl|28793754  Hsa-CACNA1C                                             61.6    7e-10 
+lcl|28801028  Hsa-SCN2A2                                              53.9    2e-07 
+lcl|28790753  Hsa-SCN1A                                               51.6    1e-06 
+lcl|28809093  Hsa-VGCNL1                                              48.9    8e-06 
+lcl|28801024  No best human hit identifed in Excel file               48.1    1e-05 
+lcl|28804846  Hsa-CACNA1A                                             45.1    1e-04 
+lcl|28788339  Hsa-HVCN1                                               42.7    3e-04 
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3737733336
+
+
+Query= sp|Q9ULQ1|TPC1_HUMAN Two pore calcium channel protein 1 OS=Homo
+sapiens GN=TPCN1 PE=1 SV=3
+
+Length=816
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28803722  Hsa-TPCN1                                                613    0.0  
+lcl|28803744  Hsa-TPCN2                                                185    8e-49
+lcl|28787118  No best human hit identifed in Excel file                105    2e-23
+lcl|28801028  Hsa-SCN2A2                                              75.1    7e-14
+lcl|28790753  Hsa-SCN1A                                               75.1    7e-14
+lcl|28793754  Hsa-CACNA1C                                             67.8    1e-11
+lcl|28804846  Hsa-CACNA1A                                             51.6    1e-06
+lcl|28801024  No best human hit identifed in Excel file               45.8    7e-05
+lcl|28809093  Hsa-VGCNL1                                              45.1    1e-04
+lcl|28785915  Hsa-PKD2                                                37.7    0.021
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4106892184
+
+
+Query= sp|Q13698|CAC1S_HUMAN Voltage-dependent L-type calcium channel
+subunit alpha-1S OS=Homo sapiens GN=CACNA1S PE=1 SV=4
+
+Length=1873
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804846  Hsa-CACNA1A                                              885    0.0   
+lcl|28793754  Hsa-CACNA1C                                              795    0.0   
+lcl|28801028  Hsa-SCN2A2                                               372    5e-106
+lcl|28790753  Hsa-SCN1A                                                311    1e-87 
+lcl|28809093  Hsa-VGCNL1                                               186    3e-47 
+lcl|28801024  No best human hit identifed in Excel file                122    3e-28 
+lcl|28787118  No best human hit identifed in Excel file               79.3    9e-15 
+lcl|28803722  Hsa-TPCN1                                               67.8    3e-11 
+lcl|28803744  Hsa-TPCN2                                               55.1    3e-07 
+lcl|28785915  Hsa-PKD2                                                50.4    7e-06 
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9887801304
+
+
+Query= sp|Q13936|CAC1C_HUMAN Voltage-dependent L-type calcium channel
+subunit alpha-1C OS=Homo sapiens GN=CACNA1C PE=1 SV=4
+
+Length=2221
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804846  Hsa-CACNA1A                                              905    0.0  
+lcl|28793754  Hsa-CACNA1C                                              839    0.0  
+lcl|28801028  Hsa-SCN2A2                                               337    3e-94
+lcl|28809093  Hsa-VGCNL1                                               301    1e-82
+lcl|28790753  Hsa-SCN1A                                                296    2e-82
+lcl|28801024  No best human hit identifed in Excel file                140    1e-33
+lcl|28787118  No best human hit identifed in Excel file               75.1    2e-13
+lcl|28803722  Hsa-TPCN1                                               72.4    1e-12
+lcl|28803744  Hsa-TPCN2                                               53.5    9e-07
+lcl|28785915  Hsa-PKD2                                                53.1    1e-06
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11787932823
+
+
+Query= sp|Q01668|CAC1D_HUMAN Voltage-dependent L-type calcium channel
+subunit alpha-1D OS=Homo sapiens GN=CACNA1D PE=1 SV=2
+
+Length=2161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804846  Hsa-CACNA1A                                              906    0.0   
+lcl|28793754  Hsa-CACNA1C                                              864    0.0   
+lcl|28801028  Hsa-SCN2A2                                               365    3e-103
+lcl|28790753  Hsa-SCN1A                                                296    2e-82 
+lcl|28809093  Hsa-VGCNL1                                               207    9e-54 
+lcl|28801024  No best human hit identifed in Excel file                135    6e-32 
+lcl|28787118  No best human hit identifed in Excel file               78.2    3e-14 
+lcl|28803722  Hsa-TPCN1                                               77.0    6e-14 
+lcl|28787354  Hsa-KCNB2                                               56.6    6e-08 
+lcl|28785915  Hsa-PKD2                                                56.2    1e-07 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11452572003
+
+
+Query= sp|O60840|CAC1F_HUMAN Voltage-dependent L-type calcium channel
+subunit alpha-1F OS=Homo sapiens GN=CACNA1F PE=1 SV=2
+
+Length=1977
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28793754  Hsa-CACNA1C                                              771    0.0   
+lcl|28804846  Hsa-CACNA1A                                              572    2e-170
+lcl|28790753  Hsa-SCN1A                                                366    8e-106
+lcl|28801028  Hsa-SCN2A2                                               275    6e-75 
+lcl|28809093  Hsa-VGCNL1                                               197    8e-51 
+lcl|28801024  No best human hit identifed in Excel file                130    1e-30 
+lcl|28803722  Hsa-TPCN1                                               77.4    4e-14 
+lcl|28787118  No best human hit identifed in Excel file               73.2    8e-13 
+lcl|28787354  Hsa-KCNB2                                               60.1    5e-09 
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10471417272
+
+
+Query= sp|O00555|CAC1A_HUMAN Voltage-dependent P/Q-type calcium channel
+subunit alpha-1A OS=Homo sapiens GN=CACNA1A PE=1 SV=2
+
+Length=2505
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804846  Hsa-CACNA1A                                              790    0.0   
+lcl|28793754  Hsa-CACNA1C                                              535    2e-166
+lcl|28790753  Hsa-SCN1A                                                283    4e-78 
+lcl|28801028  Hsa-SCN2A2                                               278    8e-76 
+lcl|28809093  Hsa-VGCNL1                                               160    2e-39 
+lcl|28801024  No best human hit identifed in Excel file                137    2e-32 
+lcl|28803722  Hsa-TPCN1                                               92.8    1e-18 
+lcl|28787118  No best human hit identifed in Excel file               75.1    2e-13 
+lcl|28803744  Hsa-TPCN2                                               65.1    3e-10 
+lcl|28785915  Hsa-PKD2                                                56.2    2e-07 
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13316268784
+
+
+Query= sp|Q00975|CAC1B_HUMAN Voltage-dependent N-type calcium channel
+subunit alpha-1B OS=Homo sapiens GN=CACNA1B PE=1 SV=1
+
+Length=2339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804846  Hsa-CACNA1A                                              769    0.0   
+lcl|28793754  Hsa-CACNA1C                                              520    2e-161
+lcl|28790753  Hsa-SCN1A                                                290    3e-80 
+lcl|28801028  Hsa-SCN2A2                                               275    1e-74 
+lcl|28809093  Hsa-VGCNL1                                               174    2e-43 
+lcl|28801024  No best human hit identifed in Excel file                143    2e-34 
+lcl|28803722  Hsa-TPCN1                                               82.4    1e-15 
+lcl|28787118  No best human hit identifed in Excel file               75.9    1e-13 
+lcl|28803744  Hsa-TPCN2                                               66.6    1e-10 
+lcl|28790572  Hsa-KCNC3                                               58.2    4e-08 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12447475769
+
+
+Query= sp|O43497|CAC1G_HUMAN Voltage-dependent T-type calcium channel
+subunit alpha-1G OS=Homo sapiens GN=CACNA1G PE=2 SV=3
+
+Length=2377
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28790753  Hsa-SCN1A                                                303    2e-84
+lcl|28801028  Hsa-SCN2A2                                               276    3e-75
+lcl|28804846  Hsa-CACNA1A                                              197    2e-50
+lcl|28793754  Hsa-CACNA1C                                              183    3e-47
+lcl|28809093  Hsa-VGCNL1                                               153    4e-37
+lcl|28801024  No best human hit identifed in Excel file                123    2e-28
+lcl|28803722  Hsa-TPCN1                                                112    9e-25
+lcl|28787118  No best human hit identifed in Excel file               77.0    7e-14
+lcl|28803744  Hsa-TPCN2                                               69.3    1e-11
+lcl|28785915  Hsa-PKD2                                                54.3    6e-07
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12659870955
+
+
+Query= sp|O95180|CAC1H_HUMAN Voltage-dependent T-type calcium channel
+subunit alpha-1H OS=Homo sapiens GN=CACNA1H PE=1 SV=4
+
+Length=2353
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28790753  Hsa-SCN1A                                                310    6e-87
+lcl|28801028  Hsa-SCN2A2                                               281    1e-76
+lcl|28793754  Hsa-CACNA1C                                              185    8e-48
+lcl|28804846  Hsa-CACNA1A                                              165    2e-40
+lcl|28809093  Hsa-VGCNL1                                               157    4e-38
+lcl|28801024  No best human hit identifed in Excel file                125    7e-29
+lcl|28803722  Hsa-TPCN1                                               85.1    2e-16
+lcl|28803744  Hsa-TPCN2                                               72.4    2e-12
+lcl|28787118  No best human hit identifed in Excel file               68.6    2e-11
+lcl|28785915  Hsa-PKD2                                                55.5    3e-07
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12525726627
+
+
+Query= sp|Q9P0X4|CAC1I_HUMAN Voltage-dependent T-type calcium channel
+subunit alpha-1I OS=Homo sapiens GN=CACNA1I PE=1 SV=1
+
+Length=2223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28790753  Hsa-SCN1A                                                307    7e-86
+lcl|28801028  Hsa-SCN2A2                                               283    2e-77
+lcl|28793754  Hsa-CACNA1C                                              169    9e-43
+lcl|28804846  Hsa-CACNA1A                                              160    3e-39
+lcl|28809093  Hsa-VGCNL1                                               159    9e-39
+lcl|28801024  No best human hit identifed in Excel file                119    5e-27
+lcl|28803722  Hsa-TPCN1                                               79.0    1e-14
+lcl|28787118  No best human hit identifed in Excel file               75.1    2e-13
+lcl|28803744  Hsa-TPCN2                                               67.8    4e-11
+lcl|28785915  Hsa-PKD2                                                54.3    5e-07
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11799111517
+
+
+Query= sp|Q15878|CAC1E_HUMAN Voltage-dependent R-type calcium channel
+subunit alpha-1E OS=Homo sapiens GN=CACNA1E PE=1 SV=3
+
+Length=2313
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804846  Hsa-CACNA1A                                              747    0.0   
+lcl|28793754  Hsa-CACNA1C                                              516    4e-160
+lcl|28790753  Hsa-SCN1A                                                300    1e-83 
+lcl|28801028  Hsa-SCN2A2                                               285    9e-78 
+lcl|28809093  Hsa-VGCNL1                                               161    1e-39 
+lcl|28801024  No best human hit identifed in Excel file                124    1e-28 
+lcl|28787118  No best human hit identifed in Excel file               70.9    4e-12 
+lcl|28803722  Hsa-TPCN1                                               67.8    4e-11 
+lcl|28803744  Hsa-TPCN2                                               56.2    2e-07 
+lcl|28788339  Hsa-HVCN1                                               51.6    2e-06 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12302152747
+
+
+Query= sp|Q8IZF0|NALCN_HUMAN Sodium leak channel non-selective protein
+OS=Homo sapiens GN=NALCN PE=2 SV=1
+
+Length=1738
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28809093  Hsa-VGCNL1                                              1835    0.0  
+lcl|28790753  Hsa-SCN1A                                                193    6e-50
+lcl|28801028  Hsa-SCN2A2                                               155    6e-38
+lcl|28793754  Hsa-CACNA1C                                              127    1e-29
+lcl|28804846  Hsa-CACNA1A                                             89.4    1e-17
+lcl|28801024  No best human hit identifed in Excel file               73.9    4e-13
+lcl|28795424  Hsa-SPEN                                                42.4    0.002
+lcl|28787354  Hsa-KCNB2                                               40.8    0.004
+lcl|28785915  Hsa-PKD2                                                40.8    0.005
+lcl|28803722  Hsa-TPCN1                                               40.4    0.007
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9172212236
+
+
+Query= sp|P35498|SCN1A_HUMAN Sodium channel protein type 1 subunit alpha
+OS=Homo sapiens GN=SCN1A PE=1 SV=2
+
+Length=2009
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1108    0.0   
+lcl|28790753  Hsa-SCN1A                                                722    0.0   
+lcl|28801024  No best human hit identifed in Excel file                400    4e-120
+lcl|28809093  Hsa-VGCNL1                                               189    4e-48 
+lcl|28804846  Hsa-CACNA1A                                              154    3e-37 
+lcl|28793754  Hsa-CACNA1C                                              147    9e-36 
+lcl|28803722  Hsa-TPCN1                                               75.1    2e-13 
+lcl|28787118  No best human hit identifed in Excel file               54.3    5e-07 
+lcl|28803744  Hsa-TPCN2                                               54.3    5e-07 
+lcl|28809142  Hsa-KCNC2                                               48.5    2e-05 
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10650991416
+
+
+Query= sp|Q99250|SCN2A_HUMAN Sodium channel protein type 2 subunit alpha
+OS=Homo sapiens GN=SCN2A PE=1 SV=3
+
+Length=2005
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1113    0.0   
+lcl|28790753  Hsa-SCN1A                                                716    0.0   
+lcl|28801024  No best human hit identifed in Excel file                388    6e-116
+lcl|28809093  Hsa-VGCNL1                                               178    8e-45 
+lcl|28804846  Hsa-CACNA1A                                              153    5e-37 
+lcl|28793754  Hsa-CACNA1C                                              150    7e-37 
+lcl|28803722  Hsa-TPCN1                                               71.6    2e-12 
+lcl|28803744  Hsa-TPCN2                                               55.1    2e-07 
+lcl|28787118  No best human hit identifed in Excel file               54.3    4e-07 
+lcl|28809142  Hsa-KCNC2                                               47.8    3e-05 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10628544648
+
+
+Query= sp|Q9NY46|SCN3A_HUMAN Sodium channel protein type 3 subunit alpha
+OS=Homo sapiens GN=SCN3A PE=1 SV=2
+
+Length=2000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1083    0.0   
+lcl|28790753  Hsa-SCN1A                                                711    0.0   
+lcl|28801024  No best human hit identifed in Excel file                386    4e-115
+lcl|28809093  Hsa-VGCNL1                                               208    4e-54 
+lcl|28793754  Hsa-CACNA1C                                              147    8e-36 
+lcl|28804846  Hsa-CACNA1A                                              142    7e-34 
+lcl|28803722  Hsa-TPCN1                                               75.1    2e-13 
+lcl|28787118  No best human hit identifed in Excel file               63.2    1e-09 
+lcl|28803744  Hsa-TPCN2                                               57.0    7e-08 
+lcl|28809142  Hsa-KCNC2                                               47.0    5e-05 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10600486188
+
+
+Query= sp|P35499|SCN4A_HUMAN Sodium channel protein type 4 subunit alpha
+OS=Homo sapiens GN=SCN4A PE=1 SV=4
+
+Length=1836
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1075    0.0   
+lcl|28790753  Hsa-SCN1A                                                717    0.0   
+lcl|28801024  No best human hit identifed in Excel file                374    3e-111
+lcl|28804846  Hsa-CACNA1A                                              214    6e-56 
+lcl|28793754  Hsa-CACNA1C                                              201    4e-53 
+lcl|28809093  Hsa-VGCNL1                                               191    8e-49 
+lcl|28803722  Hsa-TPCN1                                               82.0    1e-15 
+lcl|28787118  No best human hit identifed in Excel file               59.7    1e-08 
+lcl|28803744  Hsa-TPCN2                                               53.9    6e-07 
+lcl|28809142  Hsa-KCNC2                                               47.0    6e-05 
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9724347862
+
+
+Query= sp|Q14524|SCN5A_HUMAN Sodium channel protein type 5 subunit alpha
+OS=Homo sapiens GN=SCN5A PE=1 SV=2
+
+Length=2016
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1094    0.0   
+lcl|28790753  Hsa-SCN1A                                                703    0.0   
+lcl|28801024  No best human hit identifed in Excel file                373    2e-110
+lcl|28809093  Hsa-VGCNL1                                               191    1e-48 
+lcl|28804846  Hsa-CACNA1A                                              142    9e-34 
+lcl|28793754  Hsa-CACNA1C                                              124    1e-28 
+lcl|28803722  Hsa-TPCN1                                               77.4    3e-14 
+lcl|28787118  No best human hit identifed in Excel file               61.6    3e-09 
+lcl|28803744  Hsa-TPCN2                                               56.2    1e-07 
+lcl|28795158  Hsa-KCNA1                                               52.4    2e-06 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10690273260
+
+
+Query= sp|Q01118|SCN7A_HUMAN Sodium channel protein type 7 subunit alpha
+OS=Homo sapiens GN=SCN7A PE=2 SV=2
+
+Length=1682
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                               752    0.0   
+lcl|28790753  Hsa-SCN1A                                                516    2e-159
+lcl|28801024  No best human hit identifed in Excel file                243    1e-66 
+lcl|28809093  Hsa-VGCNL1                                               221    4e-58 
+lcl|28793754  Hsa-CACNA1C                                              174    9e-45 
+lcl|28804846  Hsa-CACNA1A                                              162    5e-40 
+lcl|28803722  Hsa-TPCN1                                               61.2    3e-09 
+lcl|28787118  No best human hit identifed in Excel file               50.8    4e-06 
+lcl|28808220  No best human hit identifed in Excel file               37.0    0.011 
+lcl|28784664  Hsa-KCNA2                                               39.3    0.015 
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8856706164
+
+
+Query= sp|Q9UQD0|SCN8A_HUMAN Sodium channel protein type 8 subunit alpha
+OS=Homo sapiens GN=SCN8A PE=1 SV=1
+
+Length=1980
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1094    0.0   
+lcl|28790753  Hsa-SCN1A                                                707    0.0   
+lcl|28801024  No best human hit identifed in Excel file                387    1e-115
+lcl|28804846  Hsa-CACNA1A                                              235    3e-62 
+lcl|28809093  Hsa-VGCNL1                                               216    3e-56 
+lcl|28793754  Hsa-CACNA1C                                              122    5e-28 
+lcl|28803722  Hsa-TPCN1                                               75.1    2e-13 
+lcl|28787118  No best human hit identifed in Excel file               60.8    4e-09 
+lcl|28803744  Hsa-TPCN2                                               56.2    1e-07 
+lcl|28809142  Hsa-KCNC2                                               47.4    4e-05 
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10488252348
+
+
+Query= sp|Q15858|SCN9A_HUMAN Sodium channel protein type 9 subunit alpha
+OS=Homo sapiens GN=SCN9A PE=1 SV=3
+
+Length=1988
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1098    0.0   
+lcl|28790753  Hsa-SCN1A                                                730    0.0   
+lcl|28801024  No best human hit identifed in Excel file                395    1e-118
+lcl|28804846  Hsa-CACNA1A                                              242    4e-64 
+lcl|28809093  Hsa-VGCNL1                                               207    2e-53 
+lcl|28793754  Hsa-CACNA1C                                              157    4e-39 
+lcl|28803722  Hsa-TPCN1                                               73.2    8e-13 
+lcl|28787118  No best human hit identifed in Excel file               53.1    1e-06 
+lcl|28803744  Hsa-TPCN2                                               50.8    5e-06 
+lcl|28809142  Hsa-KCNC2                                               48.1    3e-05 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10533145884
+
+
+Query= sp|Q9Y5Y9|SCNAA_HUMAN Sodium channel protein type 10 subunit alpha
+OS=Homo sapiens GN=SCN10A PE=1 SV=2
+
+Length=1956
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                              1036    0.0   
+lcl|28790753  Hsa-SCN1A                                                672    0.0   
+lcl|28801024  No best human hit identifed in Excel file                354    4e-104
+lcl|28809093  Hsa-VGCNL1                                               187    1e-47 
+lcl|28793754  Hsa-CACNA1C                                              145    2e-35 
+lcl|28804846  Hsa-CACNA1A                                              144    2e-34 
+lcl|28803722  Hsa-TPCN1                                               68.9    1e-11 
+lcl|28787118  No best human hit identifed in Excel file               57.8    4e-08 
+lcl|28803744  Hsa-TPCN2                                               56.2    1e-07 
+lcl|28795158  Hsa-KCNA1                                               45.4    2e-04 
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10353571740
+
+
+Query= sp|Q9UI33|SCNBA_HUMAN Sodium channel protein type 11 subunit alpha
+OS=Homo sapiens GN=SCN11A PE=1 SV=2
+
+Length=1791
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28801028  Hsa-SCN2A2                                               874    0.0  
+lcl|28790753  Hsa-SCN1A                                                654    0.0  
+lcl|28801024  No best human hit identifed in Excel file                310    5e-89
+lcl|28804846  Hsa-CACNA1A                                              190    2e-48
+lcl|28809093  Hsa-VGCNL1                                               166    3e-41
+lcl|28793754  Hsa-CACNA1C                                              110    3e-24
+lcl|28803722  Hsa-TPCN1                                               72.4    1e-12
+lcl|28803744  Hsa-TPCN2                                               61.2    3e-09
+lcl|28787118  No best human hit identifed in Excel file               58.9    1e-08
+lcl|28795158  Hsa-KCNA1                                               48.1    3e-05
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.139    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9470816197
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
