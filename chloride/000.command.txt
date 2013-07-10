@@ -31,7 +31,7 @@ commands:
 
 ---------------------------------
 
-BLAST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET, SHOW ONLY DESCRIPTIONS (10). (out.blast.001)
+BLAST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET, SHOW ONLY DESCRIPTIONS (10). (out.blast.002)
 
 FASTA files (candidate.geneset.fa)
 	/Users/ionchannel/research/projects/ionchannels/chloride/geneset/***
