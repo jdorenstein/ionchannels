@@ -1,0 +1,574 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|P42263|GRIA3_HUMAN Glutamate receptor 3 OS=Homo sapiens GN=GRIA3
+PE=1 SV=2
+
+Length=894
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797549  Hsa-GRIA2                                                642    0.0   
+lcl|28805419  No best human hit identifed in Excel file                502    5e-162
+lcl|28795669  Hsa-GRIK2                                                465    3e-155
+lcl|28804700  Hsa-GRIK2                                                449    2e-144
+lcl|28793997  Hsa-GRIK2                                                409    6e-132
+lcl|28792200  Hsa-GRID1                                                290    7e-87 
+lcl|28809140  No best human hit identifed in Excel file                225    8e-62 
+lcl|28801948  No best human hit identifed in Excel file                219    2e-61 
+lcl|28802482  Hsa-GRIN1                                                223    5e-61 
+lcl|28794818  No best human hit identifed in Excel file                221    1e-60 
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4533406218
+
+
+Query= sp|P48058|GRIA4_HUMAN Glutamate receptor 4 OS=Homo sapiens GN=GRIA4
+PE=2 SV=2
+
+Length=902
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797549  Hsa-GRIA2                                                659    0.0   
+lcl|28805419  No best human hit identifed in Excel file                502    6e-162
+lcl|28795669  Hsa-GRIK2                                                471    2e-157
+lcl|28804700  Hsa-GRIK2                                                471    1e-152
+lcl|28793997  Hsa-GRIK2                                                412    3e-133
+lcl|28792200  Hsa-GRID1                                                315    5e-96 
+lcl|28801948  No best human hit identifed in Excel file                220    7e-62 
+lcl|28802482  Hsa-GRIN1                                                226    8e-62 
+lcl|28794818  No best human hit identifed in Excel file                223    2e-61 
+lcl|28809140  No best human hit identifed in Excel file                223    4e-61 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4579372314
+
+
+Query= sp|P42261|GRIA1_HUMAN Glutamate receptor 1 OS=Homo sapiens GN=GRIA1
+PE=1 SV=2
+
+Length=906
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797549  Hsa-GRIA2                                                641    0.0   
+lcl|28805419  No best human hit identifed in Excel file                500    4e-161
+lcl|28795669  Hsa-GRIK2                                                467    1e-155
+lcl|28804700  Hsa-GRIK2                                                467    4e-151
+lcl|28793997  Hsa-GRIK2                                                409    5e-132
+lcl|28792200  Hsa-GRID1                                                317    1e-96 
+lcl|28802482  Hsa-GRIN1                                                239    4e-66 
+lcl|28809140  No best human hit identifed in Excel file                230    2e-63 
+lcl|28794818  No best human hit identifed in Excel file                223    2e-61 
+lcl|28801948  No best human hit identifed in Excel file                217    6e-61 
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4602355362
+
+
+Query= sp|P42262|GRIA2_HUMAN Glutamate receptor 2 OS=Homo sapiens GN=GRIA2
+PE=1 SV=3
+
+Length=883
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797549  Hsa-GRIA2                                                660    0.0   
+lcl|28805419  No best human hit identifed in Excel file                503    2e-162
+lcl|28795669  Hsa-GRIK2                                                466    9e-156
+lcl|28804700  Hsa-GRIK2                                                465    1e-150
+lcl|28793997  Hsa-GRIK2                                                417    4e-135
+lcl|28792200  Hsa-GRID1                                                319    1e-97 
+lcl|28802482  Hsa-GRIN1                                                237    1e-65 
+lcl|28801948  No best human hit identifed in Excel file                224    2e-63 
+lcl|28794818  No best human hit identifed in Excel file                229    2e-63 
+lcl|28809140  No best human hit identifed in Excel file                226    3e-62 
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4470202836
+
+
+Query= sp|O43424|GRID2_HUMAN Glutamate receptor ionotropic, delta-2 OS=Homo
+sapiens GN=GRID2 PE=2 SV=2
+
+Length=1007
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804700  Hsa-GRIK2                                                308    7e-91
+lcl|28793997  Hsa-GRIK2                                                272    6e-80
+lcl|28795669  Hsa-GRIK2                                                267    1e-79
+lcl|28797549  Hsa-GRIA2                                                270    1e-77
+lcl|28801948  No best human hit identifed in Excel file                253    6e-73
+lcl|28792200  Hsa-GRID1                                                251    2e-72
+lcl|28805419  No best human hit identifed in Excel file                241    2e-66
+lcl|28802482  Hsa-GRIN1                                                226    3e-61
+lcl|28794818  No best human hit identifed in Excel file                199    5e-53
+lcl|28809140  No best human hit identifed in Excel file                197    4e-52
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5156798717
+
+
+Query= sp|Q9ULK0|GRID1_HUMAN Glutamate receptor ionotropic, delta-1 OS=Homo
+sapiens GN=GRID1 PE=2 SV=2
+
+Length=1009
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804700  Hsa-GRIK2                                                306    4e-90
+lcl|28792200  Hsa-GRID1                                                290    3e-86
+lcl|28797549  Hsa-GRIA2                                                291    3e-85
+lcl|28795669  Hsa-GRIK2                                                279    1e-83
+lcl|28793997  Hsa-GRIK2                                                270    3e-79
+lcl|28805419  No best human hit identifed in Excel file                260    9e-73
+lcl|28801948  No best human hit identifed in Excel file                233    5e-66
+lcl|28794818  No best human hit identifed in Excel file                213    1e-57
+lcl|28802482  Hsa-GRIN1                                                214    2e-57
+lcl|28809139  No best human hit identifed in Excel file                187    3e-49
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5168245551
+
+
+Query= sp|Q13002|GRIK2_HUMAN Glutamate receptor ionotropic, kainate 2
+OS=Homo sapiens GN=GRIK2 PE=1 SV=1
+
+Length=908
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804700  Hsa-GRIK2                                                590    0.0   
+lcl|28795669  Hsa-GRIK2                                                566    0.0   
+lcl|28793997  Hsa-GRIK2                                                540    0.0   
+lcl|28797549  Hsa-GRIA2                                                504    4e-166
+lcl|28805419  No best human hit identifed in Excel file                391    4e-120
+lcl|28792200  Hsa-GRID1                                                319    2e-97 
+lcl|28802482  Hsa-GRIN1                                                266    5e-75 
+lcl|28794818  No best human hit identifed in Excel file                245    1e-68 
+lcl|28809139  No best human hit identifed in Excel file                239    1e-66 
+lcl|28809140  No best human hit identifed in Excel file                237    1e-65 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4613846886
+
+
+Query= sp|Q16478|GRIK5_HUMAN Glutamate receptor ionotropic, kainate 5
+OS=Homo sapiens GN=GRIK5 PE=2 SV=2
+
+Length=980
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804700  Hsa-GRIK2                                                550    0.0   
+lcl|28795669  Hsa-GRIK2                                                510    1e-171
+lcl|28797549  Hsa-GRIA2                                                484    7e-158
+lcl|28793997  Hsa-GRIK2                                                478    2e-157
+lcl|28805419  No best human hit identifed in Excel file                384    9e-117
+lcl|28792200  Hsa-GRID1                                                299    1e-89 
+lcl|28802482  Hsa-GRIN1                                                266    1e-74 
+lcl|28809140  No best human hit identifed in Excel file                235    1e-64 
+lcl|28794818  No best human hit identifed in Excel file                226    2e-62 
+lcl|28801948  No best human hit identifed in Excel file                220    8e-62 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5002266458
+
+
+Query= sp|Q16099|GRIK4_HUMAN Glutamate receptor ionotropic, kainate 4
+OS=Homo sapiens GN=GRIK4 PE=2 SV=2
+
+Length=956
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804700  Hsa-GRIK2                                                536    7e-177
+lcl|28795669  Hsa-GRIK2                                                501    2e-168
+lcl|28793997  Hsa-GRIK2                                                452    5e-148
+lcl|28797549  Hsa-GRIA2                                                456    3e-147
+lcl|28805419  No best human hit identifed in Excel file                385    3e-117
+lcl|28792200  Hsa-GRID1                                                305    8e-92 
+lcl|28801948  No best human hit identifed in Excel file                223    7e-63 
+lcl|28802482  Hsa-GRIN1                                                228    2e-62 
+lcl|28809140  No best human hit identifed in Excel file                224    5e-61 
+lcl|28809139  No best human hit identifed in Excel file                219    7e-60 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4889643462
+
+
+Query= sp|P39086|GRIK1_HUMAN Glutamate receptor ionotropic, kainate 1
+OS=Homo sapiens GN=GRIK1 PE=1 SV=1
+
+Length=918
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28795669  Hsa-GRIK2                                                565    0.0   
+lcl|28804700  Hsa-GRIK2                                                553    0.0   
+lcl|28793997  Hsa-GRIK2                                                510    1e-170
+lcl|28797549  Hsa-GRIA2                                                498    7e-164
+lcl|28805419  No best human hit identifed in Excel file                382    9e-117
+lcl|28792200  Hsa-GRID1                                                326    8e-100
+lcl|28794818  No best human hit identifed in Excel file                243    4e-68 
+lcl|28802482  Hsa-GRIN1                                                239    3e-66 
+lcl|28801948  No best human hit identifed in Excel file                230    2e-65 
+lcl|28809140  No best human hit identifed in Excel file                236    5e-65 
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4671304506
+
+
+Query= sp|Q13003|GRIK3_HUMAN Glutamate receptor ionotropic, kainate 3
+OS=Homo sapiens GN=GRIK3 PE=2 SV=3
+
+Length=919
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28804700  Hsa-GRIK2                                                563    0.0   
+lcl|28795669  Hsa-GRIK2                                                538    0.0   
+lcl|28793997  Hsa-GRIK2                                                512    2e-171
+lcl|28797549  Hsa-GRIA2                                                497    2e-163
+lcl|28805419  No best human hit identifed in Excel file                389    2e-119
+lcl|28792200  Hsa-GRID1                                                321    4e-98 
+lcl|28794818  No best human hit identifed in Excel file                255    4e-72 
+lcl|28802482  Hsa-GRIN1                                                244    7e-68 
+lcl|28801948  No best human hit identifed in Excel file                232    7e-66 
+lcl|28809140  No best human hit identifed in Excel file                234    1e-64 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4677050268
+
+
+Query= sp|Q05586|NMDZ1_HUMAN Glutamate receptor ionotropic, NMDA 1 OS=Homo
+sapiens GN=GRIN1 PE=1 SV=1
+
+Length=938
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                915    0.0  
+lcl|28804700  Hsa-GRIK2                                                237    4e-66
+lcl|28797549  Hsa-GRIA2                                                226    6e-63
+lcl|28795669  Hsa-GRIK2                                                202    6e-57
+lcl|28792200  Hsa-GRID1                                                190    2e-51
+lcl|28794818  No best human hit identifed in Excel file                188    1e-49
+lcl|28805419  No best human hit identifed in Excel file                188    3e-49
+lcl|28793997  Hsa-GRIK2                                                168    4e-44
+lcl|28801948  No best human hit identifed in Excel file                166    4e-43
+lcl|28809140  No best human hit identifed in Excel file                168    6e-43
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4786219746
+
+
+Query= sp|O60391|NMD3B_HUMAN Glutamate receptor ionotropic, NMDA 3B OS=Homo
+sapiens GN=GRIN3B PE=2 SV=2
+
+Length=1043
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                245    1e-67
+lcl|28809118  Hsa-GRIN3A                                               209    1e-59
+lcl|28807152  No best human hit identifed in Excel file                160    3e-42
+lcl|28795669  Hsa-GRIK2                                                157    6e-41
+lcl|28805419  No best human hit identifed in Excel file                156    5e-39
+lcl|28792200  Hsa-GRID1                                                152    1e-38
+lcl|28804700  Hsa-GRIK2                                                150    2e-37
+lcl|28793997  Hsa-GRIK2                                                148    2e-37
+lcl|28797549  Hsa-GRIA2                                                146    2e-36
+lcl|28794818  No best human hit identifed in Excel file                141    2e-34
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5362841729
+
+
+Query= sp|Q12879|NMDE1_HUMAN Glutamate receptor ionotropic, NMDA 2A OS=Homo
+sapiens GN=GRIN2A PE=1 SV=1
+
+Length=1464
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                307    4e-87
+lcl|28797549  Hsa-GRIA2                                                182    1e-47
+lcl|28795669  Hsa-GRIK2                                                176    5e-47
+lcl|28792200  Hsa-GRID1                                                171    2e-44
+lcl|28805419  No best human hit identifed in Excel file                174    3e-44
+lcl|28804700  Hsa-GRIK2                                                164    1e-41
+lcl|28809118  Hsa-GRIN3A                                               152    2e-39
+lcl|28809140  No best human hit identifed in Excel file                158    3e-39
+lcl|28794818  No best human hit identifed in Excel file                151    3e-37
+lcl|28793997  Hsa-GRIK2                                                142    3e-35
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7664397610
+
+
+Query= sp|Q13224|NMDE2_HUMAN Glutamate receptor ionotropic, NMDA 2B OS=Homo
+sapiens GN=GRIN2B PE=1 SV=3
+
+Length=1484
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                306    5e-87
+lcl|28797549  Hsa-GRIA2                                                186    7e-49
+lcl|28792200  Hsa-GRID1                                                179    7e-47
+lcl|28795669  Hsa-GRIK2                                                175    2e-46
+lcl|28805419  No best human hit identifed in Excel file                177    3e-45
+lcl|28809118  Hsa-GRIN3A                                               161    1e-42
+lcl|28804700  Hsa-GRIK2                                                160    2e-40
+lcl|28794818  No best human hit identifed in Excel file                154    3e-38
+lcl|28809140  No best human hit identifed in Excel file                150    1e-36
+lcl|28793997  Hsa-GRIK2                                                146    1e-36
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7777525250
+
+
+Query= sp|Q8TCU5|NMD3A_HUMAN Glutamate receptor ionotropic, NMDA 3A OS=Homo
+sapiens GN=GRIN3A PE=1 SV=2
+
+Length=1115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                243    1e-66
+lcl|28809118  Hsa-GRIN3A                                               218    1e-62
+lcl|28807152  No best human hit identifed in Excel file                181    4e-49
+lcl|28795669  Hsa-GRIK2                                                157    6e-41
+lcl|28797549  Hsa-GRIA2                                                158    3e-40
+lcl|28805419  No best human hit identifed in Excel file                157    3e-39
+lcl|28792200  Hsa-GRID1                                                152    1e-38
+lcl|28793997  Hsa-GRIK2                                                148    3e-37
+lcl|28804700  Hsa-GRIK2                                                148    1e-36
+lcl|28794818  No best human hit identifed in Excel file                140    4e-34
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5746680576
+
+
+Query= sp|Q14957|NMDE3_HUMAN Glutamate receptor ionotropic, NMDA 2C OS=Homo
+sapiens GN=GRIN2C PE=1 SV=3
+
+Length=1233
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                288    3e-81
+lcl|28797549  Hsa-GRIA2                                                172    2e-44
+lcl|28795669  Hsa-GRIK2                                                164    5e-43
+lcl|28805419  No best human hit identifed in Excel file                166    7e-42
+lcl|28809118  Hsa-GRIN3A                                               156    4e-41
+lcl|28792200  Hsa-GRID1                                                150    6e-38
+lcl|28794818  No best human hit identifed in Excel file                151    2e-37
+lcl|28804700  Hsa-GRIK2                                                150    2e-37
+lcl|28809140  No best human hit identifed in Excel file                136    2e-32
+lcl|28793997  Hsa-GRIK2                                                130    1e-31
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6419407072
+
+
+Query= sp|O15399|NMDE4_HUMAN Glutamate receptor ionotropic, NMDA 2D OS=Homo
+sapiens GN=GRIN2D PE=2 SV=2
+
+Length=1336
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28802482  Hsa-GRIN1                                                287    6e-81
+lcl|28797549  Hsa-GRIA2                                                179    1e-46
+lcl|28795669  Hsa-GRIK2                                                173    4e-46
+lcl|28809118  Hsa-GRIN3A                                               159    5e-42
+lcl|28792200  Hsa-GRID1                                                153    1e-38
+lcl|28805419  No best human hit identifed in Excel file                155    1e-38
+lcl|28804700  Hsa-GRIK2                                                150    3e-37
+lcl|28809140  No best human hit identifed in Excel file                137    7e-33
+lcl|28794818  No best human hit identifed in Excel file                135    2e-32
+lcl|28793997  Hsa-GRIK2                                                132    3e-32
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6973476756
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
