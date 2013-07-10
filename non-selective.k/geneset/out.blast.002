@@ -1,0 +1,332 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|Q16281|CNGA3_HUMAN Cyclic nucleotide-gated cation channel alpha-3
+OS=Homo sapiens GN=CNGA3 PE=1 SV=2
+
+Length=694
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797234  Hsa-CNGA3                                                709    0.0   
+lcl|28796688  No best human hit identifed in Excel file                486    3e-163
+lcl|28794744  Hsa-CNGB1                                                261    2e-76 
+lcl|28786916  No best human hit identifed in Excel file                229    7e-67 
+lcl|28808988  No best human hit identifed in Excel file                184    1e-51 
+lcl|28787654  Hsa-KCNH8                                                162    1e-41 
+lcl|28809003  No best human hit identifed in Excel file                143    2e-39 
+lcl|28800246  Hsa-HCN2                                                 122    9e-31 
+lcl|28800591  Hsa-KCNH7                                                113    1e-26 
+lcl|28799033  No best human hit identifed in Excel file               67.0    2e-12 
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3422157132
+
+
+Query= sp|Q8IV77|CNGA4_HUMAN Cyclic nucleotide-gated cation channel alpha-4
+OS=Homo sapiens GN=CNGA4 PE=1 SV=3
+
+Length=575
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797234  Hsa-CNGA3                                                552    0.0   
+lcl|28796688  No best human hit identifed in Excel file                392    3e-128
+lcl|28794744  Hsa-CNGB1                                                221    2e-63 
+lcl|28786916  No best human hit identifed in Excel file                183    7e-51 
+lcl|28808988  No best human hit identifed in Excel file                168    2e-46 
+lcl|28787654  Hsa-KCNH8                                                141    2e-35 
+lcl|28809003  No best human hit identifed in Excel file                114    4e-29 
+lcl|28800246  Hsa-HCN2                                                 115    1e-28 
+lcl|28800591  Hsa-KCNH7                                               90.5    2e-19 
+lcl|28799033  No best human hit identifed in Excel file               49.7    6e-07 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2765857308
+
+
+Query= sp|Q14028|CNGB1_HUMAN Cyclic nucleotide-gated cation channel beta-1
+OS=Homo sapiens GN=CNGB1 PE=1 SV=2
+
+Length=1251
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794744  Hsa-CNGB1                                                339    1e-101
+lcl|28797234  Hsa-CNGA3                                                293    1e-86 
+lcl|28796688  No best human hit identifed in Excel file                246    1e-69 
+lcl|28786916  No best human hit identifed in Excel file                134    6e-33 
+lcl|28809003  No best human hit identifed in Excel file                123    2e-31 
+lcl|28808988  No best human hit identifed in Excel file                111    8e-26 
+lcl|28787654  Hsa-KCNH8                                                103    2e-22 
+lcl|28800246  Hsa-HCN2                                                89.0    5e-19 
+lcl|28800591  Hsa-KCNH7                                               58.2    1e-08 
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6490784961
+
+
+Query= sp|P29973|CNGA1_HUMAN cGMP-gated cation channel alpha-1 OS=Homo
+sapiens GN=CNGA1 PE=1 SV=3
+
+Length=690
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797234  Hsa-CNGA3                                                692    0.0   
+lcl|28796688  No best human hit identifed in Excel file                479    2e-160
+lcl|28794744  Hsa-CNGB1                                                249    2e-72 
+lcl|28786916  No best human hit identifed in Excel file                211    2e-60 
+lcl|28808988  No best human hit identifed in Excel file                203    2e-58 
+lcl|28787654  Hsa-KCNH8                                                178    5e-47 
+lcl|28809003  No best human hit identifed in Excel file                142    4e-39 
+lcl|28800246  Hsa-HCN2                                                 116    9e-29 
+lcl|28800591  Hsa-KCNH7                                                110    6e-26 
+lcl|28799033  No best human hit identifed in Excel file               71.6    5e-14 
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3398995324
+
+
+Query= sp|Q16280|CNGA2_HUMAN Cyclic nucleotide-gated olfactory channel
+OS=Homo sapiens GN=CNGA2 PE=2 SV=2
+
+Length=664
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28797234  Hsa-CNGA3                                                690    0.0   
+lcl|28796688  No best human hit identifed in Excel file                484    7e-163
+lcl|28794744  Hsa-CNGB1                                                258    1e-75 
+lcl|28786916  No best human hit identifed in Excel file                216    3e-62 
+lcl|28808988  No best human hit identifed in Excel file                201    1e-57 
+lcl|28787654  Hsa-KCNH8                                                147    7e-37 
+lcl|28809003  No best human hit identifed in Excel file                132    2e-35 
+lcl|28800246  Hsa-HCN2                                                 115    1e-28 
+lcl|28800591  Hsa-KCNH7                                                100    1e-22 
+lcl|28799033  No best human hit identifed in Excel file               66.2    3e-12 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3248443572
+
+
+Query= sp|Q9NQW8|CNGB3_HUMAN Cyclic nucleotide-gated cation channel beta-3
+OS=Homo sapiens GN=CNGB3 PE=1 SV=2
+
+Length=809
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794744  Hsa-CNGB1                                                332    5e-102
+lcl|28797234  Hsa-CNGA3                                                273    2e-81 
+lcl|28796688  No best human hit identifed in Excel file                266    2e-78 
+lcl|28809003  No best human hit identifed in Excel file                122    2e-31 
+lcl|28786916  No best human hit identifed in Excel file                122    2e-29 
+lcl|28808988  No best human hit identifed in Excel file                108    3e-25 
+lcl|28787654  Hsa-KCNH8                                               89.7    2e-18 
+lcl|28800246  Hsa-HCN2                                                73.6    2e-14 
+lcl|28800591  Hsa-KCNH7                                               58.5    5e-09 
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4066515435
+
+
+Query= sp|Q9P1Z3|HCN3_HUMAN Potassium/sodium hyperpolarization-activated
+cyclic nucleotide-gated channel 3 OS=Homo sapiens GN=HCN3 PE=2 SV=2
+
+Length=774
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800246  Hsa-HCN2                                                 356    2e-116
+lcl|28797234  Hsa-CNGA3                                                162    2e-42 
+lcl|28796688  No best human hit identifed in Excel file                134    6e-33 
+lcl|28787654  Hsa-KCNH8                                                135    1e-32 
+lcl|28800591  Hsa-KCNH7                                                125    7e-31 
+lcl|28794744  Hsa-CNGB1                                                105    1e-23 
+lcl|28809003  No best human hit identifed in Excel file               77.0    8e-16 
+lcl|28809722  No best human hit identifed in Excel file               74.7    2e-15 
+lcl|28786916  No best human hit identifed in Excel file               78.2    4e-15 
+lcl|28799032  No best human hit identifed in Excel file               66.2    2e-12 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3864631690
+
+
+Query= sp|O60741|HCN1_HUMAN Potassium/sodium hyperpolarization-activated
+cyclic nucleotide-gated channel 1 OS=Homo sapiens GN=HCN1 PE=2 SV=3
+
+Length=890
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800246  Hsa-HCN2                                                 364    2e-118
+lcl|28797234  Hsa-CNGA3                                                169    1e-44 
+lcl|28787654  Hsa-KCNH8                                                162    4e-41 
+lcl|28796688  No best human hit identifed in Excel file                144    3e-36 
+lcl|28800591  Hsa-KCNH7                                                130    3e-32 
+lcl|28794744  Hsa-CNGB1                                                114    3e-26 
+lcl|28809722  No best human hit identifed in Excel file               85.9    6e-19 
+lcl|28786916  No best human hit identifed in Excel file               80.5    7e-16 
+lcl|28809003  No best human hit identifed in Excel file               67.0    2e-12 
+lcl|28799032  No best human hit identifed in Excel file               66.2    2e-12 
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4510423170
+
+
+Query= sp|Q9UL51|HCN2_HUMAN Potassium/sodium hyperpolarization-activated
+cyclic nucleotide-gated channel 2 OS=Homo sapiens GN=HCN2 PE=1 SV=3
+
+Length=889
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800246  Hsa-HCN2                                                 387    2e-127
+lcl|28797234  Hsa-CNGA3                                                155    9e-40 
+lcl|28787654  Hsa-KCNH8                                                150    2e-37 
+lcl|28796688  No best human hit identifed in Excel file                128    6e-31 
+lcl|28800591  Hsa-KCNH7                                                119    2e-28 
+lcl|28794744  Hsa-CNGB1                                                109    1e-24 
+lcl|28809003  No best human hit identifed in Excel file               73.6    1e-14 
+lcl|28809722  No best human hit identifed in Excel file               73.2    1e-14 
+lcl|28786916  No best human hit identifed in Excel file               75.1    4e-14 
+lcl|28795908  Hsa-PRKAR2B                                             72.4    1e-13 
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4504677408
+
+
+Query= sp|Q9Y3Q4|HCN4_HUMAN Potassium/sodium hyperpolarization-activated
+cyclic nucleotide-gated channel 4 OS=Homo sapiens GN=HCN4 PE=1 SV=1
+
+Length=1203
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800246  Hsa-HCN2                                                 385    4e-124
+lcl|28797234  Hsa-CNGA3                                                156    1e-39 
+lcl|28787654  Hsa-KCNH8                                                149    1e-36 
+lcl|28796688  No best human hit identifed in Excel file                132    6e-32 
+lcl|28800591  Hsa-KCNH7                                                125    3e-30 
+lcl|28794744  Hsa-CNGB1                                                118    3e-27 
+lcl|28809722  No best human hit identifed in Excel file               78.2    4e-16 
+lcl|28809003  No best human hit identifed in Excel file               77.0    1e-15 
+lcl|28786916  No best human hit identifed in Excel file               79.0    4e-15 
+lcl|28795908  Hsa-PRKAR2B                                             76.3    1e-14 
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6248374912
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
