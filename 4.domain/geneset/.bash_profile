@@ -1,0 +1,1 @@
+export PATH=$HOME/research/tools/scripts:$PATH
