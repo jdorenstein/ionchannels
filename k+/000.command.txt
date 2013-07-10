@@ -1,0 +1,15 @@
+ORGANIZE FILE STRUCTURE
+	projects->ionchannels->k+->docs,geneset,phylo,000.command.txt
+		keep fastas in the geneset folder
+		all commands are in this file
+		keep external materials (downloads, presupplied files) in docs
+		keep all alignments and phylogenetic trees in phylo 
+
+
+==================13.07.10===
+PREPARE THE CANDIDATE GENESET
+
+fasta files
+	../ionchannels/k+/geneset
+create "candidate.geneset.fa" -> contains all the fasta files in one single fasta file
+	use 'cat' command
