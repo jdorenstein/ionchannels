@@ -1,0 +1,571 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|Q9UQC9|CLCA2_HUMAN Calcium-activated chloride channel regulator 2
+OS=Homo sapiens GN=CLCA2 PE=1 SV=2
+
+Length=943
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28787599  Hsa-BTF3                                                29.6    3.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4814948556
+
+
+Query= sp|A8K7I4|CLCA1_HUMAN Calcium-activated chloride channel regulator 1
+OS=Homo sapiens GN=CLCA1 PE=1 SV=3
+
+Length=914
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28787332  No best human hit identifed in Excel file               41.6    0.001
+lcl|28809426  Hsa-MATN3                                               39.3    0.005
+lcl|28787329  No best human hit identifed in Excel file               36.6    0.050
+lcl|28799040  No best human hit identifed in Excel file               32.7    0.62 
+lcl|28791010  Hsa-TTN                                                 32.7    1.0  
+lcl|28791016  No best human hit identifed in Excel file               31.2    1.3  
+lcl|28786855  Hsa-FOXJ3                                               31.6    1.8  
+lcl|28805853  Hsa-VDAC2                                               29.6    5.6  
+lcl|28796043  Hsa-CCDC137                                             29.3    7.4  
+lcl|28787134  No best human hit identifed in Excel file               28.9    8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4648321458
+
+
+Query= sp|Q9Y6N3|CLCA3_HUMAN Calcium-activated chloride channel regulator
+family member 3 OS=Homo sapiens GN=CLCA3P PE=1 SV=1
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28795980  No best human hit identifed in Excel file               30.0    1.00 
+lcl|28802748  Hsa-POLG2                                               28.9    2.0  
+lcl|28786425  No best human hit identifed in Excel file               28.5    3.3  
+lcl|28794015  Hsa-CRLF3                                               28.1    4.1  
+lcl|28803955  Hsa-CHDH                                                26.9    9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1006581576
+
+
+Query= sp|Q14CN2|CLCA4_HUMAN Calcium-activated chloride channel regulator 4
+OS=Homo sapiens GN=CLCA4 PE=1 SV=2
+
+Length=919
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28809426  Hsa-MATN3                                               43.1    3e-04
+lcl|28799769  No best human hit identifed in Excel file               38.5    0.014
+lcl|28792820  No best human hit identifed in Excel file               36.2    0.063
+lcl|28800067  Hsa-MPP2                                                33.5    0.38 
+lcl|28796587  No best human hit identifed in Excel file               33.5    0.49 
+lcl|28807855  No best human hit identifed in Excel file               31.2    2.3  
+lcl|28802748  Hsa-POLG2                                               30.8    2.7  
+lcl|28809367  Hsa-ANKRD29                                             29.3    6.0  
+lcl|28791152  No best human hit identifed in Excel file               29.6    6.0  
+lcl|28799691  No best human hit identifed in Excel file               29.3    8.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4677050268
+
+
+Query= sp|P51798|CLCN7_HUMAN H(+)/Cl(-) exchange transporter 7 OS=Homo
+sapiens GN=CLCN7 PE=1 SV=2
+
+Length=805
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28793969  Hsa-CLCN7                                                754    0.0   
+lcl|28784857  No best human hit identifed in Excel file                487    3e-162
+lcl|28788483  No best human hit identifed in Excel file                224    6e-63 
+lcl|28800345  Hsa-CLCN3                                                208    8e-57 
+lcl|28788678  Hsa-CLCN2                                                159    6e-41 
+lcl|28795655  No best human hit identifed in Excel file               79.3    4e-16 
+lcl|28805916  No best human hit identifed in Excel file               63.2    8e-12 
+lcl|28805913  No best human hit identifed in Excel file               32.7    0.11  
+lcl|28789206  No best human hit identifed in Excel file               32.3    0.13  
+lcl|28786862  No best human hit identifed in Excel file               26.9    7.3   
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4043443007
+
+
+Query= sp|P51788|CLCN2_HUMAN Chloride channel protein 2 OS=Homo sapiens
+GN=CLCN2 PE=1 SV=2
+
+Length=898
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28788678  Hsa-CLCN2                                                682    0.0  
+lcl|28800345  Hsa-CLCN3                                                223    3e-61
+lcl|28793969  Hsa-CLCN7                                                182    6e-48
+lcl|28784857  No best human hit identifed in Excel file                132    3e-32
+lcl|28788483  No best human hit identifed in Excel file               75.1    6e-14
+lcl|28795655  No best human hit identifed in Excel file               70.5    4e-13
+lcl|28791202  Hsa-XRN2                                                35.4    0.13 
+lcl|28787508  Hsa-SLCO4A1                                             33.1    0.59 
+lcl|28797327  Hsa-RRBP1                                               33.1    0.64 
+lcl|28800939  No best human hit identifed in Excel file               30.8    2.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4556389266
+
+
+Query= sp|P51790|CLCN3_HUMAN H(+)/Cl(-) exchange transporter 3 OS=Homo
+sapiens GN=CLCN3 PE=1 SV=2
+
+Length=818
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800345  Hsa-CLCN3                                               1032    0.0  
+lcl|28793969  Hsa-CLCN7                                                226    5e-63
+lcl|28788678  Hsa-CLCN2                                                197    1e-53
+lcl|28784857  No best human hit identifed in Excel file                152    7e-39
+lcl|28788483  No best human hit identifed in Excel file                119    7e-28
+lcl|28795655  No best human hit identifed in Excel file               52.0    4e-07
+lcl|28805916  No best human hit identifed in Excel file               36.2    0.007
+lcl|28800102  Hsa-ARL6IP5                                             29.6    2.8  
+lcl|28794107  Hsa-LYPLA1                                              28.5    9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4118428398
+
+
+Query= sp|P51793|CLCN4_HUMAN H(+)/Cl(-) exchange transporter 4 OS=Homo
+sapiens GN=CLCN4 PE=1 SV=2
+
+Length=760
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800345  Hsa-CLCN3                                                986    0.0  
+lcl|28793969  Hsa-CLCN7                                                234    4e-66
+lcl|28788678  Hsa-CLCN2                                                190    3e-51
+lcl|28784857  No best human hit identifed in Excel file                160    9e-42
+lcl|28788483  No best human hit identifed in Excel file               97.4    4e-21
+lcl|28795655  No best human hit identifed in Excel file               52.8    2e-07
+lcl|28805916  No best human hit identifed in Excel file               33.1    0.075
+lcl|28793107  Hsa-VAMP4                                               28.5    5.4  
+lcl|28794107  Hsa-LYPLA1                                              28.5    7.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3783878192
+
+
+Query= sp|P51795|CLCN5_HUMAN H(+)/Cl(-) exchange transporter 5 OS=Homo
+sapiens GN=CLCN5 PE=1 SV=1
+
+Length=746
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800345  Hsa-CLCN3                                                976    0.0  
+lcl|28793969  Hsa-CLCN7                                                213    1e-58
+lcl|28788678  Hsa-CLCN2                                                211    4e-58
+lcl|28784857  No best human hit identifed in Excel file                160    6e-42
+lcl|28788483  No best human hit identifed in Excel file                121    8e-29
+lcl|28795655  No best human hit identifed in Excel file               50.8    9e-07
+lcl|28805916  No best human hit identifed in Excel file               31.6    0.19 
+lcl|28809203  No best human hit identifed in Excel file               31.6    1.0  
+lcl|28789175  Hsa-TACR1                                               31.6    1.1  
+lcl|28805132  Hsa-ZW10                                                31.2    1.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3703124694
+
+
+Query= sp|P35523|CLCN1_HUMAN Chloride channel protein 1 OS=Homo sapiens
+GN=CLCN1 PE=1 SV=3
+
+Length=988
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28788678  Hsa-CLCN2                                                634    0.0  
+lcl|28800345  Hsa-CLCN3                                                203    1e-54
+lcl|28793969  Hsa-CLCN7                                                161    5e-41
+lcl|28784857  No best human hit identifed in Excel file                126    3e-30
+lcl|28788483  No best human hit identifed in Excel file               68.2    1e-11
+lcl|28795655  No best human hit identifed in Excel file               51.6    7e-07
+lcl|28800939  No best human hit identifed in Excel file               32.3    0.83 
+lcl|28805292  Hsa-ZFAND5                                              30.4    2.3  
+lcl|28798526  No best human hit identifed in Excel file               31.2    2.8  
+lcl|28809486  Hsa-PDE11A                                              30.4    4.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5048053794
+
+
+Query= sp|P51797|CLCN6_HUMAN Chloride transport protein 6 OS=Homo sapiens
+GN=CLCN6 PE=1 SV=2
+
+Length=869
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28793969  Hsa-CLCN7                                                492    6e-161
+lcl|28784857  No best human hit identifed in Excel file                308    2e-93 
+lcl|28788483  No best human hit identifed in Excel file                196    3e-53 
+lcl|28800345  Hsa-CLCN3                                                192    4e-51 
+lcl|28788678  Hsa-CLCN2                                                155    2e-39 
+lcl|28805916  No best human hit identifed in Excel file               94.0    1e-22 
+lcl|28795655  No best human hit identifed in Excel file               81.3    1e-16 
+lcl|28805913  No best human hit identifed in Excel file               53.5    2e-08 
+lcl|28810087  Hsa-CBS                                                 32.7    0.67  
+lcl|28788024  No best human hit identifed in Excel file               32.3    1.3   
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4389762168
+
+
+Query= sp|P51800|CLCKA_HUMAN Chloride channel protein ClC-Ka OS=Homo
+sapiens GN=CLCNKA PE=1 SV=1
+
+Length=687
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28788678  Hsa-CLCN2                                                476    6e-158
+lcl|28800345  Hsa-CLCN3                                                168    7e-44 
+lcl|28793969  Hsa-CLCN7                                                127    1e-30 
+lcl|28784857  No best human hit identifed in Excel file               95.5    1e-20 
+lcl|28788483  No best human hit identifed in Excel file               61.6    6e-10 
+lcl|28795655  No best human hit identifed in Excel file               50.4    9e-07 
+lcl|28806052  No best human hit identifed in Excel file               30.4    2.8   
+lcl|28803606  No best human hit identifed in Excel file               28.5    4.8   
+lcl|28807324  Hsa-PTPN4                                               28.9    7.0   
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3381623968
+
+
+Query= sp|P51801|CLCKB_HUMAN Chloride channel protein ClC-Kb OS=Homo
+sapiens GN=CLCNKB PE=1 SV=3
+
+Length=687
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28788678  Hsa-CLCN2                                                467    1e-154
+lcl|28800345  Hsa-CLCN3                                                158    2e-40 
+lcl|28793969  Hsa-CLCN7                                                136    2e-33 
+lcl|28784857  No best human hit identifed in Excel file               92.4    1e-19 
+lcl|28788483  No best human hit identifed in Excel file               64.3    1e-10 
+lcl|28795655  No best human hit identifed in Excel file               54.3    6e-08 
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3381623968
+
+
+Query= sp|Q9Y696|CLIC4_HUMAN Chloride intracellular channel protein 4
+OS=Homo sapiens GN=CLIC4 PE=1 SV=4
+
+Length=253
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28783856  Hsa-CLIC2                                                109    3e-28
+lcl|28805018  No best human hit identifed in Excel file               46.6    3e-06
+lcl|28804066  No best human hit identifed in Excel file               41.6    9e-05
+lcl|28805020  No best human hit identifed in Excel file               41.2    1e-04
+lcl|28799321  Hsa-GSTO1                                               38.1    0.002
+lcl|28784719  Hsa-RYR1                                                29.3    2.0  
+lcl|28808465  Hsa-ZIC1                                                27.3    6.4  
+lcl|28792123  Hsa-GSTZ1                                               26.6    8.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 952657563
+
+
+Query= sp|O15247|CLIC2_HUMAN Chloride intracellular channel protein 2
+OS=Homo sapiens GN=CLIC2 PE=1 SV=3
+
+Length=247
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28783856  Hsa-CLIC2                                                115    2e-30
+lcl|28805018  No best human hit identifed in Excel file               49.3    3e-07
+lcl|28804066  No best human hit identifed in Excel file               44.7    8e-06
+lcl|28805020  No best human hit identifed in Excel file               42.7    5e-05
+lcl|28799321  Hsa-GSTO1                                               34.7    0.023
+lcl|28792123  Hsa-GSTZ1                                               29.3    1.2  
+lcl|28808892  Hsa-EXTL3                                               29.6    1.4  
+lcl|28801066  Hsa-ACTN4                                               28.5    3.3  
+lcl|28789375  Hsa-C14orf24                                            27.7    3.5  
+lcl|28801345  No best human hit identifed in Excel file               26.9    4.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 916708221
+
+
+Query= sp|Q9NZA1|CLIC5_HUMAN Chloride intracellular channel protein 5
+OS=Homo sapiens GN=CLIC5 PE=1 SV=3
+
+Length=410
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28783856  Hsa-CLIC2                                                115    1e-29
+lcl|28804066  No best human hit identifed in Excel file               43.1    6e-05
+lcl|28805020  No best human hit identifed in Excel file               40.8    4e-04
+lcl|28805018  No best human hit identifed in Excel file               40.0    7e-04
+lcl|28788459  Hsa-PHKG1                                               30.4    1.5  
+lcl|28808810  No best human hit identifed in Excel file               29.6    2.3  
+lcl|28799321  Hsa-GSTO1                                               29.3    2.4  
+lcl|28801140  No best human hit identifed in Excel file               28.9    3.3  
+lcl|28794794  Hsa-DNAH2                                               29.3    3.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.131    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1828627752
+
+
+Query= sp|Q96NY7|CLIC6_HUMAN Chloride intracellular channel protein 6
+OS=Homo sapiens GN=CLIC6 PE=2 SV=3
+
+Length=704
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28783856  Hsa-CLIC2                                                112    2e-27
+lcl|28810069  No best human hit identifed in Excel file               68.9    3e-13
+lcl|28805020  No best human hit identifed in Excel file               50.8    4e-07
+lcl|28805018  No best human hit identifed in Excel file               50.8    5e-07
+lcl|28799690  No best human hit identifed in Excel file               41.6    0.001
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.130    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3480061652
+
+
+Query= sp|O95833|CLIC3_HUMAN Chloride intracellular channel protein 3
+OS=Homo sapiens GN=CLIC3 PE=1 SV=2
+
+Length=236
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28783856  Hsa-CLIC2                                               94.0    8e-23
+lcl|28805020  No best human hit identifed in Excel file               49.3    3e-07
+lcl|28792123  Hsa-GSTZ1                                               44.3    1e-05
+lcl|28805018  No best human hit identifed in Excel file               44.3    1e-05
+lcl|28804066  No best human hit identifed in Excel file               43.1    3e-05
+lcl|28799321  Hsa-GSTO1                                               37.0    0.004
+lcl|28787870  No best human hit identifed in Excel file               28.5    1.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 859987986
+
+
+Query= sp|O00299|CLIC1_HUMAN Chloride intracellular channel protein 1
+OS=Homo sapiens GN=CLIC1 PE=1 SV=4
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28783856  Hsa-CLIC2                                               98.2    3e-24
+lcl|28805018  No best human hit identifed in Excel file               57.0    4e-10
+lcl|28805020  No best human hit identifed in Excel file               55.5    2e-09
+lcl|28804066  No best human hit identifed in Excel file               47.8    8e-07
+lcl|28793825  No best human hit identifed in Excel file               32.3    0.13 
+lcl|28791774  Hsa-MTX1                                                28.9    1.7  
+lcl|28804895  Hsa-T                                                   28.5    2.9  
+lcl|28796519  No best human hit identifed in Excel file               28.1    3.5  
+lcl|28801779  No best human hit identifed in Excel file               26.6    9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 890057496
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
