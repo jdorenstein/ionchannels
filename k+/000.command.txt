@@ -42,3 +42,9 @@ commands:
 	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/k+/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/k+/geneset/out.blast.002 -num_alignments 0 -num_descriptions 10 2>/Users/ionchannel/research/projects/ionchannels/k+/geneset/out.errors.blast.002 -num_threads 2 &
 
 
+==================13.07.11===
+
+
+RENAME CANDIDATE.GENESET.FA -> CANDIDATE.GENESET.FULL.UNSAFE.FA, OUT.BLAST.001 -> OUT.BLAST.003, OUT.BLAST.002 -> OUT.BLAST.004 (also rename error files)
+
+ 

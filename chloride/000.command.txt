@@ -42,3 +42,43 @@ commands:
 	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/chloride/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/chloride/geneset/out.blast.002 -num_alignments 0 -num_descriptions 10 2>/Users/ionchannel/research/projects/ionchannels/chloride/geneset/out.errors.blast.002 -num_threads 2 &
 
 
+==================13.07.11===
+
+RENAME CANDIDATE.GENESET.FA -> CANDIDATE.GENESET.FULL.UNSAFE.FA, OUT.BLAST.001 -> OUT.BLAST.003, OUT.BLAST.002 -> OUT.BLAST.004 (also rename error files)
+
+---------------------------------
+
+CREATE CANDIDATE GENESET THAT ONLY CONTAINS SAFE GENES
+
+fasta files
+	./chloride/geneset/clcn1.clcnka.clcnkb.fasta
+use 'cat clcn1.clcnka.clcnkb.fasta > candidate.geneset.fa'
+
+
+---------------------------------
+
+AST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET, SHOW ALIGNMENTS (10) AND DESCRIPTIONS (10). (out.blast.001)
+
+FASTA files (candidate.geneset.fa)
+	/Users/ionchannel/research/projects/ionchannels/chloride/geneset/***
+octopus BLAST db (octProteomeDB):
+	/Users/ionchannel/research/tools/db/blast/oct.proteome/***
+
+
+commands:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/chloride/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/chloride/geneset/out.blast.001 -num_alignments 10 -num_descriptions 10 2>/Users/ionchannel/research/projects/ionchannels/chloride/geneset/out.errors.blast.001 -num_threads 2 &
+
+---------------------------------
+
+BLAST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET, SHOW ONLY DESCRIPTIONS (10). (out.blast.002)
+
+FASTA files (candidate.geneset.fa)
+	/Users/ionchannel/research/projects/ionchannels/chloride/geneset/***
+octopus BLAST db (octProteomeDB):
+	/Users/ionchannel/research/tools/db/blast/oct.proteome/***
+
+commands:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/chloride/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/chloride/geneset/out.blast.002 -num_alignments 0 -num_descriptions 10 2>/Users/ionchannel/research/projects/ionchannels/chloride/geneset/out.errors.blast.002 -num_threads 2 &
+
+
+

@@ -18,7 +18,7 @@ create "candidate.geneset.full.unsafe.fa" -> contains all the fasta files in one
 create "candidate.geneset.fa" -> contains only orai and p2rx fasta files
 	use 'cat orai.fasta p2rx.fasta > candidate.geneset.fa'
 
-==================13.11.10===
+==================13.07.11===
 BLAST BOTH THE SAFE AND UNSAFE CANDIDATE GENESETS
 ------candidate.geneset.fa------
 
