@@ -88,4 +88,45 @@ command:
 
 -----------------------
 
+USE SCRIPT (mbh.blast.out.fasta.creator.13.07.11) TO CREATE FASTA FILES TO BLAST AGAINST THE HUMAN DATABASE
 
+-------------------------
+
+
+BLAST mbh.candidate.e_val10.fa AGAINST HSA DB
+
+fasta file:
+	./non-selective.k/geneset/mbh.candidate.e_val10.fa
+hsa blast DB(non-selective.kDB):
+	./non-selective.k/geneset/**
+
+command:
+	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val10.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.004 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.004 -num_threads 2 &
+
+
+--------------------------
+
+
+BLAST mbh.candidate.e_val1.fa AGAINST HSA DB
+
+fasta file:
+	./non-selective.k/geneset/mbh.candidate.e_val1.fa
+hsa blast DB(non-selective.kDB):
+	./non-selective.k/geneset/**
+
+command:
+	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val1.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.005 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.005 -num_threads 2 &
+
+
+----------------------------
+
+
+BLAST mbh.candidate.e_val0.01.fa AGAINST HSA DB
+
+fasta file:
+	./non-selective.k/geneset/mbh.candidate.e_val0.01.fa
+hsa blast DB(non-selective.kDB):
+	./non-selective.k/geneset/**
+
+command:
+	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val0.01.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.006 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.006 -num_threads 2 &
