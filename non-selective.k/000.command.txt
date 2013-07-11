@@ -39,4 +39,44 @@ octopus BLAST db (octProteomeDB):
 commands:
 	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.002 -num_alignments 0 -num_descriptions 10 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.002 -num_threads 2 &
 
+==================13.07.11===
+
+BLAST THE CANDIDATE.GENESET.FA AGAINST OCTPROTEOMEDB, ONLY LIMIT EVALUE (10). (out.blast.mbh.001) 
+
+FASTA files (candidate.geneset.fa)
+	/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/***
+octopus BLAST db (octProteomeDB):
+	/Users/ionchannel/research/tools/db/blast/oct.proteome/***
+
+commands:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.001 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.001 -evalue 10 -num_threads 2 &
+
+
+--------------------------
+
+BLAST THE CANDIDATE.GENESET.FA AGAINST OCTPROTEOMEDB, ONLY LIMIT EVALUE (1). (out.blast.mbh.002) 
+
+FASTA files (candidate.geneset.fa)
+	/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/***
+octopus BLAST db (octProteomeDB):
+	/Users/ionchannel/research/tools/db/blast/oct.proteome/***
+
+commands:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.002 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.002 -evalue 1 -num_threads 2 &
+
+-------------------------
+
+BLAST THE CANDIDATE.GENESET.FA AGAINST OCTPROTEOMEDB, ONLY LIMIT EVALUE (0.01). (out.blast.mbh.003) 
+
+FASTA files (candidate.geneset.fa)
+	/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/***
+octopus BLAST db (octProteomeDB):
+	/Users/ionchannel/research/tools/db/blast/oct.proteome/***
+
+commands:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.003 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.003 -evalue 0.01 -num_threads 2 &
+
+
+----------------------
+
 
