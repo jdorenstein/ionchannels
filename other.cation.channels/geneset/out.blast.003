@@ -1,0 +1,3794 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|P78348|ASIC1_HUMAN Acid-sensing ion channel 1 OS=Homo sapiens
+GN=ASIC1 PE=1 SV=3
+
+Length=528
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                174    1e-46
+lcl|28794382  Hsa-SCNN1G                                               111    4e-26
+lcl|28785778  No best human hit identifed in Excel file                105    2e-25
+lcl|28798776  No best human hit identifed in Excel file               72.8    1e-14
+lcl|28798775  No best human hit identifed in Excel file               37.4    0.009
+lcl|28787843  Hsa-ACAT2                                               33.5    0.18 
+lcl|28809604  No best human hit identifed in Excel file               31.6    0.82 
+lcl|28801114  Hsa-CPE                                                 30.0    2.5  
+lcl|28799446  Hsa-AGXT2                                               29.6    3.5  
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score =  174 bits (442),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 109/361 (30%), Positives = 166/361 (46%), Gaps = 32/361 (9%)
+
+Query  21   FASSSTLHGLAHIFSYERLSLKRALWALCFLGSLAVLLCVCTERVQYYFHYHHVTKLDEV  80
+            FA + +LHGL + FS      ++ LW L  +  +A  L    +R+ Y++ Y     LD  
+Sbjct  35   FAMTCSLHGLKNAFSKSSKKPQKVLWLLLLMTCIAAALFQILDRILYFYQYPVSVLLDVN  94
+
+Query  81   AASQLTFPAVTLCNLNEFRFSQVSKNDLYHAGELLALLNNR-YEIPDTQMADEKQLEILQ  139
+                L FP +T+CN N+FR ++  K  +Y   E +    NR +      +   K + I +
+Sbjct  95   YNDSLLFPTITICNQNKFRATEAYKLGIYRMIENVNKAENRSFAFSSEFIQQAKAMNISE  154
+
+Query  140  DKANFRSFKPKPFNMREFYDRAGHDIRDMLLSCHFRGEVCSAEDFKVVFTRYGKCYTFNS  199
+                           R+   +  H   DM++ CH+  E C+ E+F  +FT  G CY+FN+
+Sbjct  155  ---------------RDLRQQIAHTKEDMIIDCHWSSERCAPENFTTIFTDEGVCYSFNT  199
+
+Query  200  GRDGRPRLKTMKGGTGNGLEIMLDIQQDEYLPVWGETDETSFEAGIKVQIHSQDEPPFID  259
+              D    +K    GT NGL + L+++Q EY+    ++       GIKV  H+  + P I 
+Sbjct  200  --DASNPVKVASSGTENGLRLTLNVEQYEYMSGGQKS------VGIKVLFHNSHDVPTIK  251
+
+Query  260  QLGFGVAPGFQTFVACQEQRLIYLPPPWGTCKAVTMDSDLDFFDSYSITACRIDCETRYL  319
+             LG   A G  +F   Q   +I LP P G C+    D  L+ F  YS ++C  +C T  L
+Sbjct  252  DLGLASATGTNSFFGLQVVEVIGLPKPRGVCE----DRKLNLFYKYSRSSCEAECITYAL  307
+
+Query  320  VENCNCRMVHMP---GDAPYCTPEQYKECADPALDFLVEKDQEYCVCEMPCNLTRYGKEL  376
+            VE C CR+ +MP      P C+   +  C  P  D      Q  C C +PCN+  +   +
+Sbjct  308  VETCGCRLSYMPKVNDSVPLCSLVSFITCYIPQRDKF-HSFQLKCDCPLPCNMLLFDPSI  366
+
+Query  377  S  377
+            S
+Sbjct  367  S  367
+
+
+ Score = 35.8 bits (81),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+
+Query  400  YIGENILVLDIFFEVLNYETIEQKKAYEIAGLLGDIGGQMGLFIGASILTVLELFDYA  457
+            ++ ENIL +  F++ L+YE I  + AY+   L+ D GG +GL +G+SILT+ EL D+A
+Sbjct  845  FVSENILEIAFFYKQLSYEIITDQVAYDFFSLMCDTGGALGLLLGSSILTIFELADFA  902
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score =  111 bits (278),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 95/407 (23%), Positives = 160/407 (39%), Gaps = 64/407 (16%)
+
+Query  18   IQAFASSSTLHGLAHIFSYERLSLKRALWALCFLGSLAVLLCVCTERVQYYFHYHHVTKL  77
+            I   A+ S  HGLA I +  + + ++ LWAL  +          +  V+ Y  +  V   
+Sbjct  34   ITELAAESNAHGLAKIATSTQ-TPRKVLWALMVIVGFTAATLQLSLLVRKYLEFQVVEVS  92
+
+Query  78   DEVAASQLTFPAVTLCNLNEFRFSQVSKNDLYHAGELLALLNNRYEIPDTQMADEKQLEI  137
+                   + FPA+T+CN+     ++                    E+  +  ++  Q   
+Sbjct  93   KMKDGMDVEFPAITVCNIAPISLTKTK------------------ELLSSDTSELTQWLR  134
+
+Query  138  LQDKANFRSFKPKPFNMREFYDRA-------GHDIRDMLLSCHFRGEVCSAEDFKVVFT-  189
+              DK NF +   + F ++  Y+         G D+ D L+ C +  E+C+ ++F   F  
+Sbjct  135  FIDKYNFGAQTDRMFTVQSLYENLADEAQLLGRDLNDFLIHCQYNQEICNIQNFTRYFDG  194
+
+Query  190  RYGKCYTFNSGRDGRPRLKTMKGGTGNGLEIMLDIQQDEYLPVWGE-----TDETSFEAG  244
+             Y  CYTFNSG      L T   G  +GL ++L +  D+  PV G             AG
+Sbjct  195  HYFNCYTFNSGHQTGTSLLTHATGPQSGLSLILSLDNDDP-PVGGYGSYNIKSNIEHSAG  253
+
+Query  245  IKVQIHSQDEPPFIDQLGFGVAPGFQTFVACQEQRLIYLPPPWGTCKAVTMDSDLDFFDS  304
+            ++V +H     P     GF V PG+ + V  +      L  P+G C+   + +   +   
+Sbjct  254  VRVVVHPPSTMPSPVDHGFDVPPGYSSSVGLKTIMHARLSNPYGNCQNSRLQNSSKYI--  311
+
+Query  305  YSITACRIDCETRYLVENCNCRMVHMP----GDAPYC--------------TPEQYK---  343
+            +++ +C   C+ R ++  C CR  ++P     +  +C               PE Y    
+Sbjct  312  HTVFSCLELCKQRIVMSTCGCRSSNLPEMTSANFTFCGLVENKWNWKDMMKNPENYNITK  371
+
+Query  344  ------ECADPAL-DFLVEKDQE-YCVCEMPCNLTRYGKELSMVKIP  382
+                   C +  L +F + +  E  C C  PC  T Y K +S+   P
+Sbjct  372  INLTELACEERVLKEFSINRAYESSCNCFQPCQETTYQKSISLSYWP  418
+
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  396  KSEQYIGENILVLDIFFEVLNYETIEQKKAYEIAGLLGDIGGQMGLFIGASILTVLELFD  455
+            ++   I +N+L L+++ E L+     Q  AYE+A L  DIGG +GL++G S+LT++EL +
+Sbjct  526  RASNMIRQNLLRLNVYLEDLSIIEFRQMPAYELADLFADIGGTLGLWMGISVLTIMELIE  585
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score =  105 bits (263),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 74/256 (29%), Positives = 123/256 (48%), Gaps = 23/256 (9%)
+
+Query  21   FASSSTLHGLAHIFSYERLSLKRALWALCFLGSLAVLLCVCTERVQYYFHYHHVTKLDEV  80
+            F  + TLHG+ ++       +++ LW L  L  L  +     +R+ YY++Y     +   
+Sbjct  54   FMKNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSMSYQIIDRIIYYYNYPVSVNVHVN  113
+
+Query  81   AASQLTFPAVTLCNLNEFRFSQVSKNDLYHAGELLALLNNRYEIPDTQMADEKQLEILQD  140
+                L FP+VT+CN N FR ++  +   Y   ELL      Y   D +  +  +LE    
+Sbjct  114  YNRTLIFPSVTICNENAFRATKAVELGRY---ELL-----EYIYHDMRYVNSSELE----  161
+
+Query  141  KANFRSFKPKPFNMREFYDRAGHDIRDMLLSCHFRGEVCSAEDFKVVFTRYGKCYTFNSG  200
+                  F      M E +    H   DM++SC +  E CS ++FK  +T +G CYT++  
+Sbjct  162  -----RFGYNNMTMEELFKSIEHQKEDMIISCMWGSEPCSFKNFKQTYTDHGVCYTYSQL  216
+
+Query  201  RDGRPRLKTMKGGTGNGLEIMLDIQQDEYLPVWGETDETSFEAGIKVQIHSQDEPPFIDQ  260
+            + G    K +  G  +GL ++L+++Q EY+P  G  +     AGIK+ +H++DE P + +
+Sbjct  217  QAGNKYQKALSTGADHGLRLILNVEQYEYMP--GPNN----AAGIKILMHNEDEFPKVHE  270
+
+Query  261  LGFGVAPGFQTFVACQ  276
+            LG  +  G   FV  +
+Sbjct  271  LGLAIPTGSHAFVGLK  286
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 72.8 bits (177),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 50/174 (29%), Positives = 74/174 (43%), Gaps = 16/174 (9%)
+
+Query  290  CKAVTMDSDLDFFDSYSITACRIDCETRYLVENCNCRMVHMPGDAPYCTPEQYKECADPA  349
+            C +V   S LD    YS   C   C   +++ +CNC      G+   CT  +Y  C   A
+Sbjct  15   CVSVEKQSLLDNTSPYSQVICEEKCRVDFIIRSCNCSPSFAGGNNRRCTFREYITCERSA  74
+
+Query  350  LD-FLVEKDQ-EYCVCEMPCNLTRYGKELSMVKIPSKASAKYLAKKFNKSEQYIGENILV  407
+             D F   K     C C   C+ T Y    S+   P  A    L  KF             
+Sbjct  75   TDEFFSNKSHLNMCNCIRSCSFTSYSISTSVAYYPRPAHK--LPTKFK------------  120
+
+Query  408  LDIFFEVLNYETIEQKKAYEIAGLLGDIGGQMGLFIGASILTVLELFDYAYEVI  461
+            + +++E L  + + +++ +     L   GGQMGLF+GAS++T LEL +    V+
+Sbjct  121  IHLYYESLILKEMSEQEMFTSEAFLAQFGGQMGLFLGASLITALELVELIIMVL  174
+
+
+>lcl|28798775 No best human hit identifed in Excel file
+Length=276
+
+ Score = 37.4 bits (85),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 51/227 (22%), Positives = 91/227 (40%), Gaps = 40/227 (18%)
+
+Query  2    ELKAEEEEVGGVQPVSIQAFASSSTLHGLAHIFSYERLSLKRALWALCFLGSLAVLLCVC  61
+             L  EE++        +  F+++++LHG+ +I       L+  L+ +  + S  +L+   
+Sbjct  63   NLIQEEKKEKDATKSLLMHFSNNTSLHGVRNIADSNNTLLR--LFYIGIVASFMILVSYY  120
+
+Query  62   TERVQYYFHYHHVTKLDEVAAS---QLTFPAVTLCNLNEFRFSQVSKNDLYHAGELLALL  118
+              ++   ++ H V +  +  AS   +L FP +T+C+ + +      +N       +  L 
+Sbjct  121  LIKLFMIYNSHPVNR--QYTASLQEKLMFPGITMCDFHPYNL----RNQSIFVTLIEGLD  174
+
+Query  119  NNRYEIPDTQMADEKQLEILQDKANFRSFKPKPFNMREFYDRAGHDIRDMLLSCHFRGEV  178
+               Y  P   + +E    +L    N                       D L S     E+
+Sbjct  175  AKNYTNPLFSLEEETIYTLLYSDQN-----------------------DDLESKFNSNEL  211
+
+Query  179  CSAEDFK----VVFTRYGKCYTFNSGRDGRPRLKTMKGGTGNGLEIM  221
+            C A+D+     V+     KCYTFN+     PR+ T K G   GLEI+
+Sbjct  212  C-ADDWSFRWMVIDNDILKCYTFNTVNKTEPRI-TNKPGIKYGLEIV  256
+
+
+>lcl|28787843 Hsa-ACAT2
+Length=393
+
+ Score = 33.5 bits (75),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  21   FASSSTLHGLAHIFSYERLSLKRALWALCFLGSLAVLLCV  60
+             A+S T   +  +++ +RL LKR + ALC  G + + +CV
+Sbjct  350  LAASGTRILVTLLYNMQRLQLKRGVAALCVGGGMGIAICV  389
+
+
+>lcl|28809604 No best human hit identifed in Excel file
+Length=515
+
+ Score = 31.6 bits (70),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 11/61 (18%)
+
+Query  86   TFPAVTLCNLNEFRFSQVSKNDLYHAGELLALLNNRY----EIPDTQMADEKQLEILQDK  141
+            T P V   N+   RF  +  N++YH      LLNN +     + D  +A+   L+I++DK
+Sbjct  196  TIPTVAFKNVKHLRFLNLQGNNIYH------LLNNSFYNNSMLADINIANN-NLKIIEDK  248
+
+Query  142  A  142
+            A
+Sbjct  249  A  249
+
+
+>lcl|28801114 Hsa-CPE
+Length=527
+
+ Score = 30.0 bits (66),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 23/43 (53%), Gaps = 0/43 (0%)
+
+Query  362  VCEMPCNLTRYGKELSMVKIPSKASAKYLAKKFNKSEQYIGEN  404
+            V   P +LTR GK+      P  A+ +YLA+ + K+ + +  N
+Sbjct  264  VANYPYDLTRSGKQKEYSISPDDATFRYLAESYAKNHKIMSSN  306
+
+
+>lcl|28799446 Hsa-AGXT2
+Length=469
+
+ Score = 29.6 bits (65),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  175  RGEVCSAEDFKVVFTRYGKCYTFNSGRDGRPRLKTMKGGTGNGLEI  220
+            +G +C +++ +  F R G  +    G D  P + TM  G GNG  +
+Sbjct  267  KGGLCISDEVQTGFGRTGTHFWGFEGHDVIPDIVTMAKGMGNGFPL  312
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2491605634
+
+
+Query= sp|Q96FT7|ASIC4_HUMAN Acid-sensing ion channel 4 OS=Homo sapiens
+GN=ASIC4 PE=1 SV=2
+
+Length=647
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                140    8e-35
+lcl|28794382  Hsa-SCNN1G                                              99.8    6e-22
+lcl|28785778  No best human hit identifed in Excel file               86.3    1e-18
+lcl|28798776  No best human hit identifed in Excel file               57.8    1e-09
+lcl|28801114  Hsa-CPE                                                 31.6    1.2  
+lcl|28790405  Hsa-DHDDS                                               31.2    1.3  
+lcl|28804474  Hsa-DNAJC19                                             28.1    5.6  
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score =  140 bits (353),  Expect = 8e-35, Method: Compositional matrix adjust.
+ Identities = 92/349 (26%), Positives = 150/349 (43%), Gaps = 43/349 (12%)
+
+Query  172  FASTSTLHGLGRACGPGPHGLRRTLWALALLTSLAAFLYQAAGLARGYLTRPHLVAMDPA  231
+            FA T +LHGL  A        ++ LW L L+T +AA L+Q       +   P  V +D  
+Sbjct  35   FAMTCSLHGLKNAFSKSSKKPQKVLWLLLLMTCIAAALFQILDRILYFYQYPVSVLLDVN  94
+
+Query  232  APAPVAGFPAVTLCNINRFRHSALSDADIFHL------ANLTGLPPKDRDGHRAAGLRYP  285
+                +  FP +T+CN N+FR +      I+ +      A             +A  +   
+Sbjct  95   YNDSLL-FPTITICNQNKFRATEAYKLGIYRMIENVNKAENRSFAFSSEFIQQAKAMNIS  153
+
+Query  286  EPDMVDILNRTGHQLADMLKSCNFSGHHCSASNFSVVYTRYGKCYTFNADPRSSLPSRAG  345
+            E D+     +  H   DM+  C++S   C+  NF+ ++T  G CY+FN D  + +   + 
+Sbjct  154  ERDLRQ---QIAHTKEDMIIDCHWSSERCAPENFTTIFTDEGVCYSFNTDASNPVKVASS  210
+
+Query  346  GMGSGLEIMLDIQQEEYLPIWRETNETSFEAGIRVQIHSQEEPPYIHQLGFGVSPGFQTF  405
+            G  +GL + L+++Q EY+   +++       GI+V  H+  + P I  LG   + G  +F
+Sbjct  211  GTENGLRLTLNVEQYEYMSGGQKS------VGIKVLFHNSHDVPTIKDLGLASATGTNSF  264
+
+Query  406  VSCQEQRLTYLPQPWGNCRAESELREPELQGYSAYSVSACRLRCEKEAVLQRCHCRMVHM  465
+               Q   +  LP+P G C       + +L  +  YS S+C   C   A+++ C CR+ +M
+Sbjct  265  FGLQVVEVIGLPKPRGVC------EDRKLNLFYKYSRSSCEAECITYALVETCGCRLSYM  318
+
+Query  466  PDSLGGGP---------------------EGPCFCPTPCNLTRYGKEIS  493
+            P      P                     +  C CP PCN+  +   IS
+Sbjct  319  PKVNDSVPLCSLVSFITCYIPQRDKFHSFQLKCDCPLPCNMLLFDPSIS  367
+
+
+ Score = 31.6 bits (70),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 22/60 (37%), Positives = 39/60 (65%), Gaps = 0/60 (0%)
+
+Query  513  NETYIRENFLVLDVFFEALTSEAMEQRAAYGLSALLGDLGGQMGLFIGASILTLLEILDY  572
+            N+ ++ EN L +  F++ L+ E +  + AY   +L+ D GG +GL +G+SILT+ E+ D+
+Sbjct  842  NDLFVSENILEIAFFYKQLSYEIITDQVAYDFFSLMCDTGGALGLLLGSSILTIFELADF  901
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score = 99.8 bits (247),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 102/423 (24%), Positives = 160/423 (38%), Gaps = 76/423 (18%)
+
+Query  169  LATFASTSTLHGLGRACGPGPHGLRRTLWALALLTSLAAFLYQAAGLARGYLTRPHLVAM  228
+            +   A+ S  HGL +         R+ LWAL ++    A   Q + L R YL    +V +
+Sbjct  34   ITELAAESNAHGLAKI-ATSTQTPRKVLWALMVIVGFTAATLQLSLLVRKYL-EFQVVEV  91
+
+Query  229  DPAAPAPVAGFPAVTLCNI---NRFRHSALSDADIFHLANLTGLPPKDRDG---HRAAGL  282
+                      FPA+T+CNI   +  +   L  +D   L        K   G    R   +
+Sbjct  92   SKMKDGMDVEFPAITVCNIAPISLTKTKELLSSDTSELTQWLRFIDKYNFGAQTDRMFTV  151
+
+Query  283  RYPEPDMVDILNRTGHQLADMLKSCNFSGHHCSASNFSVVYT-RYGKCYTFNADPRS--S  339
+            +    ++ D     G  L D L  C ++   C+  NF+  +   Y  CYTFN+  ++  S
+Sbjct  152  QSLYENLADEAQLLGRDLNDFLIHCQYNQEICNIQNFTRYFDGHYFNCYTFNSGHQTGTS  211
+
+Query  340  LPSRAGGMGSGLEIMLDIQQEEYLPI-----WRETNETSFEAGIRVQIHSQEEPPYIHQL  394
+            L + A G  SGL ++L +  ++  P+     +   +     AG+RV +H     P     
+Sbjct  212  LLTHATGPQSGLSLILSLDNDD-PPVGGYGSYNIKSNIEHSAGVRVVVHPPSTMPSPVDH  270
+
+Query  395  GFGVSPGFQTFVSCQEQRLTYLPQPWGNCRAESELREPELQGYSAY--SVSACRLRCEKE  452
+            GF V PG+ + V  +      L  P+GNC      +   LQ  S Y  +V +C   C++ 
+Sbjct  271  GFDVPPGYSSSVGLKTIMHARLSNPYGNC------QNSRLQNSSKYIHTVFSCLELCKQR  324
+
+Query  453  AVLQRCHCRMVHMPD---------------------------------------------  467
+             V+  C CR  ++P+                                             
+Sbjct  325  IVMSTCGCRSSNLPEMTSANFTFCGLVENKWNWKDMMKNPENYNITKINLTELACEERVL  384
+
+Query  468  ---SLGGGPEGPCFCPTPCNLTRYGKEISMVRIP---NRGSARYLARKYNRNETYIRENF  521
+               S+    E  C C  PC  T Y K IS+   P   N+ SA         NET++ + +
+Sbjct  385  KEFSINRAYESSCNCFQPCQETTYQKSISLSYWPLEFNQLSALETFYGDKINETFLHDAY  444
+
+Query  522  LVL  524
+             +L
+Sbjct  445  KML  447
+
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 39/60 (65%), Gaps = 0/60 (0%)
+
+Query  512  RNETYIRENFLVLDVFFEALTSEAMEQRAAYGLSALLGDLGGQMGLFIGASILTLLEILD  571
+            R    IR+N L L+V+ E L+     Q  AY L+ L  D+GG +GL++G S+LT++E+++
+Sbjct  526  RASNMIRQNLLRLNVYLEDLSIIEFRQMPAYELADLFADIGGTLGLWMGISVLTIMELIE  585
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score = 86.3 bits (212),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 65/237 (27%), Positives = 105/237 (44%), Gaps = 9/237 (4%)
+
+Query  172  FASTSTLHGLGRACGPGPHGLRRTLWALALLTSLAAFLYQAAGLARGYLTRPHLVAMDPA  231
+            F    TLHG+          +R+ LW L +L  L +  YQ       Y   P  V +   
+Sbjct  54   FMKNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSMSYQIIDRIIYYYNYPVSVNVHVN  113
+
+Query  232  APAPVAGFPAVTLCNINRFRHSALSDADIFHLANLTGLPPKDRDGHRAAGLRYPEPDMVD  291
+                +  FP+VT+CN N FR +   +   + L        +  +        Y    M +
+Sbjct  114  YNRTLI-FPSVTICNENAFRATKAVELGRYELLEYIYHDMRYVNSSELERFGYNNMTMEE  172
+
+Query  292  ILNRTGHQLADMLKSCNFSGHHCSASNFSVVYTRYGKCYTFNADPRSSLPSRAGGMGS--  349
+            +     HQ  DM+ SC +    CS  NF   YT +G CYT++     +   +A   G+  
+Sbjct  173  LFKSIEHQKEDMIISCMWGSEPCSFKNFKQTYTDHGVCYTYSQLQAGNKYQKALSTGADH  232
+
+Query  350  GLEIMLDIQQEEYLPIWRETNETSFEAGIRVQIHSQEEPPYIHQLGFGVSPGFQTFV  406
+            GL ++L+++Q EY+P        +  AGI++ +H+++E P +H+LG  +  G   FV
+Sbjct  233  GLRLILNVEQYEYMP------GPNNAAGIKILMHNEDEFPKVHELGLAIPTGSHAFV  283
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 42/178 (24%), Positives = 70/178 (39%), Gaps = 43/178 (24%)
+
+Query  430  REPELQGYSAYSVSACRLRCEKEAVLQRCHCRMVHMPDSLGGGPE---------------  474
+            ++  L   S YS   C  +C  + +++ C+C     P   GG                  
+Sbjct  20   KQSLLDNTSPYSQVICEEKCRVDFIIRSCNCS----PSFAGGNNRRCTFREYITCERSAT  75
+
+Query  475  ----------GPCFCPTPCNLTRYGKEISMVRIPNRGSARYLARKYNRNETYIRENFLVL  524
+                        C C   C+ T Y    S+   P    A  L  K+             +
+Sbjct  76   DEFFSNKSHLNMCNCIRSCSFTSYSISTSVAYYPR--PAHKLPTKFK------------I  121
+
+Query  525  DVFFEALTSEAMEQRAAYGLSALLGDLGGQMGLFIGASILTLLEILDYIYEVSWDRLK  582
+             +++E+L  + M ++  +   A L   GGQMGLF+GAS++T LE+++ I  V W + +
+Sbjct  122  HLYYESLILKEMSEQEMFTSEAFLAQFGGQMGLFLGASLITALELVELIIMVLWTQFR  179
+
+
+>lcl|28801114 Hsa-CPE
+Length=527
+
+ Score = 31.6 bits (70),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 22/82 (27%), Positives = 35/82 (43%), Gaps = 3/82 (4%)
+
+Query  439  AYSVSACRLRCEKEAVLQRCHCRMVHMPDSLGGGPEGPCFCPTPCNLTRYGKEISMVRIP  498
+            AY++    L  E + V++        +  +L GG         P +LTR GK+      P
+Sbjct  228  AYALITPDLESETKTVMKWLSAYPFVLSANLHGGD---LVANYPYDLTRSGKQKEYSISP  284
+
+Query  499  NRGSARYLARKYNRNETYIREN  520
+            +  + RYLA  Y +N   +  N
+Sbjct  285  DDATFRYLAESYAKNHKIMSSN  306
+
+
+>lcl|28790405 Hsa-DHDDS
+Length=337
+
+ Score = 31.2 bits (69),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  479  CPTPCNLTRYGKEISMVRIPNRGSARYLARKYNRNETYI  517
+            CP+  N+ R  KE+S  R      + +L+  Y++ E+YI
+Sbjct  290  CPSELNINRNSKELSYTRERKERVSSFLSYLYSKRESYI  328
+
+
+>lcl|28804474 Hsa-DNAJC19
+Length=120
+
+ Score = 28.1 bits (61),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  490  KEISMVRIPNRGSARYLARKYNRNETYIREN  520
+            K I ++  P+RG + YLA K N  + Y+  N
+Sbjct  87   KRIMLLNHPDRGGSPYLAAKINEAKDYLENN  117
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3167974365
+
+
+Query= sp|Q9UHC3|ASIC3_HUMAN Acid-sensing ion channel 3 OS=Homo sapiens
+GN=ASIC3 PE=1 SV=2
+
+Length=531
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                175    8e-47
+lcl|28794382  Hsa-SCNN1G                                               112    2e-26
+lcl|28785778  No best human hit identifed in Excel file                104    5e-25
+lcl|28798776  No best human hit identifed in Excel file               70.5    7e-14
+lcl|28798775  No best human hit identifed in Excel file               35.4    0.041
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score =  175 bits (444),  Expect = 8e-47, Method: Compositional matrix adjust.
+ Identities = 108/368 (29%), Positives = 171/368 (46%), Gaps = 36/368 (10%)
+
+Query  7    PEEARRPASDIRVFASNCSMHGLGHVFGPGSLSLRRGMWAAAVVLSVATFLYQVAERVRY  66
+            P +  +P+S    FA  CS+HGL + F   S   ++ +W   ++  +A  L+Q+ +R+ Y
+Sbjct  22   PTDDEKPSSMFLDFAMTCSLHGLKNAFSKSSKKPQKVLWLLLLMTCIAAALFQILDRILY  81
+
+Query  67   YREFHHQTALDERESHRLIFPAVTLCNINPLRRSRLTPNDLHWAGSALLGLDPAEHAAFL  126
+            + ++     LD   +  L+FP +T+CN N  R +      ++     +  ++ AE+ +F 
+Sbjct  82   FYQYPVSVLLDVNYNDSLLFPTITICNQNKFRATEAYKLGIY---RMIENVNKAENRSFA  138
+
+Query  127  RALGRPPAPPGFMPSPTFDMAQLYARAGHSLDDMLLDCRFRGQPCGPENFTTIFTRMGKC  186
+             +            S   D+ Q   +  H+ +DM++DC +  + C PENFTTIFT  G C
+Sbjct  139  FSSEFIQQAKAMNISER-DLRQ---QIAHTKEDMIIDCHWSSERCAPENFTTIFTDEGVC  194
+
+Query  187  YTFNSGADGAELLTTTRGGMGNGLDIMLDVQQEEYLPVWRDNEETPFEVGIRVQIHSQEE  246
+            Y+FN+  D +  +     G  NGL + L+V+Q EY+   + +      VGI+V  H+  +
+Sbjct  195  YSFNT--DASNPVKVASSGTENGLRLTLNVEQYEYMSGGQKS------VGIKVLFHNSHD  246
+
+Query  247  PPIIDQLGLGVSPGYQTFVSCQQQQLSFLPPPWGDCSSASLNPNYEPEPSDPLGSPSPSP  306
+             P I  LGL  + G  +F   Q  ++  LP P G C    LN  Y+              
+Sbjct  247  VPTIKDLGLASATGTNSFFGLQVVEVIGLPKPRGVCEDRKLNLFYK--------------  292
+
+Query  307  SPPYTLMGCRLACETRYVARKCGCRMVYMP---GDVPVCSPQQYKNCAHPAIDAMLR-KD  362
+               Y+   C   C T  +   CGCR+ YMP     VP+CS   +  C  P  D     + 
+Sbjct  293  ---YSRSSCEAECITYALVETCGCRLSYMPKVNDSVPLCSLVSFITCYIPQRDKFHSFQL  349
+
+Query  363  SCACPNPC  370
+             C CP PC
+Sbjct  350  KCDCPLPC  357
+
+
+ Score = 35.8 bits (81),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 22/60 (37%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  400  SEAYIAENVLALDIFFEALNYETVEQKKAYEMSELLGDIGGQMGLFIGASLLTILEILDY  459
+            ++ +++EN+L +  F++ L+YE +  + AY+   L+ D GG +GL +G+S+LTI E+ D+
+Sbjct  842  NDLFVSENILEIAFFYKQLSYEIITDQVAYDFFSLMCDTGGALGLLLGSSILTIFELADF  901
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score =  112 bits (281),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 108/444 (24%), Positives = 170/444 (38%), Gaps = 77/444 (17%)
+
+Query  15   SDIRVFASNCSMHGLGHVFGPGSLSLRRGMWAAAVVLSVATFLYQVAERVRYYREFHHQT  74
+            S I   A+  + HGL  +    + + R+ +WA  V++       Q++  VR Y EF    
+Sbjct  32   SIITELAAESNAHGLAKI-ATSTQTPRKVLWALMVIVGFTAATLQLSLLVRKYLEFQVVE  90
+
+Query  75   ALDERESHRLIFPAVTLCNINPLRRSRLTPNDLHWAGSALLGLDPAEHAAFLRALGRPPA  134
+                ++   + FPA+T+CNI P+  ++            LL  D +E   +LR + +   
+Sbjct  91   VSKMKDGMDVEFPAITVCNIAPISLTK---------TKELLSSDTSELTQWLRFIDKYNF  141
+
+Query  135  PPGFMPSPTFDMAQLYAR-------AGHSLDDMLLDCRFRGQPCGPENFTTIFT-RMGKC  186
+              G      F +  LY          G  L+D L+ C++  + C  +NFT  F      C
+Sbjct  142  --GAQTDRMFTVQSLYENLADEAQLLGRDLNDFLIHCQYNQEICNIQNFTRYFDGHYFNC  199
+
+Query  187  YTFNSGADGAELLTTTRGGMGNGLDIMLDVQQEEYLPV-----WRDNEETPFEVGIRVQI  241
+            YTFNSG      L T   G  +GL ++L +  ++  PV     +          G+RV +
+Sbjct  200  YTFNSGHQTGTSLLTHATGPQSGLSLILSLDNDD-PPVGGYGSYNIKSNIEHSAGVRVVV  258
+
+Query  242  HSQEEPPIIDQLGLGVSPGYQTFVSCQQQQLSFLPPPWGDCSSASLNPNYEPEPSDPLGS  301
+            H     P     G  V PGY + V  +    + L  P+G+C ++ L              
+Sbjct  259  HPPSTMPSPVDHGFDVPPGYSSSVGLKTIMHARLSNPYGNCQNSRL--------------  304
+
+Query  302  PSPSPSPPYTLMGCRLACETRYVARKCGCRMVYMP----GDVPVC--------------S  343
+               S    +T+  C   C+ R V   CGCR   +P     +   C              +
+Sbjct  305  -QNSSKYIHTVFSCLELCKQRIVMSTCGCRSSNLPEMTSANFTFCGLVENKWNWKDMMKN  363
+
+Query  344  PQQYK----NCAHPAIDAMLRKD---------SCACPNPCASTRYAKELSMVRIPSR---  387
+            P+ Y     N    A +  + K+         SC C  PC  T Y K +S+   P     
+Sbjct  364  PENYNITKINLTELACEERVLKEFSINRAYESSCNCFQPCQETTYQKSISLSYWPLEFNQ  423
+
+Query  388  --AAARFLARKLNRSEAYIAENVL  409
+              A   F   K+N +  + A  +L
+Sbjct  424  LSALETFYGDKINETFLHDAYKML  447
+
+
+ Score = 59.7 bits (143),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 59/106 (56%), Gaps = 5/106 (5%)
+
+Query  353  PAIDAMLRKDSCACPNPCASTRYAKELSMVRIPSRAAARFLARKLNRSEAYIAENVLALD  412
+            PA+ + L  +S   P P A+     E    ++ S    + +     R+   I +N+L L+
+Sbjct  485  PALLSQLLANSTEAPKPAATRDDFIEHVSAKLNSSDKEKQI-----RASNMIRQNLLRLN  539
+
+Query  413  IFFEALNYETVEQKKAYEMSELLGDIGGQMGLFIGASLLTILEILD  458
+            ++ E L+     Q  AYE+++L  DIGG +GL++G S+LTI+E+++
+Sbjct  540  VYLEDLSIIEFRQMPAYELADLFADIGGTLGLWMGISVLTIMELIE  585
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score =  104 bits (260),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 66/261 (25%), Positives = 124/261 (48%), Gaps = 24/261 (9%)
+
+Query  12   RPASDIRVFASNCSMHGLGHVFGPGSLSLRRGMWAAAVVLSVATFLYQVAERVRYYREFH  71
+            R  S+   F  NC++HG+ ++    +  +R+ +W   V+L + +  YQ+ +R+ YY  + 
+Sbjct  46   RSFSNQTEFMKNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSMSYQIIDRIIYYYNYP  105
+
+Query  72   HQTALDERESHRLIFPAVTLCNINPLRRSRLTP----NDLHWAGSALLGLDPAEHAAFLR  127
+                +    +  LIFP+VT+CN N  R ++         L +    +  ++ +E   F  
+Sbjct  106  VSVNVHVNYNRTLIFPSVTICNENAFRATKAVELGRYELLEYIYHDMRYVNSSELERF--  163
+
+Query  128  ALGRPPAPPGFMPSPTFDMAQLYARAGHSLDDMLLDCRFRGQPCGPENFTTIFTRMGKCY  187
+                     G+       M +L+    H  +DM++ C +  +PC  +NF   +T  G CY
+Sbjct  164  ---------GY---NNMTMEELFKSIEHQKEDMIISCMWGSEPCSFKNFKQTYTDHGVCY  211
+
+Query  188  TFNSGADGAELLTTTRGGMGNGLDIMLDVQQEEYLPVWRDNEETPFEVGIRVQIHSQEEP  247
+            T++    G +       G  +GL ++L+V+Q EY+P   +        GI++ +H+++E 
+Sbjct  212  TYSQLQAGNKYQKALSTGADHGLRLILNVEQYEYMPGPNN------AAGIKILMHNEDEF  265
+
+Query  248  PIIDQLGLGVSPGYQTFVSCQ  268
+            P + +LGL +  G   FV  +
+Sbjct  266  PKVHELGLAIPTGSHAFVGLK  286
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 70.5 bits (171),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 41/161 (25%), Positives = 73/161 (45%), Gaps = 18/161 (11%)
+
+Query  307  SPPYTLMGCRLACETRYVARKCGCRMVYMPGDVPVCSPQQYKNCAHPAIDAMLRKDS---  363
+            + PY+ + C   C   ++ R C C   +  G+   C+ ++Y  C   A D      S   
+Sbjct  27   TSPYSQVICEEKCRVDFIIRSCNCSPSFAGGNNRRCTFREYITCERSATDEFFSNKSHLN  86
+
+Query  364  -CACPNPCASTRYAKELSMVRIPSRAAARFLARKLNRSEAYIAENVLALDIFFEALNYET  422
+             C C   C+ T Y+   S+   P R A +   +               + +++E+L  + 
+Sbjct  87   MCNCIRSCSFTSYSISTSVAYYP-RPAHKLPTK-------------FKIHLYYESLILKE  132
+
+Query  423  VEQKKAYEMSELLGDIGGQMGLFIGASLLTILEILDYLCEV  463
+            + +++ +     L   GGQMGLF+GASL+T LE+++ +  V
+Sbjct  133  MSEQEMFTSEAFLAQFGGQMGLFLGASLITALELVELIIMV  173
+
+
+>lcl|28798775 No best human hit identifed in Excel file
+Length=276
+
+ Score = 35.4 bits (80),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 49/227 (22%), Positives = 90/227 (40%), Gaps = 43/227 (19%)
+
+Query  20   FASNCSMHGLGHVFGPGSLSLRRGMWAAAVVLSVATFL-YQVAERVRYYREF----HHQT  74
+            F++N S+HG+ ++    +  LR  ++   +V S    + Y + +    Y        +  
+Sbjct  82   FSNNTSLHGVRNIADSNNTLLR--LFYIGIVASFMILVSYYLIKLFMIYNSHPVNRQYTA  139
+
+Query  75   ALDERESHRLIFPAVTLCNINP--LRRSRLTPNDLHWAGSALLGLDPAEHAAFLRALGRP  132
+            +L E+    L+FP +T+C+ +P  LR   +         + + GLD   +   L +L   
+Sbjct  140  SLQEK----LMFPGITMCDFHPYNLRNQSIFV-------TLIEGLDAKNYTNPLFSLEEE  188
+
+Query  133  PAPPGFMPSPTFDMAQLYARAGHSLDDMLLDCRFRGQPCGPENFTTIFTRMGKCYTFNSG  192
+                        D+   +       D    D  FR        +  I   + KCYTFN+ 
+Sbjct  189  TIYTLLYSDQNDDLESKFNSNELCAD----DWSFR--------WMVIDNDILKCYTFNT-  235
+
+Query  193  ADGAELLTTTRGGMGNGLDIMLDVQQEEYLPVWRDNEETPFEVGIRV  239
+             +  E   T + G+  GL+I+       +  ++RD     +  G+RV
+Sbjct  236  VNKTEPRITNKPGIKYGLEIV-----RNFSDLYRD-----YTTGVRV  272
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2509111060
+
+
+Query= sp|Q16515|ASIC2_HUMAN Acid-sensing ion channel 2 OS=Homo sapiens
+GN=ASIC2 PE=1 SV=1
+
+Length=512
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                158    4e-41
+lcl|28785778  No best human hit identifed in Excel file                112    7e-28
+lcl|28794382  Hsa-SCNN1G                                               111    5e-26
+lcl|28798776  No best human hit identifed in Excel file               69.7    1e-13
+lcl|28798775  No best human hit identifed in Excel file               41.2    6e-04
+lcl|28792224  No best human hit identifed in Excel file               38.1    0.006
+lcl|28804036  Hsa-LRRC15                                              31.6    0.69 
+lcl|28804794  Hsa-ALDOC                                               29.3    3.3  
+lcl|28791168  No best human hit identifed in Excel file               28.5    6.7  
+lcl|28794705  Hsa-C11orf54                                            28.5    6.9  
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score =  158 bits (399),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 107/379 (28%), Positives = 180/379 (47%), Gaps = 40/379 (11%)
+
+Query  5    ESPSEGSLQPSSIQI-FANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVESSER  63
+            E P++   +PSS+ + FA T +LHG+++ F       ++VLW +  +  +   L +  +R
+Sbjct  20   EVPTDDE-KPSSMFLDFAMTCSLHGLKNAFSKSSKKPQKVLWLLLLMTCIAAALFQILDR  78
+
+Query  64   VSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSRLTTNDLYHAGELLALLDVNLQI  123
+            + Y++ Y     +D     SL+FP +T+CN N FR       + Y  G    + +VN + 
+Sbjct  79   ILYFYQYPVSVLLDVNYNDSLLFPTITICNQNKFR-----ATEAYKLGIYRMIENVN-KA  132
+
+Query  124  PDPHLADPSVLEALRQKANFKHYKPKQFSMLEFLHRVGHDLKDMMLYCKFKGQECGHQDF  183
+             +   A  S  E ++Q       K    S  +   ++ H  +DM++ C +  + C  ++F
+Sbjct  133  ENRSFAFSS--EFIQQA------KAMNISERDLRQQIAHTKEDMIIDCHWSSERCAPENF  184
+
+Query  184  TTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAG  243
+            TT+FT  G CY FN+  D    +     GT NGL + L+++Q EY+    ++       G
+Sbjct  185  TTIFTDEGVCYSFNT--DASNPVKVASSGTENGLRLTLNVEQYEYMSGGQKS------VG  236
+
+Query  244  VKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFPVYS  303
+            +KV  H+  + P I++LG   A G  +F   Q   +  LP P G C   ++ L  F  YS
+Sbjct  237  IKVLFHNSHDVPTIKDLGLASATGTNSFFGLQVVEVIGLPKPRGVCEDRKLNL--FYKYS  294
+
+Query  304  ITACRIDCETRYIVENCNCRMVHMP---GDAPFCTPEQHKECAEPALGLLAEKDSNY---  357
+             ++C  +C T  +VE C CR+ +MP      P C+      C  P      ++D  +   
+Sbjct  295  RSSCEAECITYALVETCGCRLSYMPKVNDSVPLCSLVSFITCYIP------QRDKFHSFQ  348
+
+Query  358  --CLCRTPCNLTRYNKELS  374
+              C C  PCN+  ++  +S
+Sbjct  349  LKCDCPLPCNMLLFDPSIS  367
+
+
+ Score = 36.2 bits (82),  Expect = 0.037, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 50/76 (66%), Gaps = 3/76 (4%)
+
+Query  381  KTSAKYLEKKFNK---SEKYISENILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMG  437
+            KT  +Y+ K   +   ++ ++SENIL +  F++ L+YE I  + AY+  +L+ D GG +G
+Sbjct  826  KTVKEYVTKFKERNTINDLFVSENILEIAFFYKQLSYEIITDQVAYDFFSLMCDTGGALG  885
+
+Query  438  LFIGASILTILELFDY  453
+            L +G+SILTI EL D+
+Sbjct  886  LLLGSSILTIFELADF  901
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score =  112 bits (281),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 75/278 (27%), Positives = 135/278 (49%), Gaps = 29/278 (10%)
+
+Query  2    DLKESPSEGSLQPSSIQIFANTS------TLHGIRHIFVYGPLTIRRVLWAVAFVGSLGL  55
+            + K+S S+    P+ I+ F+N +      TLHG+R++ +     IR++LW +  +  LG 
+Sbjct  30   NTKQSGSKTDYLPNWIRSFSNQTEFMKNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGS  89
+
+Query  56   LLVESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSRLTTNDLYHAGELLA  115
+            +  +  +R+ YY++Y     V     ++L+FP+VT+CN N FR ++      Y   ELL 
+Sbjct  90   MSYQIIDRIIYYYNYPVSVNVHVNYNRTLIFPSVTICNENAFRATKAVELGRY---ELLE  146
+
+Query  116  LLDVNLQIPDPHLADPSVLEALRQKANFKHYKPKQFSMLEFLHRVGHDLKDMMLYCKFKG  175
+             +       D    + S LE          +     +M E    + H  +DM++ C +  
+Sbjct  147  YI-----YHDMRYVNSSELE---------RFGYNNMTMEELFKSIEHQKEDMIISCMWGS  192
+
+Query  176  QECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGET  235
+            + C  ++F   +T +G CY ++  + G      +  G  +GL ++L+++Q EY+P  G  
+Sbjct  193  EPCSFKNFKQTYTDHGVCYTYSQLQAGNKYQKALSTGADHGLRLILNVEQYEYMP--GPN  250
+
+Query  236  EETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVA  273
+                  AG+K+ +H++ E P + ELG  +  G   FV 
+Sbjct  251  N----AAGIKILMHNEDEFPKVHELGLAIPTGSHAFVG  284
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score =  111 bits (277),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 99/410 (24%), Positives = 160/410 (39%), Gaps = 68/410 (17%)
+
+Query  15   SSIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVESSERVSYYFSYQHVT  74
+            S I   A  S  HG+  I      T R+VLWA+  +       ++ S  V  Y  +Q V 
+Sbjct  32   SIITELAAESNAHGLAKI-ATSTQTPRKVLWALMVIVGFTAATLQLSLLVRKYLEFQVVE  90
+
+Query  75   KVDEVVAQSLVFPAVTLCNLNGFRFSR---LTTNDLYHAGELLALLDVNLQIPDPHLADP  131
+                     + FPA+T+CN+     ++   L ++D     + L  +D             
+Sbjct  91   VSKMKDGMDVEFPAITVCNIAPISLTKTKELLSSDTSELTQWLRFID-------------  137
+
+Query  132  SVLEALRQKANFKHYKPKQFSMLEFLHRV-------GHDLKDMMLYCKFKGQECGHQDFT  184
+                    K NF     + F++      +       G DL D +++C++  + C  Q+FT
+Sbjct  138  --------KYNFGAQTDRMFTVQSLYENLADEAQLLGRDLNDFLIHCQYNQEICNIQNFT  189
+
+Query  185  TVFT-KYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGE-----TEET  238
+              F   Y  CY FNSG      L T   G  +GL ++L +  D+  P+ G          
+Sbjct  190  RYFDGHYFNCYTFNSGHQTGTSLLTHATGPQSGLSLILSLDNDDP-PVGGYGSYNIKSNI  248
+
+Query  239  TFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDF  298
+               AGV+V +H  S  P   + GF V PG+ + V  +      L  P+G C++S +    
+Sbjct  249  EHSAGVRVVVHPPSTMPSPVDHGFDVPPGYSSSVGLKTIMHARLSNPYGNCQNSRLQNSS  308
+
+Query  299  FPVYSITACRIDCETRYIVENCNCRMVHMP----GDAPFC--------------TPEQHK  340
+              ++++ +C   C+ R ++  C CR  ++P     +  FC               PE + 
+Sbjct  309  KYIHTVFSCLELCKQRIVMSTCGCRSSNLPEMTSANFTFCGLVENKWNWKDMMKNPENYN  368
+
+Query  341  ---------ECAEPALGLLAEKDS--NYCLCRTPCNLTRYNKELSMVKIP  379
+                      C E  L   +   +  + C C  PC  T Y K +S+   P
+Sbjct  369  ITKINLTELACEERVLKEFSINRAYESSCNCFQPCQETTYQKSISLSYWP  418
+
+
+ Score = 59.3 bits (142),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 51/91 (56%), Gaps = 11/91 (12%)
+
+Query  379  PSKTSAKYLE---KKFNKSEK--------YISENILVLDIFFEALNYETIEQKKAYEVAA  427
+            P+ T   ++E    K N S+K         I +N+L L+++ E L+     Q  AYE+A 
+Sbjct  501  PAATRDDFIEHVSAKLNSSDKEKQIRASNMIRQNLLRLNVYLEDLSIIEFRQMPAYELAD  560
+
+Query  428  LLGDIGGQMGLFIGASILTILELFDYIYELI  458
+            L  DIGG +GL++G S+LTI+EL +    L+
+Sbjct  561  LFADIGGTLGLWMGISVLTIMELIELFTRLL  591
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 69.7 bits (169),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 49/180 (27%), Positives = 77/180 (43%), Gaps = 16/180 (9%)
+
+Query  296  LDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPALGLLAEKDS  355
+            LD    YS   C   C   +I+ +CNC      G+   CT  ++  C   A        S
+Sbjct  24   LDNTSPYSQVICEEKCRVDFIIRSCNCSPSFAGGNNRRCTFREYITCERSATDEFFSNKS  83
+
+Query  356  --NYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFFEALN  413
+              N C C   C+ T Y+   S+   P    A  L  KF             + +++E+L 
+Sbjct  84   HLNMCNCIRSCSFTSYSISTSVAYYPRP--AHKLPTKFK------------IHLYYESLI  129
+
+Query  414  YETIEQKKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELIKEKLLDLLGKEEDEG  473
+             + + +++ +   A L   GGQMGLF+GAS++T LEL + I  ++  +   L  +    G
+Sbjct  130  LKEMSEQEMFTSEAFLAQFGGQMGLFLGASLITALELVELIIMVLWTQFRCLPSQAHGAG  189
+
+
+>lcl|28798775 No best human hit identifed in Excel file
+Length=276
+
+ Score = 41.2 bits (95),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 51/231 (22%), Positives = 93/231 (40%), Gaps = 52/231 (23%)
+
+Query  3    LKESPSEGSLQPSSIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVESSE  62
+            ++E   E     S +  F+N ++LHG+R+I       +R  L+ +  V S  +L      
+Sbjct  65   IQEEKKEKDATKSLLMHFSNNTSLHGVRNIADSNNTLLR--LFYIGIVASFMIL------  116
+
+Query  63   RVSYYF--------SYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSRLTTNDLYHAGELL  114
+             VSYY         S+    +    + + L+FP +T+C+ + +                 
+Sbjct  117  -VSYYLIKLFMIYNSHPVNRQYTASLQEKLMFPGITMCDFHPY-----------------  158
+
+Query  115  ALLDVNLQIPDPHLADPSVLEALRQKANFKHYKPKQFSM-LEFLHRVGHDLKDMMLYCKF  173
+                        +L + S+   L +  + K+Y    FS+  E ++ + +  ++  L  KF
+Sbjct  159  ------------NLRNQSIFVTLIEGLDAKNYTNPLFSLEEETIYTLLYSDQNDDLESKF  206
+
+Query  174  KGQECGHQDFT----TVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIM  220
+               E    D++     +     KCY FN+    +P +T  K G   GLEI+
+Sbjct  207  NSNELCADDWSFRWMVIDNDILKCYTFNTVNKTEPRITN-KPGIKYGLEIV  256
+
+
+>lcl|28792224 No best human hit identifed in Excel file
+Length=345
+
+ Score = 38.1 bits (87),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 33/68 (49%), Gaps = 0/68 (0%)
+
+Query  115  ALLDVNLQIPDPHLADPSVLEALRQKANFKHYKPKQFSMLEFLHRVGHDLKDMMLYCKFK  174
+            A++D   + PD  L + ++ E   + ++++  K    S  E L +VG    +  +   FK
+Sbjct  188  AMVDSEEEAPDRELGENTIEEETGRTSDYEKAKESSDSEKETLDKVGSSENEDEVAATFK  247
+
+Query  175  GQECGHQD  182
+            G+E G  D
+Sbjct  248  GKETGDTD  255
+
+
+>lcl|28804036 Hsa-LRRC15
+Length=352
+
+ Score = 31.6 bits (70),  Expect = 0.69, Method: Compositional matrix adjust.
+ Identities = 28/103 (27%), Positives = 48/103 (47%), Gaps = 5/103 (5%)
+
+Query  358  CLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFN---KSEKYISENILVLDIFFEALNY  414
+            C C++P N+   N +LS V  P   + KYL  + N   K ++ +  N+  L I   +LN 
+Sbjct  34   CTCKSPVNVNCENHQLSSVPQPIPMNVKYLHFRNNMIDKIDRGVFHNLTSLQIVDLSLNM  93
+
+Query  415  -ETIEQKKAYEVAAL-LGDIGGQMGLFIGASILTILELFDYIY  455
+             E I+    + + +L + D+   + + IG  I   L     +Y
+Sbjct  94   VENIDHGIFHSLTSLRMLDLSRNIVVNIGRGIFHNLTRLQILY  136
+
+
+>lcl|28804794 Hsa-ALDOC
+Length=309
+
+ Score = 29.3 bits (64),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 27/94 (29%), Positives = 40/94 (43%), Gaps = 18/94 (19%)
+
+Query  327  MPGDAPFCTPEQHKECAE-------PALGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIP  379
+            MP  AP+ TPEQ  E  +       P  G+LA  +S   + +    LT  N E +     
+Sbjct  1    MPAFAPYLTPEQEAELRQIAAAIVAPGKGILAADESTGSMGK---RLTAINVENT-----  52
+
+Query  380  SKTSAKYLEKKFNKSE---KYISENILVLDIFFE  410
+             +   +Y E  F       KYIS  I+  + F++
+Sbjct  53   EENRRRYRELLFTADRECAKYISGVIMFHETFYQ  86
+
+
+>lcl|28791168 No best human hit identifed in Excel file
+Length=564
+
+ Score = 28.5 bits (62),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 23/83 (28%), Positives = 39/83 (47%), Gaps = 1/83 (1%)
+
+Query  378  IPSKTSAKYLEKKFNKSEKYISENILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMG  437
+            +  K+  K ++   + SEK +      +    EA+    +E+K    VA  LG    Q+G
+Sbjct  439  VRPKSVTKQVQTVASTSEKTLMMEDKQVWTVTEAVESRKLEEKDLLRVAKRLGSDWWQVG  498
+
+Query  438  LFIGASILTILELFDYIYELIKE  460
+            +F+G  I T LE+ D     +K+
+Sbjct  499  VFLGIEI-TELEIDDGSNNTVKQ  520
+
+
+>lcl|28794705 Hsa-C11orf54
+Length=315
+
+ Score = 28.5 bits (62),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 25/56 (45%), Gaps = 0/56 (0%)
+
+Query  388  EKKFNKSEKYISENILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMGLFIGAS  443
+            EK F  + + I  N  V DI        T+ ++K Y +  +    G Q G FIGA 
+Sbjct  50   EKPFQLAAEGICGNPCVADIGGPPFLLPTVHKEKIYNIKTISEISGQQDGFFIGAG  105
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2413284644
+
+
+Query= sp|Q9NY37|ASIC5_HUMAN Acid-sensing ion channel 5 OS=Homo sapiens
+GN=ASIC5 PE=1 SV=1
+
+Length=505
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                145    8e-37
+lcl|28785778  No best human hit identifed in Excel file               92.4    8e-21
+lcl|28794382  Hsa-SCNN1G                                              89.4    6e-19
+lcl|28798776  No best human hit identifed in Excel file               66.2    2e-12
+lcl|28798775  No best human hit identifed in Excel file               42.0    3e-04
+lcl|28806331  Hsa-PTN                                                 29.3    1.5  
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score =  145 bits (365),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 98/370 (26%), Positives = 170/370 (46%), Gaps = 32/370 (9%)
+
+Query  40   DFAISTSFHGIHNIVQNRSKI-RRVLWLVVVLGSVSLVTWQIYIRLLNYFTWPTTTSIEV  98
+            DFA++ S HG+ N     SK  ++VLWL++++  ++   +QI  R+L ++ +P +  ++V
+Sbjct  34   DFAMTCSLHGLKNAFSKSSKKPQKVLWLLLLMTCIAAALFQILDRILYFYQYPVSVLLDV  93
+
+Query  99   QYVEKMEFPAVTFCNLNRFQTDAVAKFGVIFFLWHIVSKVLHLQEITANSTGSRE---AT  155
+             Y + + FP +T CN N+F+     K G+    + ++  V        N   +R    ++
+Sbjct  94   NYNDSLLFPTITICNQNKFRATEAYKLGI----YRMIENV--------NKAENRSFAFSS  141
+
+Query  156  DFAASHQNFSIVEF-IRNKGFYLNNSTLLDCEFFGKPCSPKDFAHVFTEYGNCFTFNHGE  214
+            +F    +  +I E  +R +  +     ++DC +  + C+P++F  +FT+ G C++FN   
+Sbjct  142  EFIQQAKAMNISERDLRQQIAHTKEDMIIDCHWSSERCAPENFTTIFTDEGVCYSFNTDA  201
+
+Query  215  TLQAKRKVSVSGRGLSLLFNVNQEAFTDNPALGFVDAGIIFVIHSPKKVPQFDGLGLLSP  274
+            +   K   S +  GL L  NV Q  +      G    GI  + H+   VP    LGL S 
+Sbjct  202  SNPVKVASSGTENGLRLTLNVEQYEYMSG---GQKSVGIKVLFHNSHDVPTIKDLGLASA  258
+
+Query  275  VGMHARVTIRQVKTVHQEYPWGECNPNIKLQNFSSYSTSGCLKECKAQHIKKQCGCVPFL  334
+             G ++   ++ V+ +    P G C    KL  F  YS S C  EC    + + CGC    
+Sbjct  259  TGTNSFFGLQVVEVIGLPKPRGVCEDR-KLNLFYKYSRSSCEAECITYALVETCGCRLSY  317
+
+Query  335  LPGYGIE---CDLQKYFSCVSPVLDHI-EFKDLCTVGTHNSSCPVSCEEIEYPATISYSS  390
+            +P        C L  + +C  P  D    F+  C        CP+ C  + +  +ISY++
+Sbjct  318  MPKVNDSVPLCSLVSFITCYIPQRDKFHSFQLKC-------DCPLPCNMLLFDPSISYTA  370
+
+Query  391  FPSQKALKYL  400
+                K  K +
+Sbjct  371  HSENKVSKLI  380
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score = 92.4 bits (228),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 67/250 (27%), Positives = 125/250 (50%), Gaps = 17/250 (7%)
+
+Query  40   DFAISTSFHGIHNI-VQNRSKIRRVLWLVVVLGSVSLVTWQIYIRLLNYFTWPTTTSIEV  98
+            +F  + + HG+  + + N   IR++LWL++VL  +  +++QI  R++ Y+ +P + ++ V
+Sbjct  53   EFMKNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSMSYQIIDRIIYYYNYPVSVNVHV  112
+
+Query  99   QYVEKMEFPAVTFCNLNRFQTDAVAKFGVIFFLWHIVSKVLHLQEITANSTGSREATDFA  158
+             Y   + FP+VT CN N F+     + G    L +I   + ++         S E   F 
+Sbjct  113  NYNRTLIFPSVTICNENAFRATKAVELGRYELLEYIYHDMRYVN--------SSELERFG  164
+
+Query  159  ASHQNFSIVEFIRNKGFYLNNSTLLDCEFFGKPCSPKDFAHVFTEYGNCFTFNHGETLQA  218
+              + N ++ E  ++   +     ++ C +  +PCS K+F   +T++G C+T++  +    
+Sbjct  165  --YNNMTMEELFKSIE-HQKEDMIISCMWGSEPCSFKNFKQTYTDHGVCYTYSQLQAGNK  221
+
+Query  219  KRKVSVSG--RGLSLLFNVNQEAFTDNPALGFVDAGIIFVIHSPKKVPQFDGLGLLSPVG  276
+             +K   +G   GL L+ NV Q  +   P      AGI  ++H+  + P+   LGL  P G
+Sbjct  222  YQKALSTGADHGLRLILNVEQYEYMPGPNNA---AGIKILMHNEDEFPKVHELGLAIPTG  278
+
+Query  277  MHARVTIRQV  286
+             HA V ++ V
+Sbjct  279  SHAFVGLKLV  288
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score = 89.4 bits (220),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 76/313 (24%), Positives = 136/313 (43%), Gaps = 26/313 (8%)
+
+Query  40   DFAISTSFHGIHNIVQNRSKIRRVLWLVVVLGSVSLVTWQIYIRLLNYFTWPTTTSIEVQ  99
+            + A  ++ HG+  I  +    R+VLW ++V+   +  T Q+ + +  Y  +      +++
+Sbjct  36   ELAAESNAHGLAKIATSTQTPRKVLWALMVIVGFTAATLQLSLLVRKYLEFQVVEVSKMK  95
+
+Query  100  YVEKMEFPAVTFCNLNRFQTDAVAKFGVIFFLWHIVSKVLH-LQEITANSTGSREATDFA  158
+                +EFPA+T CN+         +      L    S++   L+ I   + G++    F 
+Sbjct  96   DGMDVEFPAITVCNIAPISLTKTKEL-----LSSDTSELTQWLRFIDKYNFGAQTDRMFT  150
+
+Query  159  ASHQNFSIVEFIRNKGFYLNNSTLLDCEFFGKPCSPKDFAHVFT-EYGNCFTFNHGETLQ  217
+                  ++ +  +  G  LN+  L+ C++  + C+ ++F   F   Y NC+TFN G    
+Sbjct  151  VQSLYENLADEAQLLGRDLND-FLIHCQYNQEICNIQNFTRYFDGHYFNCYTFNSGHQTG  209
+
+Query  218  AKRKVSVSG--RGLSLLFNVNQEAFTDNPALGFVD----------AGIIFVIHSPKKVPQ  265
+                   +G   GLSL+ +++ +   D P  G+            AG+  V+H P  +P 
+Sbjct  210  TSLLTHATGPQSGLSLILSLDND---DPPVGGYGSYNIKSNIEHSAGVRVVVHPPSTMPS  266
+
+Query  266  FDGLGLLSPVGMHARVTIRQVKTVHQEYPWGECNPNIKLQNFSSY--STSGCLKECKAQH  323
+                G   P G  + V ++ +       P+G C  N +LQN S Y  +   CL+ CK + 
+Sbjct  267  PVDHGFDVPPGYSSSVGLKTIMHARLSNPYGNCQ-NSRLQNSSKYIHTVFSCLELCKQRI  325
+
+Query  324  IKKQCGCVPFLLP  336
+            +   CGC    LP
+Sbjct  326  VMSTCGCRSSNLP  338
+
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 53/86 (62%), Gaps = 9/86 (10%)
+
+Query  397  LKYLSKKLNQSRK--------YIRENLVKIEINYSDLNYKITQQQKAVSVSELLADLGGQ  448
+            ++++S KLN S K         IR+NL+++ +   DL+    +Q  A  +++L AD+GG 
+Sbjct  509  IEHVSAKLNSSDKEKQIRASNMIRQNLLRLNVYLEDLSIIEFRQMPAYELADLFADIGGT  568
+
+Query  449  LGLFCGASLITIIEIIEYLFTNFYWI  474
+            LGL+ G S++TI+E+IE LFT    +
+Sbjct  569  LGLWMGISVLTIMELIE-LFTRLLML  593
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 49/164 (30%), Positives = 72/164 (44%), Gaps = 17/164 (10%)
+
+Query  304  LQNFSSYSTSGCLKECKAQHIKKQCGCVPFLLPGYGIECDLQKYFSCVSPVLDHIEFKDL  363
+            L N S YS   C ++C+   I + C C P    G    C  ++Y +C     D   F + 
+Sbjct  24   LDNTSPYSQVICEEKCRVDFIIRSCNCSPSFAGGNNRRCTFREYITCERSATDEF-FSNK  82
+
+Query  364  CTVGTHNSSCPVSCEEIEYPATISYSSFPSQKALKYLSKKLNQSRKYIRENLVKIEINYS  423
+              +   N  C  SC    Y  + S + +P + A K  +K              KI + Y 
+Sbjct  83   SHLNMCN--CIRSCSFTSYSISTSVAYYP-RPAHKLPTK-------------FKIHLYYE  126
+
+Query  424  DLNYKITQQQKAVSVSELLADLGGQLGLFCGASLITIIEIIEYL  467
+             L  K   +Q+  +    LA  GGQ+GLF GASLIT +E++E +
+Sbjct  127  SLILKEMSEQEMFTSEAFLAQFGGQMGLFLGASLITALELVELI  170
+
+
+>lcl|28798775 No best human hit identifed in Excel file
+Length=276
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 26/112 (23%), Positives = 51/112 (46%), Gaps = 8/112 (7%)
+
+Query  3    QTEKSKVYAENGLLEKIKLCLSKKPLPSPTERKKFDHDFAISTSFHGIHNIVQNRSKIRR  62
+            + EKS   ++N L+++ K              K     F+ +TS HG+ NI  + + + R
+Sbjct  52   KKEKSYTNSQNNLIQEEK--------KEKDATKSLLMHFSNNTSLHGVRNIADSNNTLLR  103
+
+Query  63   VLWLVVVLGSVSLVTWQIYIRLLNYFTWPTTTSIEVQYVEKMEFPAVTFCNL  114
+            + ++ +V   + LV++ +    + Y + P          EK+ FP +T C+ 
+Sbjct  104  LFYIGIVASFMILVSYYLIKLFMIYNSHPVNRQYTASLQEKLMFPGITMCDF  155
+
+
+>lcl|28806331 Hsa-PTN
+Length=121
+
+ Score = 29.3 bits (64),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 18/36 (50%), Gaps = 1/36 (3%)
+
+Query  295  WGECNPNIKLQNFSSYSTSGCLKECKAQHIKKQCGC  330
+            W  C+PN   +N +     G  K+C A  IK + GC
+Sbjct  83   WSACDPNTSTKNMTMMLKKGDPKKCPATRIKSK-GC  117
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2372282235
+
+
+Query= sp|P51168|SCNNB_HUMAN Amiloride-sensitive sodium channel subunit
+beta OS=Homo sapiens GN=SCNN1B PE=1 SV=2
+
+Length=640
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              77.0    9e-15
+lcl|28798254  Hsa-ACCN3                                               76.3    2e-14
+lcl|28785778  No best human hit identifed in Excel file               72.0    6e-14
+lcl|28798776  No best human hit identifed in Excel file               60.5    2e-10
+lcl|28791358  Hsa-FAM185B                                             30.4    2.2  
+lcl|28806830  No best human hit identifed in Excel file               29.3    2.8  
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score = 77.0 bits (188),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 77/306 (25%), Positives = 121/306 (40%), Gaps = 55/306 (18%)
+
+Query  208  FTSATQALTEWY-ILQATNIFAQVPQQELVEMSYPG------------EQMILACLFGAE  254
+             +S T  LT+W   +   N  AQ  +   V+  Y                 ++ C +  E
+Sbjct  122  LSSDTSELTQWLRFIDKYNFGAQTDRMFTVQSLYENLADEAQLLGRDLNDFLIHCQYNQE  181
+
+Query  255  PCNYRNFTSIFYPHYGNCYIFNWG-MTEKALPSANPGTEFGLKLILDIGQED-----YVP  308
+             CN +NFT  F  HY NCY FN G  T  +L +   G + GL LIL +  +D     Y  
+Sbjct  182  ICNIQNFTRYFDGHYFNCYTFNSGHQTGTSLLTHATGPQSGLSLILSLDNDDPPVGGYGS  241
+
+Query  309  F-----LASTAGVRLMLHEQRSYPFIRDEGIYAMSGTETSIGVLVDKLQRMGEPYSPCTV  363
+            +     +  +AGVR+++H   + P   D G     G  +S+G+      R+  PY  C  
+Sbjct  242  YNIKSNIEHSAGVRVVVHPPSTMPSPVDHGFDVPPGYSSSVGLKTIMHARLSNPYGNC--  299
+
+Query  364  NGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPRGEKYC--------  415
+                  +QN     +T +S   CL  C Q  ++  C C     P      +         
+Sbjct  300  --QNSRLQNSSKYIHTVFS---CLELCKQRIVMSTCGCRSSNLPEMTSANFTFCGLVENK  354
+
+Query  416  -NNRDFPDWAHCYSDLQMSVAQ--------RETCIGMCKES-------CNDTQYKMTISM  459
+             N +D       Y+  ++++ +        +E  I    ES       C +T Y+ +IS+
+Sbjct  355  WNWKDMMKNPENYNITKINLTELACEERVLKEFSINRAYESSCNCFQPCQETTYQKSISL  414
+
+Query  460  ADWPSE  465
+            + WP E
+Sbjct  415  SYWPLE  420
+
+
+ Score = 51.2 bits (121),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 32/117 (27%), Positives = 55/117 (47%), Gaps = 5/117 (4%)
+
+Query  8    LKGLHRLQKGPGYTYKELLVWYCDNTNTHGPKRIICEGPK-KKAMWFLLTLLFAALVCWQ  66
+            L+ + +  +   Y    ++      +N HG  +I       +K +W L+ ++       Q
+Sbjct  16   LRTMRQQLRRRNYNALSIITELAAESNAHGLAKIATSTQTPRKVLWALMVIVGFTAATLQ  75
+
+Query  67   WGIFIRTYLSWEVSVSLSVGFKTMD--FPAVTICNASPFKYSKIKHLL-KDLDELME  120
+              + +R YL ++V V +S     MD  FPA+T+CN +P   +K K LL  D  EL +
+Sbjct  76   LSLLVRKYLEFQV-VEVSKMKDGMDVEFPAITVCNIAPISLTKTKELLSSDTSELTQ  131
+
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 50/96 (52%), Gaps = 5/96 (5%)
+
+Query  460  ADWPSEASEDWIFHVLSQ--ERDQSTNITLS---RKGIVKLNIYFQEFNYRTIEESAANN  514
+            A  P+   +D+I HV ++    D+   I  S   R+ +++LN+Y ++ +     +  A  
+Sbjct  498  APKPAATRDDFIEHVSAKLNSSDKEKQIRASNMIRQNLLRLNVYLEDLSIIEFRQMPAYE  557
+
+Query  515  IVWLLSNLGGQFGFWMGGSVLCLIEFGEIIIDFVWI  550
+            +  L +++GG  G WMG SVL ++E  E+    + +
+Sbjct  558  LADLFADIGGTLGLWMGISVLTIMELIELFTRLLML  593
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score = 76.3 bits (186),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 51/189 (27%), Positives = 94/189 (50%), Gaps = 14/189 (7%)
+
+Query  214  ALTEWYILQATNIFAQVPQQELVE-MSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNC  272
+            A +  +I QA  +   + +++L + +++  E MI+ C + +E C   NFT+IF    G C
+Sbjct  138  AFSSEFIQQAKAM--NISERDLRQQIAHTKEDMIIDCHWSSERCAPENFTTIFTDE-GVC  194
+
+Query  273  YIFNWGMTEKALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDE  332
+            Y FN   +   +  A+ GTE GL+L L++ Q +Y+     + G++++ H     P I+D 
+Sbjct  195  YSFNTDASN-PVKVASSGTENGLRLTLNVEQYEYMSGGQKSVGIKVLFHNSHDVPTIKDL  253
+
+Query  333  GIYAMSGTETSIGVLVDKLQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQ  392
+            G+ + +GT +  G+ V ++  + +P   C     +  +  FY      YS  +C   C  
+Sbjct  254  GLASATGTNSFFGLQVVEVIGLPKPRGVC----EDRKLNLFYK-----YSRSSCEAECIT  304
+
+Query  393  DHMIRNCNC  401
+              ++  C C
+Sbjct  305  YALVETCGC  313
+
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 36/72 (50%), Gaps = 3/72 (4%)
+
+Query  36   HGPKRIICEGPKK--KAMWFLLTLLFAALVCWQWGIFIRTYLSWEVSVSLSVGFK-TMDF  92
+            HG K    +  KK  K +W LL +   A   +Q    I  +  + VSV L V +  ++ F
+Sbjct  42   HGLKNAFSKSSKKPQKVLWLLLLMTCIAAALFQILDRILYFYQYPVSVLLDVNYNDSLLF  101
+
+Query  93   PAVTICNASPFK  104
+            P +TICN + F+
+Sbjct  102  PTITICNQNKFR  113
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score = 72.0 bits (175),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 35/125 (28%), Positives = 75/125 (60%), Gaps = 9/125 (7%)
+
+Query  227  FAQVPQQELVE-MSYPGEQMILACLFGAEPCNYRNFTSIFYPHYGNCYIFNW----GMTE  281
+            +  +  +EL + + +  E MI++C++G+EPC+++NF   +  H G CY ++        +
+Sbjct  165  YNNMTMEELFKSIEHQKEDMIISCMWGSEPCSFKNFKQTYTDH-GVCYTYSQLQAGNKYQ  223
+
+Query  282  KALPSANPGTEFGLKLILDIGQEDYVPFLASTAGVRLMLHEQRSYPFIRDEGIYAMSGTE  341
+            KAL +   G + GL+LIL++ Q +Y+P   + AG+++++H +  +P + + G+   +G+ 
+Sbjct  224  KALST---GADHGLRLILNVEQYEYMPGPNNAAGIKILMHNEDEFPKVHELGLAIPTGSH  280
+
+Query  342  TSIGV  346
+              +G+
+Sbjct  281  AFVGL  285
+
+
+ Score = 35.0 bits (79),  Expect = 0.077, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 37/63 (59%), Gaps = 10/63 (16%)
+
+Query  74   YLSWEVSVSLSVGF-KTMDFPAVTICNASPFKYSK---------IKHLLKDLDELMEAVL  123
+            Y ++ VSV++ V + +T+ FP+VTICN + F+ +K         ++++  D+  +  + L
+Sbjct  101  YYNYPVSVNVHVNYNRTLIFPSVTICNENAFRATKAVELGRYELLEYIYHDMRYVNSSEL  160
+
+Query  124  ERI  126
+            ER 
+Sbjct  161  ERF  163
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 59/233 (25%), Positives = 94/233 (40%), Gaps = 42/233 (18%)
+
+Query  351  LQRMGEPYSPCTVNGSEVPVQNFYSDYNTTYSIQACLRSCFQDHMIRNCNCGHYLYPLPR  410
+            L  +G PY P   +   V  Q+   D  + YS   C   C  D +IR+CNC     P   
+Sbjct  1    LTLLGYPYHPIEEDCVSVEKQSLL-DNTSPYSQVICEEKCRVDFIIRSCNCS----PSFA  55
+
+Query  411  GEKYCNNR--DFPDWAHCYSDLQMSVAQRETCIGMCK--ESCNDTQYKMTISMADWPSEA  466
+            G    NNR   F ++  C           ++ + MC    SC+ T Y ++ S+A +P  A
+Sbjct  56   GG---NNRRCTFREYITCERSATDEFFSNKSHLNMCNCIRSCSFTSYSISTSVAYYPRPA  112
+
+Query  467  SEDWIFHVLSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQF  526
+                  H L  +               K+++Y++    + + E         L+  GGQ 
+Sbjct  113  ------HKLPTK--------------FKIHLYYESLILKEMSEQEMFTSEAFLAQFGGQM  152
+
+Query  527  GFWMGGSVLCLIEFGEIIIDFVWITIIKLVALAKSLRQRRAQASYAGPPPTVA  579
+            G ++G S++  +E  E+II  +W             R   +QA  AG P ++A
+Sbjct  153  GLFLGASLITALELVELIIMVLW----------TQFRCLPSQAHGAGFPVSMA  195
+
+
+>lcl|28791358 Hsa-FAM185B
+Length=471
+
+ Score = 30.4 bits (67),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 34/78 (44%), Gaps = 15/78 (19%)
+
+Query  334  IYAMSGTETSIGVL------------VDKLQRMGEPYSPCTVNGSEVPVQNFYSDY-NTT  380
+            +Y + G   S GVL            V K  R+      C+V G  + +QN Y+D  N T
+Sbjct  256  VYCVKGDIESSGVLQGNIRLKCQNQGVIKADRLQGQTIHCSVGGGTMDIQNIYADTCNLT  315
+
+Query  381  YSIQACLR--SCFQDHMI  396
+             S +A L   SC  D MI
+Sbjct  316  ASARAQLSIGSCHGDTMI  333
+
+
+>lcl|28806830 No best human hit identifed in Excel file
+Length=139
+
+ Score = 29.3 bits (64),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 26/54 (48%), Gaps = 0/54 (0%)
+
+Query  475  LSQERDQSTNITLSRKGIVKLNIYFQEFNYRTIEESAANNIVWLLSNLGGQFGF  528
+            L Q+  +     L  K I+K N  +   + R +++SAAN + W++       GF
+Sbjct  15   LLQDSRKERRPKLRYKDILKSNFKWSRISSRRLDDSAANRLSWMILTTRAAAGF  68
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3127284786
+
+
+Query= sp|P37088|SCNNA_HUMAN Amiloride-sensitive sodium channel subunit
+alpha OS=Homo sapiens GN=SCNN1A PE=1 SV=1
+
+Length=669
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              77.0    9e-15
+lcl|28798776  No best human hit identifed in Excel file               53.5    4e-08
+lcl|28798254  Hsa-ACCN3                                               52.0    6e-07
+lcl|28785778  No best human hit identifed in Excel file               46.6    1e-05
+lcl|28798775  No best human hit identifed in Excel file               43.9    1e-04
+lcl|28798161  No best human hit identifed in Excel file               32.7    0.47 
+lcl|28794341  Hsa-PCDHB2                                              32.0    1.00 
+lcl|28793044  Hsa-MED12L                                              30.4    2.8  
+lcl|28806729  No best human hit identifed in Excel file               30.0    3.3  
+lcl|28795322  Hsa-SFRS16                                              29.3    6.3  
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score = 77.0 bits (188),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 67/259 (26%), Positives = 107/259 (41%), Gaps = 48/259 (19%)
+
+Query  275  LGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSNL-WMSSMPGINNGLSLMLR  333
+            L +F+  C++NQ  CN  N++ +    Y NCYTFN  + +    ++   G  +GLSL+L 
+Sbjct  169  LNDFLIHCQYNQEICNIQNFTRYFDGHYFNCYTFNSGHQTGTSLLTHATGPQSGLSLILS  228
+
+Query  334  AEQND----------FIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVETSISMRKET  383
+             + +D              +    G RV+VH         D GF++ PG  +S+ ++   
+Sbjct  229  LDNDDPPVGGYGSYNIKSNIEHSAGVRVVVHPPSTMPSPVDHGFDVPPGYSSSVGLKTIM  288
+
+Query  384  LDRLGGDYGDCTKNGSDVPVENLYPSKYTQQV--CIHSCFQESMIKECGCAYIFYPR--P  439
+              RL   YG+C     +  ++N   SKY   V  C+  C Q  ++  CGC     P    
+Sbjct  289  HARLSNPYGNC----QNSRLQN--SSKYIHTVFSCLELCKQRIVMSTCGCRSSNLPEMTS  342
+
+Query  440  QNVEYCDYRKHSSWGY---------------------CYYKLQVDFSSDHL---GCFTKC  475
+             N  +C   ++  W +                     C  ++  +FS +      C   C
+Sbjct  343  ANFTFCGLVEN-KWNWKDMMKNPENYNITKINLTELACEERVLKEFSINRAYESSC--NC  399
+
+Query  476  RKPCSVTSYQLSAGYSRWP  494
+             +PC  T+YQ S   S WP
+Sbjct  400  FQPCQETTYQKSISLSYWP  418
+
+
+ Score = 45.8 bits (107),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  515  NNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMAELVF  574
+            N  R  + ++N++ ++L+     + P+  +  L +++G    LW G SVL+++E+ EL  
+Sbjct  529  NMIRQNLLRLNVYLEDLSIIEFRQMPAYELADLFADIGGTLGLWMGISVLTIMELIELFT  588
+
+Query  575  DLLVIMF  581
+             LL+++F
+Sbjct  589  RLLMLIF  595
+
+
+ Score = 37.0 bits (84),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 37/81 (46%), Gaps = 4/81 (5%)
+
+Query  69   HGAIRLVCSQHNRMKTAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSD--KLV  126
+            HG  ++  S     K   WA++ +  F     Q  LL  +Y  + V + ++   D   + 
+Sbjct  44   HGLAKIATSTQTPRK-VLWALMVIVGFTAATLQLSLLVRKYLEFQV-VEVSKMKDGMDVE  101
+
+Query  127  FPAVTICTLNPYRYPEIKEEL  147
+            FPA+T+C + P    + KE L
+Sbjct  102  FPAITVCNIAPISLTKTKELL  122
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 47/194 (24%), Positives = 82/194 (42%), Gaps = 28/194 (14%)
+
+Query  393  DCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIFYPRPQNVEYCDYRKHSS  452
+            DC        ++N  P  Y+Q +C   C  + +I+ C C+  F     N   C +R++ +
+Sbjct  14   DCVSVEKQSLLDNTSP--YSQVICEEKCRVDFIIRSCNCSPSF--AGGNNRRCTFREYIT  69
+
+Query  453  WGYCYYKLQVDFSSD--HLGCFTKCRKPCSVTSYQLSAGYSRWPSVTSQEWVFQMLSRQN  510
+               C      +F S+  HL     C + CS TSY +S   + +P                
+Sbjct  70   ---CERSATDEFFSNKSHLN-MCNCIRSCSFTSYSISTSVAYYPRPA-------------  112
+
+Query  511  NYTVNNKRNGVAKVNIFFKELNYKTNSESPSVTMVTLLSNLGSQWSLWFGSSVLSVVEMA  570
+                 +K     K++++++ L  K  SE    T    L+  G Q  L+ G+S+++ +E+ 
+Sbjct  113  -----HKLPTKFKIHLYYESLILKEMSEQEMFTSEAFLAQFGGQMGLFLGASLITALELV  167
+
+Query  571  ELVFDLLVIMFLML  584
+            EL+  +L   F  L
+Sbjct  168  ELIIMVLWTQFRCL  181
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score = 52.0 bits (123),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 57/237 (24%), Positives = 98/237 (41%), Gaps = 19/237 (8%)
+
+Query  257  INILSR-LPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTFNDKNNSN  315
+            +NI  R L + +   +ED     I  C ++   C   N++       G CY+FN   ++ 
+Sbjct  150  MNISERDLRQQIAHTKED----MIIDCHWSSERCAPENFTTIFTDE-GVCYSFNTDASNP  204
+
+Query  316  LWMSSMPGINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGFNLRPGVET  375
+            + ++S  G  NGL L L  EQ +++       G +V+ H   +   + D G     G  +
+Sbjct  205  VKVAS-SGTENGLRLTLNVEQYEYMSGGQKSVGIKVLFHNSHDVPTIKDLGLASATGTNS  263
+
+Query  376  SISMRKETLDRLGGDYGDCTKNGSDVPVENLYPSKYTQQVCIHSCFQESMIKECGCAYIF  435
+               ++   +  L    G C     D  +   Y  KY++  C   C   ++++ CGC   +
+Sbjct  264  FFGLQVVEVIGLPKPRGVC----EDRKLNLFY--KYSRSSCEAECITYALVETCGCRLSY  317
+
+Query  436  YPRPQN-VEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRKPCSVTSYQLSAGYS  491
+             P+  + V  C      S+  CY   +  F S  L C   C  PC++  +  S  Y+
+Sbjct  318  MPKVNDSVPLCSL---VSFITCYIPQRDKFHSFQLKC--DCPLPCNMLLFDPSISYT  369
+
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 40/176 (23%), Positives = 75/176 (43%), Gaps = 20/176 (11%)
+
+Query  26   REEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTA  85
+            R E+G   E    + PT +E+           +F  F    ++HG          + +  
+Sbjct  7    RFEKGNVEEGPTVEVPTDDEKP--------SSMFLDFAMTCSLHGLKNAFSKSSKKPQKV  58
+
+Query  86   FWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLN-SDKLVFPAVTICTLNPYRYPE--  142
+             W +L +       +Q       ++ YPVS+ +++N +D L+FP +TIC  N +R  E  
+Sbjct  59   LWLLLLMTCIAAALFQILDRILYFYQYPVSVLLDVNYNDSLLFPTITICNQNKFRATEAY  118
+
+Query  143  ---IKEELEELDRITEQTLFDLYKYSS--FTTLVAGSRSRRDLRGTLPHPLQRLRV  193
+               I   +E +++   ++    + +SS       A + S RDLR  + H  + + +
+Sbjct  119  KLGIYRMIENVNKAENRS----FAFSSEFIQQAKAMNISERDLRQQIAHTKEDMII  170
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 34/102 (33%), Positives = 56/102 (55%), Gaps = 2/102 (2%)
+
+Query  39   QQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVLWLCTFGMM  98
+            +Q  ++ + L  + RS+    EF   N T+HG   L  S    ++   W +L L   G M
+Sbjct  32   KQSGSKTDYLPNWIRSFSNQTEFM-KNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSM  90
+
+Query  99   YWQFGLLFGEYFSYPVSLNINLNSDK-LVFPAVTICTLNPYR  139
+             +Q       Y++YPVS+N+++N ++ L+FP+VTIC  N +R
+Sbjct  91   SYQIIDRIIYYYNYPVSVNVHVNYNRTLIFPSVTICNENAFR  132
+
+
+ Score = 46.6 bits (109),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 31/133 (23%), Positives = 66/133 (50%), Gaps = 7/133 (5%)
+
+Query  250  EWYRFHYINI-LSRLPETLPSLEEDTLGNFIFACRFNQVSCNQANYSHFHHPMYGNCYTF  308
+            E  RF Y N+ +  L +++   +ED     I +C +    C+  N+   +   +G CYT+
+Sbjct  159  ELERFGYNNMTMEELFKSIEHQKED----MIISCMWGSEPCSFKNFKQTYTD-HGVCYTY  213
+
+Query  309  NDKNNSNLWMSSMP-GINNGLSLMLRAEQNDFIPLLSTVTGARVMVHGQDEPAFMDDGGF  367
+            +     N +  ++  G ++GL L+L  EQ +++P  +   G ++++H +DE   + + G 
+Sbjct  214  SQLQAGNKYQKALSTGADHGLRLILNVEQYEYMPGPNNAAGIKILMHNEDEFPKVHELGL  273
+
+Query  368  NLRPGVETSISMR  380
+             +  G    + ++
+Sbjct  274  AIPTGSHAFVGLK  286
+
+
+>lcl|28798775 No best human hit identifed in Excel file
+Length=276
+
+ Score = 43.9 bits (102),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 29/115 (25%), Positives = 55/115 (48%), Gaps = 9/115 (8%)
+
+Query  25   KREEQGLGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKT  84
+            K+E+     +    Q+   E++A        + L   F NNT++HG +R +   +N +  
+Sbjct  52   KKEKSYTNSQNNLIQEEKKEKDAT-------KSLLMHFSNNTSLHG-VRNIADSNNTLLR  103
+
+Query  85   AFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLN-SDKLVFPAVTICTLNPY  138
+             F+  +      ++ +    LF  Y S+PV+     +  +KL+FP +T+C  +PY
+Sbjct  104  LFYIGIVASFMILVSYYLIKLFMIYNSHPVNRQYTASLQEKLMFPGITMCDFHPY  158
+
+
+>lcl|28798161 No best human hit identifed in Excel file
+Length=492
+
+ Score = 32.7 bits (73),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 19/60 (32%), Positives = 25/60 (42%), Gaps = 5/60 (8%)
+
+Query  420  CFQESMIKEC--GCAYIFYPRPQNVEYCDYRKHSSWGYCYYKLQVDFSSDHLGCFTKCRK  477
+            C+ +   KEC   CA+  YP     EY D R       C   +  DF   H+ C   CR+
+Sbjct  428  CYNQKFYKECCWTCAFFKYPHLHECEYGDRRTDCLVQNC---VAYDFQKRHIDCCFTCRQ  484
+
+
+>lcl|28794341 Hsa-PCDHB2
+Length=769
+
+ Score = 32.0 bits (71),  Expect = 1.00, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 27/46 (59%), Gaps = 5/46 (11%)
+
+Query  257  INILSRLPETLPSLEEDT-LGNFIFACRF---NQVSCNQANYSHFH  298
+            +N +++ PE LPS+ E   +GNFI   +    N+VSC   N+ HF 
+Sbjct  353  MNFIAKSPENLPSISEGVKVGNFIAYVKVTDDNEVSC-YINHDHFQ  397
+
+
+>lcl|28793044 Hsa-MED12L
+Length=2141
+
+ Score = 30.4 bits (67),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 27/92 (29%), Positives = 36/92 (39%), Gaps = 6/92 (7%)
+
+Query  31   LGPEPAAPQQPTAEEEALIEFHRSYRELFEFFCNNTTIHGAIRLVCSQHNRMKTAFWAVL  90
+            LGP    PQ P  +E+ L     S   +   F NN TI       C   N+ K A ++ +
+Sbjct  52   LGPPDVYPQDPKQKEDEL-----STLNVKHGFNNNCTITDEYGSACRSINQDKVALFSKV  106
+
+Query  91   WLCTFGMMYWQFGL-LFGEYFSYPVSLNINLN  121
+              C   MM  +  L  F +       LNI  N
+Sbjct  107  GTCFSSMMTKKTELNTFQDTGKKKQQLNIKDN  138
+
+
+>lcl|28806729 No best human hit identifed in Excel file
+Length=364
+
+ Score = 30.0 bits (66),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 37/81 (46%), Gaps = 5/81 (6%)
+
+Query  84   TAFWAVLWLCTFGMMYWQFGLLFGEYFSYPVSLNINLNSDKLVFPAVTICTLNPYRYPEI  143
+            T  WA+ +L  F  ++W+   +F   F+   S    +    L++     C +NPY Y   
+Sbjct  287  TLLWAICYLLHFIAIFWR---MFEHNFNDTESDRKQILYKLLIYSFYLKCAVNPYLYGTF  343
+
+Query  144  KEEL-EELDRITEQTLFDLYK  163
+              +   EL R+ ++  F LYK
+Sbjct  344  NRQFYSELQRLFQKA-FQLYK  363
+
+
+>lcl|28795322 Hsa-SFRS16
+Length=732
+
+ Score = 29.3 bits (64),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 17/59 (29%), Positives = 30/59 (51%), Gaps = 5/59 (8%)
+
+Query  143  IKEELEELDRITEQTLFDLYKYSSFTTLVAGSRSRRDLRGTLPHPLQRLRVPPPPHGAR  201
+            ++++ EEL+ + +  L +  K        AG +SRR+ R      LQ  ++ PP + AR
+Sbjct  229  LRKDKEELEALRQAKLLEEEK-----AQFAGRKSRRERRAYKEKKLQGRKISPPSYAAR  282
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3277395832
+
+
+Query= sp|P51170|SCNNG_HUMAN Amiloride-sensitive sodium channel subunit
+gamma OS=Homo sapiens GN=SCNN1G PE=1 SV=4
+
+Length=649
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              70.1    1e-12
+lcl|28798254  Hsa-ACCN3                                               67.4    1e-11
+lcl|28785778  No best human hit identifed in Excel file               60.1    6e-10
+lcl|28798776  No best human hit identifed in Excel file               48.5    2e-06
+lcl|28798775  No best human hit identifed in Excel file               45.1    5e-05
+lcl|28802242  Hsa-ABCB4                                               31.6    1.3  
+lcl|28802482  Hsa-GRIN1                                               31.6    1.3  
+lcl|28785798  No best human hit identifed in Excel file               29.6    2.4  
+lcl|28788488  No best human hit identifed in Excel file               30.4    2.4  
+lcl|28791815  Hsa-TBRG4                                               29.3    5.9  
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score = 70.1 bits (170),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 46/179 (26%), Positives = 84/179 (47%), Gaps = 15/179 (8%)
+
+Query  255  ELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNN-RENETILSTSMGGSEYGLQVILYIN  313
+            + L+ C ++   C+ +NFT +    + NCYTFN+  +  T L T   G + GL +IL ++
+Sbjct  171  DFLIHCQYNQEICNIQNFTRYFDGHYFNCYTFNSGHQTGTSLLTHATGPQSGLSLILSLD  230
+
+Query  314  EEE-----YNPFLVSST-----GAKVIIHRQDEYPFVEDVGTEIETAMVTSIGMHLTESF  363
+             ++     Y  + + S      G +V++H     P   D G ++     +S+G+      
+Sbjct  231  NDDPPVGGYGSYNIKSNIEHSAGVRVVVHPPSTMPSPVDHGFDVPPGYSSSVGLKTIMHA  290
+
+Query  364  KLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAANY  422
+            +LS PY  C     +  ++N     +++  CL  C Q  ++  CGC   + P   +AN+
+Sbjct  291  RLSNPYGNC----QNSRLQNSSKYIHTVFSCLELCKQRIVMSTCGCRSSNLPEMTSANF  345
+
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 31/107 (29%), Positives = 47/107 (44%), Gaps = 5/107 (5%)
+
+Query  36   TNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLV---FSFYTVSVSIKVHFRKL  92
+            +N HG  +I  S    R++LW    +        Q +LLV     F  V VS       +
+Sbjct  41   SNAHGLAKIATSTQTPRKVLWALMVIVGFTAATLQLSLLVRKYLEFQVVEVSKMKDGMDV  100
+
+Query  93   DFPAVTICNINPYKYSTVRHLLADLEQETREALKSL--YGFPESRKR  137
+            +FPA+T+CNI P   +  + LL+    E  + L+ +  Y F     R
+Sbjct  101  EFPAITVCNIAPISLTKTKELLSSDTSELTQWLRFIDKYNFGAQTDR  147
+
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 42/68 (62%), Gaps = 1/68 (1%)
+
+Query  487  DQGRQVN-KKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVC  545
+            D+ +Q+    + + +L +L ++ +DL+     + PA  +  L ++ GG LGLWM  SV+ 
+Sbjct  520  DKEKQIRASNMIRQNLLRLNVYLEDLSIIEFRQMPAYELADLFADIGGTLGLWMGISVLT  579
+
+Query  546  VIEIIEVF  553
+            ++E+IE+F
+Sbjct  580  IMELIELF  587
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score = 67.4 bits (163),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 47/175 (27%), Positives = 81/175 (46%), Gaps = 11/175 (6%)
+
+Query  235  MNIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFNNRENETI  294
+            MNI ++  L ++I  +++ E++++ C +    C   NFT       G CY+FN   +  +
+Sbjct  150  MNI-SERDLRQQI--AHTKEDMIIDCHWSSERCAPENFTTIFTD-EGVCYSFNTDASNPV  205
+
+Query  295  LSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAMVTS  354
+               S  G+E GL++ L + + EY      S G KV+ H   + P ++D+G    T   + 
+Sbjct  206  KVAS-SGTENGLRLTLNVEQYEYMSGGQKSVGIKVLFHNSHDVPTIKDLGLASATGTNSF  264
+
+Query  355  IGMHLTESFKLSEPYSQCTEDGSDVPIRNIYNAAYSLQICLHSCFQTKMVEKCGC  409
+             G+ + E   L +P   C +   ++  +      YS   C   C    +VE CGC
+Sbjct  265  FGLQVVEVIGLPKPRGVCEDRKLNLFYK------YSRSSCEAECITYALVETCGC  313
+
+
+ Score = 39.3 bits (90),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 30/110 (27%), Positives = 55/110 (50%), Gaps = 10/110 (9%)
+
+Query  7    IKAKIKKNLPVTGP--QAPTIKE----LMRWYCLNTNTHGCRRIVV-SRGRLRRLLWIGF  59
+            ++ + +K     GP  + PT  E    +   + +  + HG +     S  + +++LW+  
+Sbjct  4    VRNRFEKGNVEEGPTVEVPTDDEKPSSMFLDFAMTCSLHGLKNAFSKSSKKPQKVLWLLL  63
+
+Query  60   TLTAVALILWQCA--LLVFSFYTVSVSIKVHFR-KLDFPAVTICNINPYK  106
+             +T +A  L+Q    +L F  Y VSV + V++   L FP +TICN N ++
+Sbjct  64   LMTCIAAALFQILDRILYFYQYPVSVLLDVNYNDSLLFPTITICNQNKFR  113
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score = 60.1 bits (144),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 38/128 (30%), Positives = 69/128 (54%), Gaps = 10/128 (8%)
+
+Query  236  NIMAQVPLEKKINMSYSAEELLVTCFFDGVSCDARNFTLFHHPMHGNCYTFN----NREN  291
+            N M    L K I   +  E+++++C +    C  +NF   +   HG CYT++      + 
+Sbjct  166  NNMTMEELFKSI--EHQKEDMIISCMWGSEPCSFKNFKQTYTD-HGVCYTYSQLQAGNKY  222
+
+Query  292  ETILSTSMGGSEYGLQVILYINEEEYNPFLVSSTGAKVIIHRQDEYPFVEDVGTEIETAM  351
+            +  LST   G+++GL++IL + + EY P   ++ G K+++H +DE+P V ++G  I T  
+Sbjct  223  QKALST---GADHGLRLILNVEQYEYMPGPNNAAGIKILMHNEDEFPKVHELGLAIPTGS  279
+
+Query  352  VTSIGMHL  359
+               +G+ L
+Sbjct  280  HAFVGLKL  287
+
+
+ Score = 35.0 bits (79),  Expect = 0.076, Method: Compositional matrix adjust.
+ Identities = 26/76 (34%), Positives = 40/76 (53%), Gaps = 4/76 (5%)
+
+Query  35   NTNTHGCRRIVVSRGRL-RRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHF---R  90
+            N   HG R + +S   + R+LLW+   L  +  + +Q    +  +Y   VS+ VH    R
+Sbjct  57   NCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSMSYQIIDRIIYYYNYPVSVNVHVNYNR  116
+
+Query  91   KLDFPAVTICNINPYK  106
+             L FP+VTICN N ++
+Sbjct  117  TLIFPSVTICNENAFR  132
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 46/200 (23%), Positives = 85/200 (43%), Gaps = 40/200 (20%)
+
+Query  365  LSEPYSQCTEDGSDVPIRNIYN--AAYSLQICLHSCFQTKMVEKCGCAQYSQPLPPAAN-  421
+            L  PY    ED   V  +++ +  + YS  IC   C    ++  C C+    P     N 
+Sbjct  4    LGYPYHPIEEDCVSVEKQSLLDNTSPYSQVICEEKCRVDFIIRSCNCS----PSFAGGNN  59
+
+Query  422  -YCNYQQHPNWMYCYYQLHRAFVQEELGCQS-----VCKEACSFKEWTLTTSLAQWPSVV  475
+              C +++       Y    R+   E    +S      C  +CSF  ++++TS+A +P   
+Sbjct  60   RRCTFRE-------YITCERSATDEFFSNKSHLNMCNCIRSCSFTSYSISTSVAYYP---  109
+
+Query  476  SEKWLLPVLTWDQGRQVNKKLNKTDLAKLLIFYKDLNQRSIMESPANSIEMLLSNFGGQL  535
+                          R  +K   K    K+ ++Y+ L  + + E    + E  L+ FGGQ+
+Sbjct  110  --------------RPAHKLPTK---FKIHLYYESLILKEMSEQEMFTSEAFLAQFGGQM  152
+
+Query  536  GLWMSCSVVCVIEIIEVFFI  555
+            GL++  S++  +E++E+  +
+Sbjct  153  GLFLGASLITALELVELIIM  172
+
+
+>lcl|28798775 No best human hit identifed in Excel file
+Length=276
+
+ Score = 45.1 bits (105),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 42/93 (45%), Gaps = 13/93 (14%)
+
+Query  21   QAPTIKELMRWYCLNTNTHGCRRIVVSRGRLRRLLWIGFTLTAVALILWQCALLVFSF--  78
+            +    K L+  +  NT+ HG R I  S   L RL +IG   + + L+ +    L   +  
+Sbjct  71   EKDATKSLLMHFSNNTSLHGVRNIADSNNTLLRLFYIGIVASFMILVSYYLIKLFMIYNS  130
+
+Query  79   ------YTVSVSIKVHFRKLDFPAVTICNINPY  105
+                  YT S+       KL FP +T+C+ +PY
+Sbjct  131  HPVNRQYTASLQ-----EKLMFPGITMCDFHPY  158
+
+
+>lcl|28802242 Hsa-ABCB4
+Length=658
+
+ Score = 31.6 bits (70),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 32/69 (46%), Gaps = 14/69 (20%)
+
+Query  29   MRWYCLNTNTHG--CRRIVVSRGRLR---------RLLWIGFTLTAVA---LILWQCALL  74
+            M W+    NT G  C R+ V   R++          +  +G  LTAV    +  W+ ALL
+Sbjct  182  MSWFDDKNNTTGLLCTRLTVDSARVKGASGVKIGLSVQILGHMLTAVICCFIYEWRLALL  241
+
+Query  75   VFSFYTVSV  83
+            VF+F  V V
+Sbjct  242  VFAFVPVMV  250
+
+
+>lcl|28802482 Hsa-GRIN1
+Length=989
+
+ Score = 31.6 bits (70),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 29/116 (25%), Positives = 53/116 (46%), Gaps = 25/116 (22%)
+
+Query  49   GRLRRLLWIGFTLTAVALILWQCALLVFSFYTVSVSIKVHFRKLDFPAVTICNI------  102
+             R+  ++W GF            A+++ + YT +++    F  LD P  +I  I      
+Sbjct  628  ARVLGMVWAGF------------AMIIVASYTANLAA---FLVLDRPEASISGIDDPRLR  672
+
+Query  103  NP---YKYSTVRHLLADLEQETREALKSLYGFPESRKRREA-ESWNSVSEGKQPRF  154
+            NP   +KY+TV+    ++  + +  L ++Y   E+R    A E+ + V +GK   F
+Sbjct  673  NPQENFKYATVKKSAVEMYFKRQVELSTMYRTMETRNYNTAEEAIDDVRKGKLQAF  728
+
+
+>lcl|28785798 No best human hit identifed in Excel file
+Length=174
+
+ Score = 29.6 bits (65),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 22/85 (26%), Positives = 36/85 (42%), Gaps = 1/85 (1%)
+
+Query  443  VQEELGCQSVCKEACSFKEWTLTTSLAQWPSVVSEKWLLPV-LTWDQGRQVNKKLNKTDL  501
+            ++EE  C+S CK A    E TL      WP +   +  +   L   Q R++ +    + L
+Sbjct  85   IREEELCRSCCKPAIETYEGTLNIQATHWPCLKRYQSTISYSLLEAQRREIEEADTVSAL  144
+
+Query  502  AKLLIFYKDLNQRSIMESPANSIEM  526
+            A L +     +  S M  P ++  M
+Sbjct  145  ASLSMVTAKRSGSSAMSEPESAEPM  169
+
+
+>lcl|28788488 No best human hit identifed in Excel file
+Length=370
+
+ Score = 30.4 bits (67),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 47/194 (24%), Positives = 70/194 (36%), Gaps = 34/194 (18%)
+
+Query  474  VVSEKWLLPVLTWDQGRQVN-----KKLNKT-----------------DLAKLLIFYKDL  511
+            V S  WL  VLT D+ R V      K L K                  +L K  +FY +L
+Sbjct  140  VTSSIWLTMVLTIDRFRFVRYPFHAKTLCKRSYAILKSAIVFFASSLENLPKFFMFYVEL  199
+
+Query  512  NQRSIMESPANSIEMLLSNFGGQLGLWMSCSVVCVIEIIEVFFIDFFSIIARRQWQKAKE  571
+            +     +     +    SN    +  W    +V  I ++ + FI+F+ + A  Q QK + 
+Sbjct  200  DSSG--DCYTTQLSTFFSNTESLIIRWFHILLVNAIPLVTLTFINFYLVYAVHQAQKLRR  257
+
+Query  572  WWAWK--QAPPCPEAPRSPQGQDNPA--LDIDDDLPTF-NSALHLPPALGTQVPGTPPPK  626
+                K  Q+    +  R      +      I   +  F N  + +    G Q   TP  K
+Sbjct  258  CMQAKGRQSSSVTDQQRMTVTLISITFLFIICTTMSAFVNQVIAVAFYGGPQTVKTPLFK  317
+
+Query  627  YNTLRLERAFSNQL  640
+            +      RAFSN L
+Sbjct  318  F-----LRAFSNFL  326
+
+
+>lcl|28791815 Hsa-TBRG4
+Length=653
+
+ Score = 29.3 bits (64),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 2/31 (6%)
+
+Query  86   KVHFRKLDFPAVTICNINPYKYSTV--RHLL  114
+            ++ F+ LDFP +T+C + P    T+  RHL+
+Sbjct  584  RIAFKVLDFPDMTLCTVKPTGLHTMAARHLI  614
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3179599959
+
+
+Query= sp|P51172|SCNND_HUMAN Amiloride-sensitive sodium channel subunit
+delta OS=Homo sapiens GN=SCNN1D PE=1 SV=2
+
+Length=638
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              66.2    2e-11
+lcl|28798254  Hsa-ACCN3                                               55.8    4e-08
+lcl|28785778  No best human hit identifed in Excel file               47.0    1e-05
+lcl|28798776  No best human hit identifed in Excel file               43.5    8e-05
+lcl|28800237  No best human hit identifed in Excel file               34.3    0.14 
+lcl|28786326  Hsa-CDC73                                               30.4    2.5  
+
+
+>lcl|28794382 Hsa-SCNN1G
+Length=628
+
+ Score = 66.2 bits (160),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 58/257 (23%), Positives = 101/257 (39%), Gaps = 43/257 (17%)
+
+Query  253  GSQDGHFVLSCSYDGLDCQARQFRTFHHPTYGSCYTVDGVWTAQRPGITH------GVGL  306
+            G     F++ C Y+   C  + F  +    Y +CYT +         +TH      G+ L
+Sbjct  166  GRDLNDFLIHCQYNQEICNIQNFTRYFDGHYFNCYTFNSGHQTGTSLLTHATGPQSGLSL  225
+
+Query  307  VLRVEQQP-------HLPLLSTL---AGIRVMVHGRNHTPFLGHHSFSVRPGTEATISIR  356
+            +L ++             + S +   AG+RV+VH  +  P    H F V PG  +++ ++
+Sbjct  226  ILSLDNDDPPVGGYGSYNIKSNIEHSAGVRVVVHPPSTMPSPVDHGFDVPPGYSSSVGLK  285
+
+Query  357  EDEVHRLGSPYGHCTAGGEGVEVELLHNTSYTRQACLVSCFQQLMVETCSCGYYLHP--L  414
+                 RL +PYG+C         + +H    T  +CL  C Q++++ TC C     P   
+Sbjct  286  TIMHARLSNPYGNCQNSRLQNSSKYIH----TVFSCLELCKQRIVMSTCGCRSSNLPEMT  341
+
+Query  415  PAGAEYCSSARHP-AWGH-------------------CFYRLYQDLETHR-LPCTSRCPR  453
+             A   +C    +   W                     C  R+ ++   +R    +  C +
+Sbjct  342  SANFTFCGLVENKWNWKDMMKNPENYNITKINLTELACEERVLKEFSINRAYESSCNCFQ  401
+
+Query  454  PCRESAFKLSTGTSRWP  470
+            PC+E+ ++ S   S WP
+Sbjct  402  PCQETTYQKSISLSYWP  418
+
+
+ Score = 46.2 bits (108),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 43/90 (48%), Gaps = 8/90 (9%)
+
+Query  491  SHRQRSSLAKINIVYQELNYRSVEEAPVYSVPQLLSAMGSLCSLWFGASVLSLLELLELL  550
+            S+  R +L ++N+  ++L+     + P Y +  L + +G    LW G SVL+++EL+EL 
+Sbjct  528  SNMIRQNLLRLNVYLEDLSIIEFRQMPAYELADLFADIGGTLGLWMGISVLTIMELIELF  587
+
+Query  551  LDASALTLVLGGRRLRRAWFSWPRASPASG  580
+                 L L+    +        P A P + 
+Sbjct  588  --TRLLMLIFSSEK------KIPNADPVTN  609
+
+
+>lcl|28798254 Hsa-ACCN3
+Length=924
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 53/217 (24%), Positives = 85/217 (39%), Gaps = 23/217 (11%)
+
+Query  251  SHGSQDGHFVLSCSYDGLDCQARQFRTFHHPTYGSCYTVDGVWTAQRP------GITHGV  304
+            +H  +D   ++ C +    C    F T      G CY+ +    A  P      G  +G+
+Sbjct  162  AHTKED--MIIDCHWSSERCAPENFTTIFTDE-GVCYSFNT--DASNPVKVASSGTENGL  216
+
+Query  305  GLVLRVEQQPHLPLLSTLAGIRVMVHGRNHTPFLGHHSFSVRPGTEATISIREDEVHRLG  364
+             L L VEQ  ++       GI+V+ H  +  P +     +   GT +   ++  EV  L 
+Sbjct  217  RLTLNVEQYEYMSGGQKSVGIKVLFHNSHDVPTIKDLGLASATGTNSFFGLQVVEVIGLP  276
+
+Query  365  SPYGHCTAGGEGVEVELLHNTSYTRQACLVSCFQQLMVETCSCGY-YLHPLPAGAEYCSS  423
+             P G C    E  ++ L +   Y+R +C   C    +VETC C   Y+  +      CS 
+Sbjct  277  KPRGVC----EDRKLNLFY--KYSRSSCEAECITYALVETCGCRLSYMPKVNDSVPLCSL  330
+
+Query  424  ARHPAWGHCFYRLYQDLETHRLPCTSRCPRPCRESAF  460
+                ++  C+        + +L C   CP PC    F
+Sbjct  331  V---SFITCYIPQRDKFHSFQLKCD--CPLPCNMLLF  362
+
+
+>lcl|28785778 No best human hit identifed in Excel file
+Length=289
+
+ Score = 47.0 bits (110),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 25/108 (23%), Positives = 51/108 (47%), Gaps = 7/108 (6%)
+
+Query  255  QDGHFVLSCSYDGLDCQARQFRTFHHPTYGSCYTVDGVWTAQR------PGITHGVGLVL  308
+            Q    ++SC +    C  + F+   +  +G CYT   +    +       G  HG+ L+L
+Sbjct  180  QKEDMIISCMWGSEPCSFKNFKQ-TYTDHGVCYTYSQLQAGNKYQKALSTGADHGLRLIL  238
+
+Query  309  RVEQQPHLPLLSTLAGIRVMVHGRNHTPFLGHHSFSVRPGTEATISIR  356
+             VEQ  ++P  +  AGI++++H  +  P +     ++  G+ A + ++
+Sbjct  239  NVEQYEYMPGPNNAAGIKILMHNEDEFPKVHELGLAIPTGSHAFVGLK  286
+
+
+ Score = 32.0 bits (71),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 30/95 (32%), Positives = 47/95 (49%), Gaps = 3/95 (3%)
+
+Query  61   TFFCTNATIHGAIRLVCSRGNRLKTTSWGLLSLGALVALCWQLGLLFERHWHRPVLMAVS  120
+            T F  N T+HG   L  S    ++   W LL L  L ++ +Q+      +++ PV + V 
+Sbjct  52   TEFMKNCTLHGVRYLSLSNTFIIRKLLWLLLVLLCLGSMSYQIIDRIIYYYNYPVSVNVH  111
+
+Query  121  VHSERKLL-PLVTLCDGNPRRPSPV--LRHLELLD  152
+            V+  R L+ P VT+C+ N  R +    L   ELL+
+Sbjct  112  VNYNRTLIFPSVTICNENAFRATKAVELGRYELLE  146
+
+
+>lcl|28798776 No best human hit identifed in Excel file
+Length=202
+
+ Score = 43.5 bits (101),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 45/193 (23%), Positives = 82/193 (42%), Gaps = 29/193 (15%)
+
+Query  363  LGSPYGHCTAGGEGVEVE-LLHNTS-YTRQACLVSCFQQLMVETCSCGYYLHPLPAGAEY  420
+            LG PY         VE + LL NTS Y++  C   C    ++ +C+C     P  AG   
+Sbjct  4    LGYPYHPIEEDCVSVEKQSLLDNTSPYSQVICEEKCRVDFIIRSCNCS----PSFAGGNN  59
+
+Query  421  --CSSARHPAWGHCFYRLYQDLETHRLPCTSRCPRPCRESAFKLSTGTSRWPSAKSAGWT  478
+              C+   +          +   ++H   C   C R C  +++ +ST  + +P        
+Sbjct  60   RRCTFREYITCERSATDEFFSNKSHLNMC--NCIRSCSFTSYSISTSVAYYP--------  109
+
+Query  479  LATLGEQGLPHQSHRQRSSLAKINIVYQELNYRSVEEAPVYSVPQLLSAMGSLCSLWFGA  538
+                        +H+  +   KI++ Y+ L  + + E  +++    L+  G    L+ GA
+Sbjct  110  ----------RPAHKLPTKF-KIHLYYESLILKEMSEQEMFTSEAFLAQFGGQMGLFLGA  158
+
+Query  539  SVLSLLELLELLL  551
+            S+++ LEL+EL++
+Sbjct  159  SLITALELVELII  171
+
+
+>lcl|28800237 No best human hit identifed in Excel file
+Length=420
+
+ Score = 34.3 bits (77),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 34/137 (25%), Positives = 58/137 (42%), Gaps = 22/137 (16%)
+
+Query  160  DSLYNVN-LSKGRAALSATVPRHEPPFHLD-----REIRLQRLSHSGS--RVRVGFRLCN  211
+            D+L N+N L +G   +    P+++   HL+       I + R+ ++ +     + + L N
+Sbjct  189  DNLDNINCLFRGDKEIVFVDPKYQDKIHLNAHGSYSNIDVDRMDYTQNPELAEIEYHLGN  248
+
+Query  212  STGGDCFY---------RGYTSGVAAVQDWYH---FHYVDILALL-PAAWEDSHGSQDGH  258
+             T GDC Y         R Y S + AV  W++    H +D+   L P  ++ +       
+Sbjct  249  MTSGDCLYIPYLWIHQVRSYGSNL-AVNVWWNNSKNHLIDVNKCLKPCRYDLTLADVSFS  307
+
+Query  259  FVLSCSYDGLDCQARQF  275
+            F    + D  D Q R F
+Sbjct  308  FREDDNDDLTDFQNRMF  324
+
+
+>lcl|28786326 Hsa-CDC73
+Length=523
+
+ Score = 30.4 bits (67),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  29   PRPGPPSAPPPPPKEGHQEGLVELPASFRELLTFFCTNATIHGAIRLVCSRGNR  82
+            PRP   + PPP  K+G +  ++ +PA+   L+T F +   +   +R + +   R
+Sbjct  343  PRPISQARPPPNLKKGSRTPVIIIPAAATSLITMFNSKDMLQD-LRFLSTEEKR  395
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3115659192
+
+
+Query= sp|Q9BRQ5|ORAI3_HUMAN Protein orai-3 OS=Homo sapiens GN=ORAI3 PE=1
+SV=2
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                187    1e-57
+lcl|28789341  Hsa-ANKRD50                                             31.2    0.70 
+lcl|28787559  No best human hit identifed in Excel file               30.4    0.77 
+lcl|28799865  Hsa-BRD2                                                29.3    2.2  
+lcl|28786253  Hsa-CIRH1A                                              27.3    9.9  
+
+
+>lcl|28800208 Hsa-ORAI3
+Length=206
+
+ Score =  187 bits (474),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 86/127 (68%), Positives = 106/127 (83%), Gaps = 0/127 (0%)
+
+Query  48   ALSWRRLYLSRAKLKASSRTSALLSGFAMVAMVEVQLESDHEYPPGLLVAFSACTTVLVA  107
+             LSWR+LYL RAKLKASSRTSALLSGFAMVAMVE+Q E     P  LLVAFS CTT+LVA
+Sbjct  9    VLSWRKLYLGRAKLKASSRTSALLSGFAMVAMVEIQFEEKSPLPDCLLVAFSVCTTLLVA  68
+
+Query  108  VHLFALMVSTCLLPHIEAVSNIHNLNSVHQSPHQRLHRYVELAWGFSTALGTFLFLAEVV  167
+            VHL ALM+STC+LP+IEAVSN+++ ++V +SPH+++  Y+E+AWGFST LGT LFL E+ 
+Sbjct  69   VHLIALMISTCILPNIEAVSNMNSFSAVKESPHEKMRWYIEMAWGFSTGLGTLLFLVEIA  128
+
+Query  168  LVGWVKF  174
+            ++ WVKF
+Sbjct  129  ILSWVKF  135
+
+
+ Score = 59.3 bits (142),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 38/51 (75%), Gaps = 0/51 (0%)
+
+Query  238  HGPGWQAAMASTAIMVPVGLVFVAFALHFYRSLVAHKTDRYKQELEELNRL  288
+            + P   AAMASTA+++PV ++F+ F +HFY+ LVAHK +  ++EL+EL  L
+Sbjct  136  YKPSVNAAMASTALVIPVLILFIIFGIHFYKRLVAHKYEHTERELQELKEL  186
+
+
+>lcl|28789341 Hsa-ANKRD50
+Length=4701
+
+ Score = 31.2 bits (69),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  226   CPPRQACGGGGAHGPGWQAAMASTAIMVP  254
+             C PR  C  G  HG    A MAST++M+P
+Sbjct  2996  CTPRFLCSAGEGHGALALAMMASTSLMIP  3024
+
+
+>lcl|28787559 No best human hit identifed in Excel file
+Length=312
+
+ Score = 30.4 bits (67),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 13/56 (23%), Positives = 26/56 (46%), Gaps = 0/56 (0%)
+
+Query  119  LLPHIEAVSNIHNLNSVHQSPHQRLHRYVELAWGFSTALGTFLFLAEVVLVGWVKF  174
+            +LP++   S    ++ + Q  + +L R  +L  GF    G FL     + +  ++F
+Sbjct  8    VLPNVRNTSKKELMDFLQQYINPQLERIEDLGSGFDLCFGMFLLFPNSIKISDIRF  63
+
+
+>lcl|28799865 Hsa-BRD2
+Length=1144
+
+ Score = 29.3 bits (64),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 29/51 (57%), Gaps = 2/51 (4%)
+
+Query  180  PLDTPTPMVPTS-RVPGTLAP-VATSLSPASNLPRSSASAAPSQAEPACPP  228
+            P+    PM P+      T+ P + T+++  SN+P ++ +++ + A+P  PP
+Sbjct  839  PVTHSLPMQPSRPTATATVKPQIKTTINSGSNVPAANLASSQNNAKPGSPP  889
+
+
+>lcl|28786253 Hsa-CIRH1A
+Length=685
+
+ Score = 27.3 bits (59),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 24/91 (26%), Positives = 40/91 (44%), Gaps = 10/91 (11%)
+
+Query  81   EVQLESDHEYP--------PGLLVAFSACTTVLVAVHLFALMVSTCLLPHIEAVSNIHNL  132
+            +VQL+S H+ P           +VA+S  TT    ++   L+     LP   AV ++ N 
+Sbjct  383  QVQLKSKHDRPVICCALTSDAKMVAYS--TTTDSRIYCLNLVTDPSQLPSCPAVEHLKNF  440
+
+Query  133  NSVHQSPHQRLHRYVELAWGFSTALGTFLFL  163
+            +S+    HQ +  +    +  +T  GT   L
+Sbjct  441  SSMLLPAHQMVFTHDSSKFILATNAGTLQIL  471
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1193842400
+
+
+Query= sp|Q96D31|CRCM1_HUMAN Calcium release-activated calcium channel
+protein 1 OS=Homo sapiens GN=ORAI1 PE=1 SV=2
+
+Length=301
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                235    2e-76
+lcl|28786253  Hsa-CIRH1A                                              27.7    7.3  
+
+
+>lcl|28800208 Hsa-ORAI3
+Length=206
+
+ Score =  235 bits (600),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 123/234 (53%), Positives = 154/234 (66%), Gaps = 38/234 (16%)
+
+Query  67   NEHSMQALSWRKLYLSRAKLKASSRTSALLSGFAMVAMVEVQLDADHDYPPGLLIAFSAC  126
+            NE +   LSWRKLYL RAKLKASSRTSALLSGFAMVAMVE+Q +     P  LL+AFS C
+Sbjct  3    NETTASVLSWRKLYLGRAKLKASSRTSALLSGFAMVAMVEIQFEEKSPLPDCLLVAFSVC  62
+
+Query  127  TTVLVAVHLFALMISTCILPNIEAVSNVHNLNSVKESPHERMHRHIELAWAFSTVIGTLL  186
+            TT+LVAVHL ALMISTCILPNIEAVSN+++ ++VKESPHE+M  +IE+AW FST +GTLL
+Sbjct  63   TTLLVAVHLIALMISTCILPNIEAVSNMNSFSAVKESPHEKMRWYIEMAWGFSTGLGTLL  122
+
+Query  187  FLAEVVLLCWVKFLPLKKQPGQPRPTSKPPASGAAANVSTSGITPGQAAAIASTTIMVPF  246
+            FL E+ +L WVKF                               P   AA+AST +++P 
+Sbjct  123  FLVEIAILSWVKFYK-----------------------------PSVNAAMASTALVIPV  153
+
+Query  247  GLIFIVFAVHFYRSLVSHK---TDRQFQELNELAEFARLQDQLDHRGDHPLTPG  297
+             ++FI+F +HFY+ LV+HK   T+R+ QEL EL        ++D     P+TPG
+Sbjct  154  LILFIIFGIHFYKRLVAHKYEHTERELQELKELV------IKIDQDISLPITPG  201
+
+
+>lcl|28786253 Hsa-CIRH1A
+Length=685
+
+ Score = 27.7 bits (60),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 24/91 (26%), Positives = 41/91 (45%), Gaps = 10/91 (11%)
+
+Query  106  EVQLDADHDYP--------PGLLIAFSACTTVLVAVHLFALMISTCILPNIEAVSNVHNL  157
+            +VQL + HD P           ++A+S  TT    ++   L+     LP+  AV ++ N 
+Sbjct  383  QVQLKSKHDRPVICCALTSDAKMVAYS--TTTDSRIYCLNLVTDPSQLPSCPAVEHLKNF  440
+
+Query  158  NSVKESPHERMHRHIELAWAFSTVIGTLLFL  188
+            +S+    H+ +  H    +  +T  GTL  L
+Sbjct  441  SSMLLPAHQMVFTHDSSKFILATNAGTLQIL  471
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1219107735
+
+
+Query= sp|Q96SN7|ORAI2_HUMAN Protein orai-2 OS=Homo sapiens GN=ORAI2 PE=1
+SV=1
+
+Length=254
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                231    1e-75
+
+
+>lcl|28800208 Hsa-ORAI3
+Length=206
+
+ Score =  231 bits (589),  Expect = 1e-75, Method: Compositional matrix adjust.
+ Identities = 115/206 (56%), Positives = 150/206 (73%), Gaps = 16/206 (8%)
+
+Query  40   SNHHSVQALSWRKLYLSRAKLKASSRTSALLSGFAMVAMVEVQLETQYQYPRPLLIAFSA  99
+            +N  +   LSWRKLYL RAKLKASSRTSALLSGFAMVAMVE+Q E +   P  LL+AFS 
+Sbjct  2    TNETTASVLSWRKLYLGRAKLKASSRTSALLSGFAMVAMVEIQFEEKSPLPDCLLVAFSV  61
+
+Query  100  CTTVLVAVHLFALLISTCILPNVEAVSNIHNLNSISESPHERMHPYIELAWGFSTVLGIL  159
+            CTT+LVAVHL AL+ISTCILPN+EAVSN+++ +++ ESPHE+M  YIE+AWGFST LG L
+Sbjct  62   CTTLLVAVHLIALMISTCILPNIEAVSNMNSFSAVKESPHEKMRWYIEMAWGFSTGLGTL  121
+
+Query  160  LFLAEVVLLCWIKFLPVDARRQPGPPPGPGSHTGWQAALVSTIIMVPVGLIFVVFTIHFY  219
+            LFL E+ +L W+KF       +P             AA+ ST +++PV ++F++F IHFY
+Sbjct  122  LFLVEIAILSWVKF------YKPSV----------NAAMASTALVIPVLILFIIFGIHFY  165
+
+Query  220  RSLVRHKTERHNREIEELHKLKVQLD  245
+            + LV HK E   RE++EL +L +++D
+Sbjct  166  KRLVAHKYEHTERELQELKELVIKID  191
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 958649120
+
+
+Query= sp|Q99572|P2RX7_HUMAN P2X purinoceptor 7 OS=Homo sapiens GN=P2RX7
+PE=1 SV=4
+
+Length=595
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                203    1e-58
+lcl|28783439  No best human hit identifed in Excel file               30.0    0.57 
+lcl|28807544  Hsa-PLXNA1                                              30.8    2.2  
+lcl|28810206  No best human hit identifed in Excel file               27.7    2.9  
+lcl|28788292  Hsa-DDX58                                               29.3    6.2  
+lcl|28795288  Hsa-CCDC53                                              28.1    7.7  
+lcl|28799637  No best human hit identifed in Excel file               28.9    9.0  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  203 bits (517),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 130/339 (38%), Positives = 180/339 (53%), Gaps = 22/339 (6%)
+
+Query  8    SDVFQYETNKVTRIQSMNYGTIKWFFHVIIFSYVC-FALVSDKLYQRKEPVISSVHTKVK  66
+            S +F+Y+T K+  I S   G I     +II  Y+  + +V  K YQ  + V+ S+ TKVK
+Sbjct  9    SLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVGSISTKVK  68
+
+Query  67   GIAEVKEEIVENGVKKLVHSVFDTADYTFPLQGN-SFFVMTNFLKTEGQEQRLCPEYPTR  125
+            GIA     I+ +        V+D ADY  P Q N + FVMTN + T  Q QR CP+    
+Sbjct  69   GIALTNRTILSD-----TPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQR-CPQDVAS  122
+
+Query  126  RTLCSSDRGCKKGWMDPQSKGIQTGRCVVYEGN-QKTCEVSAWCPIEAVEEAPRPALLNS  184
+               C++D  C    M P   G +TGRCV    N  K CE+ AWCP E   +     LL S
+Sbjct  123  GDFCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFE--NDTLGEPLLKS  180
+
+Query  185  AENFTVLIKNNIDFPGHNYTTRNILPGLN----ITCTF--HKTQNPQCPIFRLGDIFRET  238
+            A NFT+ +KNN+ FP    + RNI+   N      C +      N  CPIF + DI    
+Sbjct  181  AANFTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLV  240
+
+Query  239  -GDNFSDVAIQ-GGIMGIEIYWDCNLDRWFHHCRPKYSFRRLDDKTTNVSLYPGYNFRYA  296
+             GD+ ++  ++ G  + + I W+CNLD     C P+Y F RLD   +NV +  G+NFR+A
+Sbjct  241  KGDDSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLD--RSNV-VSEGFNFRFA  297
+
+Query  297  KYYKENNVEKRTLIKVFGIRFDILVFGTGGKFDIIQLVV  335
+            KY++  N   RTLIK +GI+F I + G  GKF I+ L++
+Sbjct  298  KYFQNENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLL  336
+
+
+>lcl|28783439 No best human hit identifed in Excel file
+Length=75
+
+ Score = 30.0 bits (66),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 16/37 (43%), Positives = 24/37 (65%), Gaps = 1/37 (3%)
+
+Query  74   EIVENGVKKLVHSVFDTADYTFPLQGNSFFVMTNFLK  110
+            E+V+N  + LV + F+ ADY F L  NSF ++ N L+
+Sbjct  16   ELVDNSFE-LVDNAFELADYCFELIDNSFELVGNALQ  51
+
+
+>lcl|28807544 Hsa-PLXNA1
+Length=1840
+
+ Score = 30.8 bits (68),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 30/126 (24%), Positives = 50/126 (40%), Gaps = 13/126 (10%)
+
+Query  123  PTRRTLCSSDRGCKKGW-----MDPQSKGIQTGRCVVYEGNQKTCEVSAWCPIEAVEEAP  177
+            P R T C       K +     ++ ++K I  G   +++G   +C V     I    +  
+Sbjct  83   PVRETQCGMKLSLTKNYNKVLLLNQENKLISCGS--IFQG---SCHVRNLENISISTDIN  137
+
+Query  178  RPALLNSAENFTVLI---KNNIDFPGHNYTTRNILPGLNITCTFHKTQNPQCPIFRLGDI  234
+            +P   N     TV     K+ I +   +YT  ++L  ++I   FHK    +    R  D 
+Sbjct  138  QPMAANQRNASTVAFITHKSGILYLATSYTRSDLLEDISIWRVFHKKNWKKLASIRYSDK  197
+
+Query  235  FRETGD  240
+            FR+  D
+Sbjct  198  FRKNVD  203
+
+
+>lcl|28810206 No best human hit identifed in Excel file
+Length=67
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 30/54 (56%), Gaps = 1/54 (2%)
+
+Query  494  LEELCCRKKPGACITTSELFRKLVLSRHVLQFLLLYQEPLLALDVDSTNSRLRH  547
+            ++ L C K  G  I   E  + L +SR +LQ+LL  ++ L A + D  +S+ +H
+Sbjct  14   IQLLECYKALGKTIQL-EAAQSLGISRSLLQYLLKNEDNLHAKEYDGCSSKRKH  66
+
+
+>lcl|28788292 Hsa-DDX58
+Length=649
+
+ Score = 29.3 bits (64),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 33/135 (24%), Positives = 51/135 (38%), Gaps = 26/135 (19%)
+
+Query  156  EGNQKTCEVSAWCPIEAVEEAPRPALLNSAENFTVLIKNNIDFPGHNYTTRNILPGLNIT  215
+            E + K C+V   C   A+ E  +  L+NS  + T+                      N+ 
+Sbjct  107  ENDGKCCKVIFLCNQTALAEQQKTVLMNSFPDLTI----------------------NVI  144
+
+Query  216  CTFHKTQNPQCPIFRLGDIFRETGDNFSDVAIQGGIMGIEIYWDCNLDRWFH-HCRPKYS  274
+                ++Q+ +   F L DI   T     D    G I G+ I     +D   H +C+  Y+
+Sbjct  145  YGSPESQSKKMESFNLSDIVVMTPQCLVDNLKLGRIEGLSIITLLIIDECHHTYCKHPYN  204
+
+Query  275  F---RRLDDKTTNVS  286
+                R LDDK   V+
+Sbjct  205  ILMSRYLDDKFKKVN  219
+
+
+>lcl|28795288 Hsa-CCDC53
+Length=166
+
+ Score = 28.1 bits (61),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 22/46 (48%), Gaps = 2/46 (4%)
+
+Query  437  TDLSRLPLALHDTPPIPGQPEEIQLLRKEATPRSRDSPVWCQCGSC  482
+            T  S  P  + +TP  P +P  +Q   KEATP + DS       SC
+Sbjct  86   TSESTSPSTVANTPSQPTEP--VQQTTKEATPSAADSXXXSNTCSC  129
+
+
+>lcl|28799637 No best human hit identifed in Excel file
+Length=3470
+
+ Score = 28.9 bits (63),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 44/95 (46%), Gaps = 17/95 (18%)
+
+Query  424   VKGQEVPRPAMDFTD-LSRLPLALHDTPPIPGQPEEIQLLRKEATPRSRDSPVWCQCGSC  482
+             VK   V R  +DF D L+    A+ DT           L +K   P+  D  +  +  SC
+Sbjct  2224  VKKFAVRRTTVDFKDKLNVFKTAIVDT----------DLNQKPIMPKINDPNILERKRSC  2273
+
+Query  483   --LPSQLPESHRCLEELCCRKK----PGACITTSE  511
+               LP+++P+   CL+ +C + +    PG  I+ ++
+Sbjct  2274  AKLPNEIPQVEECLDRICDKSQKLYSPGNTISENQ  2308
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2865708921
+
+
+Query= sp|P56373|P2RX3_HUMAN P2X purinoceptor 3 OS=Homo sapiens GN=P2RX3
+PE=2 SV=2
+
+Length=397
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                265    4e-84
+lcl|28786700  No best human hit identifed in Excel file               31.2    0.82 
+lcl|28795073  No best human hit identifed in Excel file               30.8    1.1  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  265 bits (677),  Expect = 4e-84, Method: Compositional matrix adjust.
+ Identities = 150/388 (39%), Positives = 225/388 (58%), Gaps = 23/388 (6%)
+
+Query  4    ISDFFTYETTKSVVVKSWTIGIINRVVQLLIISYFVGWVFLHEKAYQVRDTAIESSVVTK  63
+            +S  F Y+T K V + S  +GIINR++QL+II Y VG+V +++K YQ  D  +  S+ TK
+Sbjct  8    LSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVV-GSISTK  66
+
+Query  64   VKGSGLYANR--------VMDVSDYVTPPQGTSVFVIITKMIVTENQMQGFCPESEEKYR  115
+            VKG  L  NR        V DV+DYV PPQ      ++T  I+T NQ Q  CP+      
+Sbjct  67   VKGIAL-TNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQR-CPQDVASGD  124
+
+Query  116  -CVSDSQCGPERL--PGGGILTGRCVNYS-SVLRTCEIQGWCPTEVDTVETPIMMEAENF  171
+             C +D+ C  E +   G G  TGRCVN S +  + CEI  WCP E DT+  P++  A NF
+Sbjct  125  FCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFENDTLGEPLLKSAANF  184
+
+Query  172  TIFIKNSIRFPLFNFEKGNLLPNLTARDMKTCRFHPDK--DPFCPILRVGDVVKFAGQDF  229
+            TIF+KN++ FP F   + N++     R +  CR+ P    + FCPI  + D++     D 
+Sbjct  185  TIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGDD  244
+
+Query  230  A--KLARTGGVLGIKIGWVCDLDKAWDQCIPKYSFTRLDSVSEKSSVSPGYNFRFAKYYK  287
+            +   + + G  + + I W C+LD + D+C+P+Y FTRLD     + VS G+NFRFAKY++
+Sbjct  245  STESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLD---RSNVVSEGFNFRFAKYFQ  301
+
+Query  288  MENGSEYRTLLKAFGIRFDVLVYGNAGKFNIIPTIISSVAAFTSVGVGTVLCDIILLNFL  347
+             EN S  RTL+KA+GI+F + + G AGKF+I+P +++  +    + + +V+ DII+L  L
+Sbjct  302  NENQS-MRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVL  360
+
+Query  348  KGADQYKAKKFEEVNETTLKIAALTNPV  375
+            K  + Y+ KK++ V++          P+
+Sbjct  361  KSKNFYREKKYQNVDDNVYSAMKEDTPI  388
+
+
+>lcl|28786700 No best human hit identifed in Excel file
+Length=435
+
+ Score = 31.2 bits (69),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  214  PILRVGDVVKFAGQDFAKLARTGGVLGIKIGWVCDLDKAWDQ  255
+            P ++V   VK  G+   +  RTG    +   W C+++  W +
+Sbjct  300  PYIKVTISVKHRGRQLQRHKRTGRAAEMSANWQCEMETDWKR  341
+
+
+>lcl|28795073 No best human hit identifed in Excel file
+Length=390
+
+ Score = 30.8 bits (68),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 12/48 (25%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  29   VVQLLIISYFVGWVFLHEKAYQVRDTAIESSVVTKVKGSGLYANRVMD  76
+            ++++L +   + W+F+H K  Q +     ++   K+    L+ N VMD
+Sbjct  266  IIEILFLEESIRWLFVHGKMEQAKKVLKRAAHQNKINFDHLWKNYVMD  313
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1764750923
+
+
+Query= sp|Q99571|P2RX4_HUMAN P2X purinoceptor 4 OS=Homo sapiens GN=P2RX4
+PE=1 SV=2
+
+Length=388
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                333    1e-110
+lcl|28796348  Hsa-MUC6                                                32.7    0.27  
+lcl|28798969  No best human hit identifed in Excel file               29.3    2.3   
+lcl|28809834  Hsa-ATP2C1                                              29.3    3.1   
+lcl|28795053  No best human hit identifed in Excel file               28.1    4.8   
+lcl|28810391  No best human hit identifed in Excel file               28.5    5.6   
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  333 bits (854),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 184/381 (48%), Positives = 259/381 (68%), Gaps = 16/381 (4%)
+
+Query  5    CAALAAFLFEYDTPRIVLIRSRKVGLMNRAVQLLILAYVIGWVFVWEKGYQETDSVVSSV  64
+            C  + + +FEYDTP+IV I S+KVG++NR +QL+I+ Y++G+V V++KGYQE D VV S+
+Sbjct  4    CDFILSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVGSI  63
+
+Query  65   TTKVKGVAVTNTSKLGFR--IWDVADYVIPAQEENSLFVMTNVILTMNQTQGLCPEIPDA  122
+            +TKVKG+A+TN + L     +WDVADYV+P QE  ++FVMTN I+T NQTQ  CP+   +
+Sbjct  64   STKVKGIALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQ-RCPQDVAS  122
+
+Query  123  TTVCKSDASCTAGSAGTHSNGVSTGRCV--AFNGSVKTCEVAAWCPVEDDTHVPQPAFLK  180
+               C +DA C A +     +G  TGRCV  + NG+ K CE+ AWCP E+DT + +P  LK
+Sbjct  123  GDFCTTDADCPAETMIPSGDGFRTGRCVNSSQNGT-KVCEIYAWCPFENDT-LGEP-LLK  179
+
+Query  181  AAENFTLLVKNNIWYPKFNFSKRNILPNITTTYLKSCIYDAK--TDPFCPIFRLGKIVE-  237
+            +A NFT+ VKNN+ +PKF  S+RNI+       L  C YD +  T+ FCPIF +  I++ 
+Sbjct  180  SAANFTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDL  239
+
+Query  238  -NAGHSFQDMAVEGGIMGIQVNWDCNLDRAASLCLPRYSFRRLDTRDVEHNVSPGYNFRF  296
+                 S + +   G  + + + W+CNLD +   CLP Y F RLD  +V   VS G+NFRF
+Sbjct  240  VKGDDSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNV---VSEGFNFRF  296
+
+Query  297  AKYYRDLAGNEQRTLIKAYGIRFDIIVFGKAGKFDIIPTMINIGSGLALLGMATVLCDII  356
+            AKY+++      RTLIKAYGI+F I + G+AGKF I+P ++N+GSGLALL +A+V+ DII
+Sbjct  297  AKYFQN-ENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADII  355
+
+Query  357  VLYCMKKRLYYREKKYKYVED  377
+            +LY +K + +YREKKY+ V+D
+Sbjct  356  MLYVLKSKNFYREKKYQNVDD  376
+
+
+>lcl|28796348 Hsa-MUC6
+Length=903
+
+ Score = 32.7 bits (73),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 33/72 (46%), Gaps = 12/72 (17%)
+
+Query  201  SKRNILP-NITTTYLKSCIYDAKTDPFCPIFRLGKIVENAGHSFQDMAVEGGIMGIQVNW  259
+            S RNILP N+   Y + C+YDA          LG   E    +  + A +    G+ VNW
+Sbjct  802  SCRNILPDNVVKEYYEDCLYDACG------CNLGGDCECLCTAVANFATKCATNGVPVNW  855
+
+Query  260  DCNLDRAASLCL  271
+                 R++ LC+
+Sbjct  856  -----RSSELCV  862
+
+
+>lcl|28798969 No best human hit identifed in Excel file
+Length=252
+
+ Score = 29.3 bits (64),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 38/85 (45%), Gaps = 2/85 (2%)
+
+Query  9    AAFLFEYDTPRIVL-IRSRKVGLMNRAVQLLILAYVIGWVFVWEKGYQETDSVVSSVTTK  67
+            + F +EY + +  L + ++  G+  +   +L +A   GWV     G     +  SSV   
+Sbjct  168  STFFYEYSSSKAALNMITKDFGIHLKPHNVLAVALHPGWVQTDMGGKNANLTPESSVKQS  227
+
+Query  68   VKGVAVTNTSKLGFRIWDVADYVIP  92
+            +  ++  N S  GF I D    VIP
+Sbjct  228  LNTLSTLNESNAGFLI-DYQGSVIP  251
+
+
+>lcl|28809834 Hsa-ATP2C1
+Length=933
+
+ Score = 29.3 bits (64),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  130  ASCTAGSAGTHSNGVSTGRCVAFNGSVKTC  159
+            A  TA      SNGVS  +CVAF G++  C
+Sbjct  212  AKTTAAQHNGGSNGVSNLKCVAFMGTLVRC  241
+
+
+>lcl|28795053 No best human hit identifed in Excel file
+Length=202
+
+ Score = 28.1 bits (61),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 12/19 (63%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  190  KNNIWYPKFNFSKRNILPN  208
+            K+NIW PK N   +NILPN
+Sbjct  182  KSNIWRPKDNQKSKNILPN  200
+
+
+>lcl|28810391 No best human hit identifed in Excel file
+Length=395
+
+ Score = 28.5 bits (62),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 23/54 (43%), Gaps = 13/54 (24%)
+
+Query  100  FVMTNVILTMNQTQGL-------------CPEIPDATTVCKSDASCTAGSAGTH  140
+            F+ +  IL  N +Q L             CPE P+ T+VC    +C+    GT 
+Sbjct  192  FIGSECILPFNTSQKLICGDDQQWKSDFKCPECPNITSVCNRRVNCSETFIGTE  245
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1711631330
+
+
+Query= sp|P51575|P2RX1_HUMAN P2X purinoceptor 1 OS=Homo sapiens GN=P2RX1
+PE=1 SV=1
+
+Length=399
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                282    1e-90
+lcl|28804152  No best human hit identifed in Excel file               31.6    0.42 
+lcl|28790888  Hsa-GTPBP8                                              28.9    2.4  
+lcl|28793282  No best human hit identifed in Excel file               28.5    5.3  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  282 bits (721),  Expect = 1e-90, Method: Compositional matrix adjust.
+ Identities = 146/398 (37%), Positives = 241/398 (61%), Gaps = 11/398 (3%)
+
+Query  9    LAAFLFEYDTPRMVLVRNKKVGVIFRLIQLVVLVYVIGWVFLYEKGYQTSSGLISSVSVK  68
+            + + +FEYDTP++V + +KKVG+I RL+QL+++ Y++G+V +Y+KGYQ    ++ S+S K
+Sbjct  7    ILSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVGSISTK  66
+
+Query  69   LKGLAVTQLPGLG--PQVWDVADYVFPAQGDNSFVVMTNFIVTPKQTQGYCAEHPEGGIC  126
+            +KG+A+T    L   P VWDVADYV P Q + +  VMTN I+T  QTQ    +   G  C
+Sbjct  67   VKGIALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQRCPQDVASGDFC  126
+
+Query  127  KEDSGCTPGKAKRKAQGIRTGKCV-AFNDTVKTCEIFGWCPVEVDDDIPRPALLREAENF  185
+              D+ C          G RTG+CV +  +  K CEI+ WCP E +D +  P LL+ A NF
+Sbjct  127  TTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFE-NDTLGEP-LLKSAANF  184
+
+Query  186  TLFIKNSISFPRFKVNRRNLVEEVNAAHMKTCLF--HKTLHPLCPVFQLGYVVQ--ESGQ  241
+            T+F+KN++ FP+FKV+RRN++   N   +  C +      +  CP+F +  ++   +   
+Sbjct  185  TIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGDD  244
+
+Query  242  NFSTLAEKGGVVGITIDWHCDLDWHVRHCRPIYEFHGLYEEKNLSPGFNFRFARHFVENG  301
+            +  ++ + G  + + I W+C+LD+ +  C P Y F  L     +S GFNFRFA++F    
+Sbjct  245  STESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNVVSEGFNFRFAKYFQNEN  304
+
+Query  302  TNYRHLFKVFGIRFDILVDGKAGKFDIIPTMTTIGSGIGIFGVATVLCDLLLLHILPKRH  361
+             + R L K +GI+F I + G+AGKF I+P +  +GSG+ +  +A+V+ D+++L++L  ++
+Sbjct  305  QSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVLKSKN  364
+
+Query  362  YYKQKKFKYAEDMGPGAAERDLAATSSTLGLQENMRTS  399
+            +Y++KK++  +D    A + D   T  T G  ++ R++
+Sbjct  365  FYREKKYQNVDDNVYSAMKEDTPIT--TYGSNKDQRSA  400
+
+
+>lcl|28804152 No best human hit identifed in Excel file
+Length=210
+
+ Score = 31.6 bits (70),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 25/49 (51%), Gaps = 3/49 (6%)
+
+Query  244  STLAEKGGVVGITIDWHCDLDWHVRHCRPIYEFHGLYEEKNLSPGFNFR  292
+            S  +E     G T  W   L  ++RHC+P+  F  L E+  LSP ++ +
+Sbjct  11   SAASESSCSPGYTTYW-SSLSGYLRHCQPVLTFQALVEQ--LSPTYSPK  56
+
+
+>lcl|28790888 Hsa-GTPBP8
+Length=144
+
+ Score = 28.9 bits (63),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 28/59 (47%), Gaps = 10/59 (17%)
+
+Query  270  CRPIYEFHGLYEEKNLSPGFNFRFARHFVENGTNY----RHLFKVFGIRFDILVDGKAG  324
+            C   YE    +   ++ PG+ F    HFVE+  +Y    R+L + F     +L+D K G
+Sbjct  5    CLNFYELENTFRLIDM-PGYGFNMPEHFVESVESYISSRRNLTRTF-----LLIDSKVG  57
+
+
+>lcl|28793282 No best human hit identifed in Excel file
+Length=484
+
+ Score = 28.5 bits (62),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 19/86 (22%), Positives = 34/86 (40%), Gaps = 15/86 (17%)
+
+Query  219  FHKTLHPLCPVFQLGYVVQESGQNFSTLAEKG---GVVGITID--WHCDLDWHVRHCRPI  273
+            +H   H   P +   +     GQ +    E+    G   +  D  W   +D + RHC P 
+Sbjct  217  YHSRFHHNYPYYNYSW-----GQRYYNYPERYFDMGNYQMDFDGRW---MDMYSRHCTPF  268
+
+Query  274  YEFHGLYEEKNLSPGFNFRFARHFVE  299
+            Y +HG +      P +N+ + + +  
+Sbjct  269  YNYHGKFHHN--YPYYNYSWGQRYYN  292
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1776555277
+
+
+Query= sp|Q93086|P2RX5_HUMAN P2X purinoceptor 5 OS=Homo sapiens GN=P2RX5
+PE=2 SV=4
+
+Length=422
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                274    4e-87
+lcl|28787165  Hsa-CCDC88A                                             30.4    1.9  
+lcl|28788840  No best human hit identifed in Excel file               29.6    3.1  
+lcl|28803022  No best human hit identifed in Excel file               28.9    4.8  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  274 bits (700),  Expect = 4e-87, Method: Compositional matrix adjust.
+ Identities = 149/380 (39%), Positives = 218/380 (57%), Gaps = 36/380 (9%)
+
+Query  4    AGCKGLCLSLFDYKTEKYVIAKNKKVGLLYRLLQASILAYLVVWVFLIKKGYQDVDTSLQ  63
+            A C  +   +F+Y T K V   +KKVG++ RLLQ  I+ Y+V +V + KKGYQ+ D  + 
+Sbjct  2    AYCDFILSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVG  61
+
+Query  64   SAVITKVKGVAFTNTSDLGQR--IWDVADYVIPAQGENVFFVVTNLIVTPNQRQNVCAEN  121
+            S + TKVKG+A TN + L     +WDVADYV+P Q     FV+TN I+T NQ Q  C ++
+Sbjct  62   S-ISTKVKGIALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQR-CPQD  119
+
+Query  122  EGIPDGACSKDSDCHAGEAVTAGNGVKTGRCLRRENLARGTCEIFAWCPLETSSRPEEPF  181
+                D  C+ D+DC A   + +G+G +TGRC+         CEI+AWCP E  +   EP 
+Sbjct  120  VASGD-FCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFENDTL-GEPL  177
+
+Query  182  LKEAEDFTIFIKNHIRFPKFNFSKSNVMDVKDRSFLKSCHFGPK---NHYCPIFRLGSVI  238
+            LK A +FTIF+KN++ FPKF  S+ N++  ++   L  C + P+   N +CPIF +  ++
+Sbjct  178  LKSAANFTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDIL  237
+
+Query  239  RWAGSD--FQDIALEGGVIGINIEWNCDLDKAASECHPHYSFSRLDNKLSKSVSSGYNFR  296
+                 D   + I   G  I +NI WNC+LD +  EC P Y F+RLD   S  VS G+NFR
+Sbjct  238  DLVKGDDSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDR--SNVVSEGFNFR  295
+
+Query  297  FARYYRDAAGVEFRTLMKAYGIRFDVMVNGKGAFF----------------------CDL  334
+            FA+Y+++      RTL+KAYGI+F + + G+   F                       D+
+Sbjct  296  FAKYFQN-ENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADI  354
+
+Query  335  VLIYLIKKREFYRDKKYEEV  354
+            +++Y++K + FYR+KKY+ V
+Sbjct  355  IMLYVLKSKNFYREKKYQNV  374
+
+
+>lcl|28787165 Hsa-CCDC88A
+Length=1420
+
+ Score = 30.4 bits (67),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  344  EFYRDKKYEEVRGLEDSSQEAEDEASGLGLSEQL--TSGPGLLGMP-EQQELQEPPEAKR  400
+            EF +  + ++   LE   +EA    SG+ LS+QL  TS   +L +  E Q LQ+  E  R
+Sbjct  402  EFEKKNRLQQNTTLEKELEEAHTRTSGISLSDQLNETSNAKVLRLELENQLLQQKIEELR  461
+
+Query  401  GSS  403
+             +S
+Sbjct  462  ENS  464
+
+
+>lcl|28788840 No best human hit identifed in Excel file
+Length=1833
+
+ Score = 29.6 bits (65),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  312   LMKAYGIRFDVMVNGKGAFFCDLVLIYLIKKREFYRDKKYEEVRGLED  359
+             LM A+ I   +  N    +F DL   YL   R F    K++E  GL++
+Sbjct  1135  LMTAFAIGIHITFNNVSIYFIDLKSTYLALFRIFLAMGKFKETFGLDN  1182
+
+
+>lcl|28803022 No best human hit identifed in Excel file
+Length=455
+
+ Score = 28.9 bits (63),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 45/96 (47%), Gaps = 16/96 (17%)
+
+Query  310  RTLMKAYGIRFDVMVNGKGAFFCDLVLIYLIKKREFYRDKKYEEVRGLEDSSQEAEDEAS  369
+            ++++  Y  ++D          CDL   Y+I K + Y +  + ++RG E   Q A     
+Sbjct  25   KSVLIVYSKQYDTT----DQHACDL---YIIAKTKVYIELNFTDLRGFEVPWQPANSSTV  77
+
+Query  370  GL------GLSEQLTSGPGL-LGM--PEQQELQEPP  396
+             +       ++E+ TSG    +G+  P Q+ L++PP
+Sbjct  78   SMECLPKISITERNTSGEEFRMGIICPVQKLLKDPP  113
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1899185736
+
+
+Query= sp|O15547|P2RX6_HUMAN P2X purinoceptor 6 OS=Homo sapiens GN=P2RX6
+PE=1 SV=2
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                233    4e-71
+lcl|28804833  Hsa-TMC7                                                30.8    1.3  
+lcl|28787739  Hsa-AARSD1                                              28.9    4.1  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  233 bits (593),  Expect = 4e-71, Method: Compositional matrix adjust.
+ Identities = 137/370 (37%), Positives = 209/370 (56%), Gaps = 20/370 (5%)
+
+Query  22   LLDYKTEKYVMTRNWRVGALQRLLQFGIVVYVVGWALLAKKGYQERDLEPQFSIITKLKG  81
+            + +Y T K V   + +VG + RLLQ  I+ Y+VG+ ++ KKGYQE D     SI TK+KG
+Sbjct  11   IFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVG-SISTKVKG  69
+
+Query  82   VSVTQIKELGNR--LWDVADFVKPPQGENVFFLVTNFLVTPAQVQGRCPEHPSVPLANCW  139
+            +++T    L +   +WDVAD+V PPQ     F++TN ++T  Q Q RCP+  +     C 
+Sbjct  70   IALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQ-RCPQDVASG-DFCT  127
+
+Query  140  VDEDCPEGEGGTHSHGVKTGQCVVF--NGTHRTCEIWSWCPVESGVVPSRPLLAQAQNFT  197
+             D DCP         G +TG+CV    NGT + CEI++WCP E+  +   PLL  A NFT
+Sbjct  128  TDADCPAETMIPSGDGFRTGRCVNSSQNGT-KVCEIYAWCPFENDTL-GEPLLKSAANFT  185
+
+Query  198  LFIKNTVTFSKFNFSKSNALETWDPTYFKHCRYEPQFSP--YCPVFRIGDLV--AKAGGT  253
+            +F+KN V F KF  S+ N +   +      CRY+P+ +   +CP+F I D++   K   +
+Sbjct  186  IFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGDDS  245
+
+Query  254  FEDLALLGGSVGIRVHWDCDLDTGDSGCWPHYSFQLQEKS------YNFRTATHWWEQPG  307
+             E +  +G S+ + + W+C+LD     C P Y F   ++S      +NFR A  +++   
+Sbjct  246  TESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNVVSEGFNFRFA-KYFQNEN  304
+
+Query  308  VEARTLLKLYGIRFDILVTGQAGKFGLIPTAVTLGTGAAWLGVVTFFCDLLLLYVDREAH  367
+               RTL+K YGI+F I + G+AGKF ++P  + LG+G A L + +   D+++LYV +  +
+Sbjct  305  QSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVLKSKN  364
+
+Query  368  FYWRTKYEEA  377
+            FY   KY+  
+Sbjct  365  FYREKKYQNV  374
+
+
+>lcl|28804833 Hsa-TMC7
+Length=625
+
+ Score = 30.8 bits (68),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 26/84 (31%), Positives = 33/84 (39%), Gaps = 6/84 (7%)
+
+Query  243  IGDLVAKAGGTFEDLA--LLGG---SVGIRVHWDCDLDTGDSGCWPHYSFQLQEKSYNFR  297
+            I  +V+ A G  E L   L  G   S  +   WD  +      CW      LQE   +  
+Sbjct  154  IAIIVSIAKGIKESLINQLSTGVPFSQKVFASWDFCMKNDKIVCWKKTCL-LQELRADLA  212
+
+Query  298  TATHWWEQPGVEARTLLKLYGIRF  321
+            T    WE+     RT +KLY  RF
+Sbjct  213  TQRELWEKSNRSFRTKVKLYSTRF  236
+
+
+>lcl|28787739 Hsa-AARSD1
+Length=233
+
+ Score = 28.9 bits (63),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 26/65 (40%), Gaps = 1/65 (2%)
+
+Query  238  CPVFRIGDLVAKAGGTFEDLALLGGSVGIRVHWDCDLDTGDSGCWPHYSFQLQEKSYNFR  297
+             PV RI    A+A    E    +G  V + V W+   D        H    L +K + F+
+Sbjct  4    VPVHRITRRAAEAVNFVESELTVGKDVHLVVDWERRFDNMQQHSGQHLITALADKMFGFK  63
+
+Query  298  TATHW  302
+            T T W
+Sbjct  64   T-TSW  67
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010902544
+
+
+Query= sp|Q9UBL9|P2RX2_HUMAN P2X purinoceptor 2 OS=Homo sapiens GN=P2RX2
+PE=2 SV=1
+
+Length=471
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                255    1e-79
+lcl|28784514  Hsa-MGAT5                                               30.0    2.4  
+lcl|28786156  Hsa-MTHFR                                               29.6    3.4  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  255 bits (652),  Expect = 1e-79, Method: Compositional matrix adjust.
+ Identities = 145/372 (39%), Positives = 222/372 (60%), Gaps = 19/372 (5%)
+
+Query  23   SALWDYETPKVIVVRNRRLGVLYRAVQLLILLYFVWYVFIVQKSYQESETGPESSIITKV  82
+            S +++Y+TPK++ + ++++G++ R +QL+I+ Y V YV + +K YQE +     SI TKV
+Sbjct  9    SLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDF-VVGSISTKV  67
+
+Query  83   KGITTSEHK-------VWDVEEYVKPP-EGGSVFSIITRVEATHSQTQGTCPESIRVHNA  134
+            KGI  +          VWDV +YV PP E G+VF ++T    T++QTQ  CP+ +     
+Sbjct  68   KGIALTNRTILSDTPGVWDVADYVVPPQENGAVF-VMTNAIITYNQTQ-RCPQDV-ASGD  124
+
+Query  135  TCLSDADCVAGELDMLGNGLRTGRCVPYYQGPSKTCEVFGWCPVEDGASVSQFLGTMAPN  194
+             C +DADC A  +   G+G RTGRCV   Q  +K CE++ WCP E+  ++ + L   A N
+Sbjct  125  FCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFEND-TLGEPLLKSAAN  183
+
+Query  195  FTILIKNSIHYPKFHFSKGNIAD-RTDGYLKRCTF--HEASDLYCPIFKLGFIVE--KAG  249
+            FTI +KN++H+PKF  S+ NI     +  L +C +    A++ +CPIF +  I++  K  
+Sbjct  184  FTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGD  243
+
+Query  250  ESFTELAHKGGVIGVIINWDCDLDLPASECNPKYSFRRLDPKHVPASSGYNFRFAKYYKI  309
+            +S   +   G  I V I W+C+LD    EC P+Y F RLD  +V  S G+NFRFAKY++ 
+Sbjct  244  DSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNV-VSEGFNFRFAKYFQN  302
+
+Query  310  NGTTTRTLIKAYGIRIDVIVHGQAGKFSLIPTIINLATALTSVGVGSFLCDWILLTFMNK  369
+               + RTLIKAYGI+  + + G+AGKFS++P ++NL + L  + + S + D I+L  +  
+Sbjct  303  ENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVLKS  362
+
+Query  370  NKVYSHKKFDKV  381
+               Y  KK+  V
+Sbjct  363  KNFYREKKYQNV  374
+
+
+>lcl|28784514 Hsa-MGAT5
+Length=519
+
+ Score = 30.0 bits (66),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  238  IFKLGFIVEKAGESFTELAHKGGVIGVIINW  268
+            +  LG + ++ G  F E+  KGG +G ++ W
+Sbjct  85   LIHLGLLTKQTGWKFAEMQFKGGPLGELVQW  115
+
+
+>lcl|28786156 Hsa-MTHFR
+Length=631
+
+ Score = 29.6 bits (65),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 25/112 (22%), Positives = 44/112 (39%), Gaps = 3/112 (3%)
+
+Query  106  SVFSIITRVEATHSQTQGTCPESIRVHNATCLSDADCVAGELDMLG-NGLRTGRCVPYYQ  164
+             V+++       H    G     I   +    ++   ++ +L  L  NG+ T    P   
+Sbjct  415  DVWNVFYYFIKGHENQNGVKVTHIPWSDDVLSTETSLISDQLAYLNKNGVLTINSQPAIN  474
+
+Query  165  GPSKTCEVFGWCPVEDGASVSQFLG--TMAPNFTILIKNSIHYPKFHFSKGN  214
+            G S T  +FGW   +       +L   T   N  +L K  ++YP+ ++  GN
+Sbjct  475  GFSSTHPIFGWGNPDGYVYQKAYLEFFTSKENVEVLKKLLVNYPQVNYHIGN  526
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2173127677
+
+
+Query= sp|Q9BRQ5|ORAI3_HUMAN Protein orai-3 OS=Homo sapiens GN=ORAI3 PE=1
+SV=2
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                187    1e-57
+lcl|28789341  Hsa-ANKRD50                                             31.2    0.70 
+lcl|28787559  No best human hit identifed in Excel file               30.4    0.77 
+lcl|28799865  Hsa-BRD2                                                29.3    2.2  
+lcl|28786253  Hsa-CIRH1A                                              27.3    9.9  
+
+
+>lcl|28800208 Hsa-ORAI3
+Length=206
+
+ Score =  187 bits (474),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 86/127 (68%), Positives = 106/127 (83%), Gaps = 0/127 (0%)
+
+Query  48   ALSWRRLYLSRAKLKASSRTSALLSGFAMVAMVEVQLESDHEYPPGLLVAFSACTTVLVA  107
+             LSWR+LYL RAKLKASSRTSALLSGFAMVAMVE+Q E     P  LLVAFS CTT+LVA
+Sbjct  9    VLSWRKLYLGRAKLKASSRTSALLSGFAMVAMVEIQFEEKSPLPDCLLVAFSVCTTLLVA  68
+
+Query  108  VHLFALMVSTCLLPHIEAVSNIHNLNSVHQSPHQRLHRYVELAWGFSTALGTFLFLAEVV  167
+            VHL ALM+STC+LP+IEAVSN+++ ++V +SPH+++  Y+E+AWGFST LGT LFL E+ 
+Sbjct  69   VHLIALMISTCILPNIEAVSNMNSFSAVKESPHEKMRWYIEMAWGFSTGLGTLLFLVEIA  128
+
+Query  168  LVGWVKF  174
+            ++ WVKF
+Sbjct  129  ILSWVKF  135
+
+
+ Score = 59.3 bits (142),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 38/51 (75%), Gaps = 0/51 (0%)
+
+Query  238  HGPGWQAAMASTAIMVPVGLVFVAFALHFYRSLVAHKTDRYKQELEELNRL  288
+            + P   AAMASTA+++PV ++F+ F +HFY+ LVAHK +  ++EL+EL  L
+Sbjct  136  YKPSVNAAMASTALVIPVLILFIIFGIHFYKRLVAHKYEHTERELQELKEL  186
+
+
+>lcl|28789341 Hsa-ANKRD50
+Length=4701
+
+ Score = 31.2 bits (69),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  226   CPPRQACGGGGAHGPGWQAAMASTAIMVP  254
+             C PR  C  G  HG    A MAST++M+P
+Sbjct  2996  CTPRFLCSAGEGHGALALAMMASTSLMIP  3024
+
+
+>lcl|28787559 No best human hit identifed in Excel file
+Length=312
+
+ Score = 30.4 bits (67),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 13/56 (23%), Positives = 26/56 (46%), Gaps = 0/56 (0%)
+
+Query  119  LLPHIEAVSNIHNLNSVHQSPHQRLHRYVELAWGFSTALGTFLFLAEVVLVGWVKF  174
+            +LP++   S    ++ + Q  + +L R  +L  GF    G FL     + +  ++F
+Sbjct  8    VLPNVRNTSKKELMDFLQQYINPQLERIEDLGSGFDLCFGMFLLFPNSIKISDIRF  63
+
+
+>lcl|28799865 Hsa-BRD2
+Length=1144
+
+ Score = 29.3 bits (64),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 29/51 (57%), Gaps = 2/51 (4%)
+
+Query  180  PLDTPTPMVPTS-RVPGTLAP-VATSLSPASNLPRSSASAAPSQAEPACPP  228
+            P+    PM P+      T+ P + T+++  SN+P ++ +++ + A+P  PP
+Sbjct  839  PVTHSLPMQPSRPTATATVKPQIKTTINSGSNVPAANLASSQNNAKPGSPP  889
+
+
+>lcl|28786253 Hsa-CIRH1A
+Length=685
+
+ Score = 27.3 bits (59),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 24/91 (26%), Positives = 40/91 (44%), Gaps = 10/91 (11%)
+
+Query  81   EVQLESDHEYP--------PGLLVAFSACTTVLVAVHLFALMVSTCLLPHIEAVSNIHNL  132
+            +VQL+S H+ P           +VA+S  TT    ++   L+     LP   AV ++ N 
+Sbjct  383  QVQLKSKHDRPVICCALTSDAKMVAYS--TTTDSRIYCLNLVTDPSQLPSCPAVEHLKNF  440
+
+Query  133  NSVHQSPHQRLHRYVELAWGFSTALGTFLFL  163
+            +S+    HQ +  +    +  +T  GT   L
+Sbjct  441  SSMLLPAHQMVFTHDSSKFILATNAGTLQIL  471
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1193842400
+
+
+Query= sp|Q96D31|CRCM1_HUMAN Calcium release-activated calcium channel
+protein 1 OS=Homo sapiens GN=ORAI1 PE=1 SV=2
+
+Length=301
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                235    2e-76
+lcl|28786253  Hsa-CIRH1A                                              27.7    7.3  
+
+
+>lcl|28800208 Hsa-ORAI3
+Length=206
+
+ Score =  235 bits (600),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 123/234 (53%), Positives = 154/234 (66%), Gaps = 38/234 (16%)
+
+Query  67   NEHSMQALSWRKLYLSRAKLKASSRTSALLSGFAMVAMVEVQLDADHDYPPGLLIAFSAC  126
+            NE +   LSWRKLYL RAKLKASSRTSALLSGFAMVAMVE+Q +     P  LL+AFS C
+Sbjct  3    NETTASVLSWRKLYLGRAKLKASSRTSALLSGFAMVAMVEIQFEEKSPLPDCLLVAFSVC  62
+
+Query  127  TTVLVAVHLFALMISTCILPNIEAVSNVHNLNSVKESPHERMHRHIELAWAFSTVIGTLL  186
+            TT+LVAVHL ALMISTCILPNIEAVSN+++ ++VKESPHE+M  +IE+AW FST +GTLL
+Sbjct  63   TTLLVAVHLIALMISTCILPNIEAVSNMNSFSAVKESPHEKMRWYIEMAWGFSTGLGTLL  122
+
+Query  187  FLAEVVLLCWVKFLPLKKQPGQPRPTSKPPASGAAANVSTSGITPGQAAAIASTTIMVPF  246
+            FL E+ +L WVKF                               P   AA+AST +++P 
+Sbjct  123  FLVEIAILSWVKFYK-----------------------------PSVNAAMASTALVIPV  153
+
+Query  247  GLIFIVFAVHFYRSLVSHK---TDRQFQELNELAEFARLQDQLDHRGDHPLTPG  297
+             ++FI+F +HFY+ LV+HK   T+R+ QEL EL        ++D     P+TPG
+Sbjct  154  LILFIIFGIHFYKRLVAHKYEHTERELQELKELV------IKIDQDISLPITPG  201
+
+
+>lcl|28786253 Hsa-CIRH1A
+Length=685
+
+ Score = 27.7 bits (60),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 24/91 (26%), Positives = 41/91 (45%), Gaps = 10/91 (11%)
+
+Query  106  EVQLDADHDYP--------PGLLIAFSACTTVLVAVHLFALMISTCILPNIEAVSNVHNL  157
+            +VQL + HD P           ++A+S  TT    ++   L+     LP+  AV ++ N 
+Sbjct  383  QVQLKSKHDRPVICCALTSDAKMVAYS--TTTDSRIYCLNLVTDPSQLPSCPAVEHLKNF  440
+
+Query  158  NSVKESPHERMHRHIELAWAFSTVIGTLLFL  188
+            +S+    H+ +  H    +  +T  GTL  L
+Sbjct  441  SSMLLPAHQMVFTHDSSKFILATNAGTLQIL  471
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1219107735
+
+
+Query= sp|Q96SN7|ORAI2_HUMAN Protein orai-2 OS=Homo sapiens GN=ORAI2 PE=1
+SV=1
+
+Length=254
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                231    1e-75
+
+
+>lcl|28800208 Hsa-ORAI3
+Length=206
+
+ Score =  231 bits (589),  Expect = 1e-75, Method: Compositional matrix adjust.
+ Identities = 115/206 (56%), Positives = 150/206 (73%), Gaps = 16/206 (8%)
+
+Query  40   SNHHSVQALSWRKLYLSRAKLKASSRTSALLSGFAMVAMVEVQLETQYQYPRPLLIAFSA  99
+            +N  +   LSWRKLYL RAKLKASSRTSALLSGFAMVAMVE+Q E +   P  LL+AFS 
+Sbjct  2    TNETTASVLSWRKLYLGRAKLKASSRTSALLSGFAMVAMVEIQFEEKSPLPDCLLVAFSV  61
+
+Query  100  CTTVLVAVHLFALLISTCILPNVEAVSNIHNLNSISESPHERMHPYIELAWGFSTVLGIL  159
+            CTT+LVAVHL AL+ISTCILPN+EAVSN+++ +++ ESPHE+M  YIE+AWGFST LG L
+Sbjct  62   CTTLLVAVHLIALMISTCILPNIEAVSNMNSFSAVKESPHEKMRWYIEMAWGFSTGLGTL  121
+
+Query  160  LFLAEVVLLCWIKFLPVDARRQPGPPPGPGSHTGWQAALVSTIIMVPVGLIFVVFTIHFY  219
+            LFL E+ +L W+KF       +P             AA+ ST +++PV ++F++F IHFY
+Sbjct  122  LFLVEIAILSWVKF------YKPSV----------NAAMASTALVIPVLILFIIFGIHFY  165
+
+Query  220  RSLVRHKTERHNREIEELHKLKVQLD  245
+            + LV HK E   RE++EL +L +++D
+Sbjct  166  KRLVAHKYEHTERELQELKELVIKID  191
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 958649120
+
+
+Query= sp|Q99572|P2RX7_HUMAN P2X purinoceptor 7 OS=Homo sapiens GN=P2RX7
+PE=1 SV=4
+
+Length=595
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                203    1e-58
+lcl|28783439  No best human hit identifed in Excel file               30.0    0.57 
+lcl|28807544  Hsa-PLXNA1                                              30.8    2.2  
+lcl|28810206  No best human hit identifed in Excel file               27.7    2.9  
+lcl|28788292  Hsa-DDX58                                               29.3    6.2  
+lcl|28795288  Hsa-CCDC53                                              28.1    7.7  
+lcl|28799637  No best human hit identifed in Excel file               28.9    9.0  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  203 bits (517),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 130/339 (38%), Positives = 180/339 (53%), Gaps = 22/339 (6%)
+
+Query  8    SDVFQYETNKVTRIQSMNYGTIKWFFHVIIFSYVC-FALVSDKLYQRKEPVISSVHTKVK  66
+            S +F+Y+T K+  I S   G I     +II  Y+  + +V  K YQ  + V+ S+ TKVK
+Sbjct  9    SLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVGSISTKVK  68
+
+Query  67   GIAEVKEEIVENGVKKLVHSVFDTADYTFPLQGN-SFFVMTNFLKTEGQEQRLCPEYPTR  125
+            GIA     I+ +        V+D ADY  P Q N + FVMTN + T  Q QR CP+    
+Sbjct  69   GIALTNRTILSD-----TPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQR-CPQDVAS  122
+
+Query  126  RTLCSSDRGCKKGWMDPQSKGIQTGRCVVYEGN-QKTCEVSAWCPIEAVEEAPRPALLNS  184
+               C++D  C    M P   G +TGRCV    N  K CE+ AWCP E   +     LL S
+Sbjct  123  GDFCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFE--NDTLGEPLLKS  180
+
+Query  185  AENFTVLIKNNIDFPGHNYTTRNILPGLN----ITCTF--HKTQNPQCPIFRLGDIFRET  238
+            A NFT+ +KNN+ FP    + RNI+   N      C +      N  CPIF + DI    
+Sbjct  181  AANFTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLV  240
+
+Query  239  -GDNFSDVAIQ-GGIMGIEIYWDCNLDRWFHHCRPKYSFRRLDDKTTNVSLYPGYNFRYA  296
+             GD+ ++  ++ G  + + I W+CNLD     C P+Y F RLD   +NV +  G+NFR+A
+Sbjct  241  KGDDSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLD--RSNV-VSEGFNFRFA  297
+
+Query  297  KYYKENNVEKRTLIKVFGIRFDILVFGTGGKFDIIQLVV  335
+            KY++  N   RTLIK +GI+F I + G  GKF I+ L++
+Sbjct  298  KYFQNENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLL  336
+
+
+>lcl|28783439 No best human hit identifed in Excel file
+Length=75
+
+ Score = 30.0 bits (66),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 16/37 (43%), Positives = 24/37 (65%), Gaps = 1/37 (3%)
+
+Query  74   EIVENGVKKLVHSVFDTADYTFPLQGNSFFVMTNFLK  110
+            E+V+N  + LV + F+ ADY F L  NSF ++ N L+
+Sbjct  16   ELVDNSFE-LVDNAFELADYCFELIDNSFELVGNALQ  51
+
+
+>lcl|28807544 Hsa-PLXNA1
+Length=1840
+
+ Score = 30.8 bits (68),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 30/126 (24%), Positives = 50/126 (40%), Gaps = 13/126 (10%)
+
+Query  123  PTRRTLCSSDRGCKKGW-----MDPQSKGIQTGRCVVYEGNQKTCEVSAWCPIEAVEEAP  177
+            P R T C       K +     ++ ++K I  G   +++G   +C V     I    +  
+Sbjct  83   PVRETQCGMKLSLTKNYNKVLLLNQENKLISCGS--IFQG---SCHVRNLENISISTDIN  137
+
+Query  178  RPALLNSAENFTVLI---KNNIDFPGHNYTTRNILPGLNITCTFHKTQNPQCPIFRLGDI  234
+            +P   N     TV     K+ I +   +YT  ++L  ++I   FHK    +    R  D 
+Sbjct  138  QPMAANQRNASTVAFITHKSGILYLATSYTRSDLLEDISIWRVFHKKNWKKLASIRYSDK  197
+
+Query  235  FRETGD  240
+            FR+  D
+Sbjct  198  FRKNVD  203
+
+
+>lcl|28810206 No best human hit identifed in Excel file
+Length=67
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 30/54 (56%), Gaps = 1/54 (2%)
+
+Query  494  LEELCCRKKPGACITTSELFRKLVLSRHVLQFLLLYQEPLLALDVDSTNSRLRH  547
+            ++ L C K  G  I   E  + L +SR +LQ+LL  ++ L A + D  +S+ +H
+Sbjct  14   IQLLECYKALGKTIQL-EAAQSLGISRSLLQYLLKNEDNLHAKEYDGCSSKRKH  66
+
+
+>lcl|28788292 Hsa-DDX58
+Length=649
+
+ Score = 29.3 bits (64),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 33/135 (24%), Positives = 51/135 (38%), Gaps = 26/135 (19%)
+
+Query  156  EGNQKTCEVSAWCPIEAVEEAPRPALLNSAENFTVLIKNNIDFPGHNYTTRNILPGLNIT  215
+            E + K C+V   C   A+ E  +  L+NS  + T+                      N+ 
+Sbjct  107  ENDGKCCKVIFLCNQTALAEQQKTVLMNSFPDLTI----------------------NVI  144
+
+Query  216  CTFHKTQNPQCPIFRLGDIFRETGDNFSDVAIQGGIMGIEIYWDCNLDRWFH-HCRPKYS  274
+                ++Q+ +   F L DI   T     D    G I G+ I     +D   H +C+  Y+
+Sbjct  145  YGSPESQSKKMESFNLSDIVVMTPQCLVDNLKLGRIEGLSIITLLIIDECHHTYCKHPYN  204
+
+Query  275  F---RRLDDKTTNVS  286
+                R LDDK   V+
+Sbjct  205  ILMSRYLDDKFKKVN  219
+
+
+>lcl|28795288 Hsa-CCDC53
+Length=166
+
+ Score = 28.1 bits (61),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 22/46 (48%), Gaps = 2/46 (4%)
+
+Query  437  TDLSRLPLALHDTPPIPGQPEEIQLLRKEATPRSRDSPVWCQCGSC  482
+            T  S  P  + +TP  P +P  +Q   KEATP + DS       SC
+Sbjct  86   TSESTSPSTVANTPSQPTEP--VQQTTKEATPSAADSXXXSNTCSC  129
+
+
+>lcl|28799637 No best human hit identifed in Excel file
+Length=3470
+
+ Score = 28.9 bits (63),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 44/95 (46%), Gaps = 17/95 (18%)
+
+Query  424   VKGQEVPRPAMDFTD-LSRLPLALHDTPPIPGQPEEIQLLRKEATPRSRDSPVWCQCGSC  482
+             VK   V R  +DF D L+    A+ DT           L +K   P+  D  +  +  SC
+Sbjct  2224  VKKFAVRRTTVDFKDKLNVFKTAIVDT----------DLNQKPIMPKINDPNILERKRSC  2273
+
+Query  483   --LPSQLPESHRCLEELCCRKK----PGACITTSE  511
+               LP+++P+   CL+ +C + +    PG  I+ ++
+Sbjct  2274  AKLPNEIPQVEECLDRICDKSQKLYSPGNTISENQ  2308
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2865708921
+
+
+Query= sp|P56373|P2RX3_HUMAN P2X purinoceptor 3 OS=Homo sapiens GN=P2RX3
+PE=2 SV=2
+
+Length=397
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                265    4e-84
+lcl|28786700  No best human hit identifed in Excel file               31.2    0.82 
+lcl|28795073  No best human hit identifed in Excel file               30.8    1.1  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  265 bits (677),  Expect = 4e-84, Method: Compositional matrix adjust.
+ Identities = 150/388 (39%), Positives = 225/388 (58%), Gaps = 23/388 (6%)
+
+Query  4    ISDFFTYETTKSVVVKSWTIGIINRVVQLLIISYFVGWVFLHEKAYQVRDTAIESSVVTK  63
+            +S  F Y+T K V + S  +GIINR++QL+II Y VG+V +++K YQ  D  +  S+ TK
+Sbjct  8    LSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVV-GSISTK  66
+
+Query  64   VKGSGLYANR--------VMDVSDYVTPPQGTSVFVIITKMIVTENQMQGFCPESEEKYR  115
+            VKG  L  NR        V DV+DYV PPQ      ++T  I+T NQ Q  CP+      
+Sbjct  67   VKGIAL-TNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQR-CPQDVASGD  124
+
+Query  116  -CVSDSQCGPERL--PGGGILTGRCVNYS-SVLRTCEIQGWCPTEVDTVETPIMMEAENF  171
+             C +D+ C  E +   G G  TGRCVN S +  + CEI  WCP E DT+  P++  A NF
+Sbjct  125  FCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFENDTLGEPLLKSAANF  184
+
+Query  172  TIFIKNSIRFPLFNFEKGNLLPNLTARDMKTCRFHPDK--DPFCPILRVGDVVKFAGQDF  229
+            TIF+KN++ FP F   + N++     R +  CR+ P    + FCPI  + D++     D 
+Sbjct  185  TIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGDD  244
+
+Query  230  A--KLARTGGVLGIKIGWVCDLDKAWDQCIPKYSFTRLDSVSEKSSVSPGYNFRFAKYYK  287
+            +   + + G  + + I W C+LD + D+C+P+Y FTRLD     + VS G+NFRFAKY++
+Sbjct  245  STESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLD---RSNVVSEGFNFRFAKYFQ  301
+
+Query  288  MENGSEYRTLLKAFGIRFDVLVYGNAGKFNIIPTIISSVAAFTSVGVGTVLCDIILLNFL  347
+             EN S  RTL+KA+GI+F + + G AGKF+I+P +++  +    + + +V+ DII+L  L
+Sbjct  302  NENQS-MRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVL  360
+
+Query  348  KGADQYKAKKFEEVNETTLKIAALTNPV  375
+            K  + Y+ KK++ V++          P+
+Sbjct  361  KSKNFYREKKYQNVDDNVYSAMKEDTPI  388
+
+
+>lcl|28786700 No best human hit identifed in Excel file
+Length=435
+
+ Score = 31.2 bits (69),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  214  PILRVGDVVKFAGQDFAKLARTGGVLGIKIGWVCDLDKAWDQ  255
+            P ++V   VK  G+   +  RTG    +   W C+++  W +
+Sbjct  300  PYIKVTISVKHRGRQLQRHKRTGRAAEMSANWQCEMETDWKR  341
+
+
+>lcl|28795073 No best human hit identifed in Excel file
+Length=390
+
+ Score = 30.8 bits (68),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 12/48 (25%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  29   VVQLLIISYFVGWVFLHEKAYQVRDTAIESSVVTKVKGSGLYANRVMD  76
+            ++++L +   + W+F+H K  Q +     ++   K+    L+ N VMD
+Sbjct  266  IIEILFLEESIRWLFVHGKMEQAKKVLKRAAHQNKINFDHLWKNYVMD  313
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1764750923
+
+
+Query= sp|Q99571|P2RX4_HUMAN P2X purinoceptor 4 OS=Homo sapiens GN=P2RX4
+PE=1 SV=2
+
+Length=388
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                333    1e-110
+lcl|28796348  Hsa-MUC6                                                32.7    0.27  
+lcl|28798969  No best human hit identifed in Excel file               29.3    2.3   
+lcl|28809834  Hsa-ATP2C1                                              29.3    3.1   
+lcl|28795053  No best human hit identifed in Excel file               28.1    4.8   
+lcl|28810391  No best human hit identifed in Excel file               28.5    5.6   
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  333 bits (854),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 184/381 (48%), Positives = 259/381 (68%), Gaps = 16/381 (4%)
+
+Query  5    CAALAAFLFEYDTPRIVLIRSRKVGLMNRAVQLLILAYVIGWVFVWEKGYQETDSVVSSV  64
+            C  + + +FEYDTP+IV I S+KVG++NR +QL+I+ Y++G+V V++KGYQE D VV S+
+Sbjct  4    CDFILSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVGSI  63
+
+Query  65   TTKVKGVAVTNTSKLGFR--IWDVADYVIPAQEENSLFVMTNVILTMNQTQGLCPEIPDA  122
+            +TKVKG+A+TN + L     +WDVADYV+P QE  ++FVMTN I+T NQTQ  CP+   +
+Sbjct  64   STKVKGIALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQ-RCPQDVAS  122
+
+Query  123  TTVCKSDASCTAGSAGTHSNGVSTGRCV--AFNGSVKTCEVAAWCPVEDDTHVPQPAFLK  180
+               C +DA C A +     +G  TGRCV  + NG+ K CE+ AWCP E+DT + +P  LK
+Sbjct  123  GDFCTTDADCPAETMIPSGDGFRTGRCVNSSQNGT-KVCEIYAWCPFENDT-LGEP-LLK  179
+
+Query  181  AAENFTLLVKNNIWYPKFNFSKRNILPNITTTYLKSCIYDAK--TDPFCPIFRLGKIVE-  237
+            +A NFT+ VKNN+ +PKF  S+RNI+       L  C YD +  T+ FCPIF +  I++ 
+Sbjct  180  SAANFTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDL  239
+
+Query  238  -NAGHSFQDMAVEGGIMGIQVNWDCNLDRAASLCLPRYSFRRLDTRDVEHNVSPGYNFRF  296
+                 S + +   G  + + + W+CNLD +   CLP Y F RLD  +V   VS G+NFRF
+Sbjct  240  VKGDDSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNV---VSEGFNFRF  296
+
+Query  297  AKYYRDLAGNEQRTLIKAYGIRFDIIVFGKAGKFDIIPTMINIGSGLALLGMATVLCDII  356
+            AKY+++      RTLIKAYGI+F I + G+AGKF I+P ++N+GSGLALL +A+V+ DII
+Sbjct  297  AKYFQN-ENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADII  355
+
+Query  357  VLYCMKKRLYYREKKYKYVED  377
+            +LY +K + +YREKKY+ V+D
+Sbjct  356  MLYVLKSKNFYREKKYQNVDD  376
+
+
+>lcl|28796348 Hsa-MUC6
+Length=903
+
+ Score = 32.7 bits (73),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 33/72 (46%), Gaps = 12/72 (17%)
+
+Query  201  SKRNILP-NITTTYLKSCIYDAKTDPFCPIFRLGKIVENAGHSFQDMAVEGGIMGIQVNW  259
+            S RNILP N+   Y + C+YDA          LG   E    +  + A +    G+ VNW
+Sbjct  802  SCRNILPDNVVKEYYEDCLYDACG------CNLGGDCECLCTAVANFATKCATNGVPVNW  855
+
+Query  260  DCNLDRAASLCL  271
+                 R++ LC+
+Sbjct  856  -----RSSELCV  862
+
+
+>lcl|28798969 No best human hit identifed in Excel file
+Length=252
+
+ Score = 29.3 bits (64),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 38/85 (45%), Gaps = 2/85 (2%)
+
+Query  9    AAFLFEYDTPRIVL-IRSRKVGLMNRAVQLLILAYVIGWVFVWEKGYQETDSVVSSVTTK  67
+            + F +EY + +  L + ++  G+  +   +L +A   GWV     G     +  SSV   
+Sbjct  168  STFFYEYSSSKAALNMITKDFGIHLKPHNVLAVALHPGWVQTDMGGKNANLTPESSVKQS  227
+
+Query  68   VKGVAVTNTSKLGFRIWDVADYVIP  92
+            +  ++  N S  GF I D    VIP
+Sbjct  228  LNTLSTLNESNAGFLI-DYQGSVIP  251
+
+
+>lcl|28809834 Hsa-ATP2C1
+Length=933
+
+ Score = 29.3 bits (64),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  130  ASCTAGSAGTHSNGVSTGRCVAFNGSVKTC  159
+            A  TA      SNGVS  +CVAF G++  C
+Sbjct  212  AKTTAAQHNGGSNGVSNLKCVAFMGTLVRC  241
+
+
+>lcl|28795053 No best human hit identifed in Excel file
+Length=202
+
+ Score = 28.1 bits (61),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 12/19 (63%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  190  KNNIWYPKFNFSKRNILPN  208
+            K+NIW PK N   +NILPN
+Sbjct  182  KSNIWRPKDNQKSKNILPN  200
+
+
+>lcl|28810391 No best human hit identifed in Excel file
+Length=395
+
+ Score = 28.5 bits (62),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 23/54 (43%), Gaps = 13/54 (24%)
+
+Query  100  FVMTNVILTMNQTQGL-------------CPEIPDATTVCKSDASCTAGSAGTH  140
+            F+ +  IL  N +Q L             CPE P+ T+VC    +C+    GT 
+Sbjct  192  FIGSECILPFNTSQKLICGDDQQWKSDFKCPECPNITSVCNRRVNCSETFIGTE  245
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1711631330
+
+
+Query= sp|P51575|P2RX1_HUMAN P2X purinoceptor 1 OS=Homo sapiens GN=P2RX1
+PE=1 SV=1
+
+Length=399
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                282    1e-90
+lcl|28804152  No best human hit identifed in Excel file               31.6    0.42 
+lcl|28790888  Hsa-GTPBP8                                              28.9    2.4  
+lcl|28793282  No best human hit identifed in Excel file               28.5    5.3  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  282 bits (721),  Expect = 1e-90, Method: Compositional matrix adjust.
+ Identities = 146/398 (37%), Positives = 241/398 (61%), Gaps = 11/398 (3%)
+
+Query  9    LAAFLFEYDTPRMVLVRNKKVGVIFRLIQLVVLVYVIGWVFLYEKGYQTSSGLISSVSVK  68
+            + + +FEYDTP++V + +KKVG+I RL+QL+++ Y++G+V +Y+KGYQ    ++ S+S K
+Sbjct  7    ILSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVGSISTK  66
+
+Query  69   LKGLAVTQLPGLG--PQVWDVADYVFPAQGDNSFVVMTNFIVTPKQTQGYCAEHPEGGIC  126
+            +KG+A+T    L   P VWDVADYV P Q + +  VMTN I+T  QTQ    +   G  C
+Sbjct  67   VKGIALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQRCPQDVASGDFC  126
+
+Query  127  KEDSGCTPGKAKRKAQGIRTGKCV-AFNDTVKTCEIFGWCPVEVDDDIPRPALLREAENF  185
+              D+ C          G RTG+CV +  +  K CEI+ WCP E +D +  P LL+ A NF
+Sbjct  127  TTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFE-NDTLGEP-LLKSAANF  184
+
+Query  186  TLFIKNSISFPRFKVNRRNLVEEVNAAHMKTCLF--HKTLHPLCPVFQLGYVVQ--ESGQ  241
+            T+F+KN++ FP+FKV+RRN++   N   +  C +      +  CP+F +  ++   +   
+Sbjct  185  TIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGDD  244
+
+Query  242  NFSTLAEKGGVVGITIDWHCDLDWHVRHCRPIYEFHGLYEEKNLSPGFNFRFARHFVENG  301
+            +  ++ + G  + + I W+C+LD+ +  C P Y F  L     +S GFNFRFA++F    
+Sbjct  245  STESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNVVSEGFNFRFAKYFQNEN  304
+
+Query  302  TNYRHLFKVFGIRFDILVDGKAGKFDIIPTMTTIGSGIGIFGVATVLCDLLLLHILPKRH  361
+             + R L K +GI+F I + G+AGKF I+P +  +GSG+ +  +A+V+ D+++L++L  ++
+Sbjct  305  QSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVLKSKN  364
+
+Query  362  YYKQKKFKYAEDMGPGAAERDLAATSSTLGLQENMRTS  399
+            +Y++KK++  +D    A + D   T  T G  ++ R++
+Sbjct  365  FYREKKYQNVDDNVYSAMKEDTPIT--TYGSNKDQRSA  400
+
+
+>lcl|28804152 No best human hit identifed in Excel file
+Length=210
+
+ Score = 31.6 bits (70),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 25/49 (51%), Gaps = 3/49 (6%)
+
+Query  244  STLAEKGGVVGITIDWHCDLDWHVRHCRPIYEFHGLYEEKNLSPGFNFR  292
+            S  +E     G T  W   L  ++RHC+P+  F  L E+  LSP ++ +
+Sbjct  11   SAASESSCSPGYTTYW-SSLSGYLRHCQPVLTFQALVEQ--LSPTYSPK  56
+
+
+>lcl|28790888 Hsa-GTPBP8
+Length=144
+
+ Score = 28.9 bits (63),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 28/59 (47%), Gaps = 10/59 (17%)
+
+Query  270  CRPIYEFHGLYEEKNLSPGFNFRFARHFVENGTNY----RHLFKVFGIRFDILVDGKAG  324
+            C   YE    +   ++ PG+ F    HFVE+  +Y    R+L + F     +L+D K G
+Sbjct  5    CLNFYELENTFRLIDM-PGYGFNMPEHFVESVESYISSRRNLTRTF-----LLIDSKVG  57
+
+
+>lcl|28793282 No best human hit identifed in Excel file
+Length=484
+
+ Score = 28.5 bits (62),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 19/86 (22%), Positives = 34/86 (40%), Gaps = 15/86 (17%)
+
+Query  219  FHKTLHPLCPVFQLGYVVQESGQNFSTLAEKG---GVVGITID--WHCDLDWHVRHCRPI  273
+            +H   H   P +   +     GQ +    E+    G   +  D  W   +D + RHC P 
+Sbjct  217  YHSRFHHNYPYYNYSW-----GQRYYNYPERYFDMGNYQMDFDGRW---MDMYSRHCTPF  268
+
+Query  274  YEFHGLYEEKNLSPGFNFRFARHFVE  299
+            Y +HG +      P +N+ + + +  
+Sbjct  269  YNYHGKFHHN--YPYYNYSWGQRYYN  292
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1776555277
+
+
+Query= sp|Q93086|P2RX5_HUMAN P2X purinoceptor 5 OS=Homo sapiens GN=P2RX5
+PE=2 SV=4
+
+Length=422
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                274    4e-87
+lcl|28787165  Hsa-CCDC88A                                             30.4    1.9  
+lcl|28788840  No best human hit identifed in Excel file               29.6    3.1  
+lcl|28803022  No best human hit identifed in Excel file               28.9    4.8  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  274 bits (700),  Expect = 4e-87, Method: Compositional matrix adjust.
+ Identities = 149/380 (39%), Positives = 218/380 (57%), Gaps = 36/380 (9%)
+
+Query  4    AGCKGLCLSLFDYKTEKYVIAKNKKVGLLYRLLQASILAYLVVWVFLIKKGYQDVDTSLQ  63
+            A C  +   +F+Y T K V   +KKVG++ RLLQ  I+ Y+V +V + KKGYQ+ D  + 
+Sbjct  2    AYCDFILSLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVG  61
+
+Query  64   SAVITKVKGVAFTNTSDLGQR--IWDVADYVIPAQGENVFFVVTNLIVTPNQRQNVCAEN  121
+            S + TKVKG+A TN + L     +WDVADYV+P Q     FV+TN I+T NQ Q  C ++
+Sbjct  62   S-ISTKVKGIALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQR-CPQD  119
+
+Query  122  EGIPDGACSKDSDCHAGEAVTAGNGVKTGRCLRRENLARGTCEIFAWCPLETSSRPEEPF  181
+                D  C+ D+DC A   + +G+G +TGRC+         CEI+AWCP E  +   EP 
+Sbjct  120  VASGD-FCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFENDTL-GEPL  177
+
+Query  182  LKEAEDFTIFIKNHIRFPKFNFSKSNVMDVKDRSFLKSCHFGPK---NHYCPIFRLGSVI  238
+            LK A +FTIF+KN++ FPKF  S+ N++  ++   L  C + P+   N +CPIF +  ++
+Sbjct  178  LKSAANFTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDIL  237
+
+Query  239  RWAGSD--FQDIALEGGVIGINIEWNCDLDKAASECHPHYSFSRLDNKLSKSVSSGYNFR  296
+                 D   + I   G  I +NI WNC+LD +  EC P Y F+RLD   S  VS G+NFR
+Sbjct  238  DLVKGDDSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDR--SNVVSEGFNFR  295
+
+Query  297  FARYYRDAAGVEFRTLMKAYGIRFDVMVNGKGAFF----------------------CDL  334
+            FA+Y+++      RTL+KAYGI+F + + G+   F                       D+
+Sbjct  296  FAKYFQN-ENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADI  354
+
+Query  335  VLIYLIKKREFYRDKKYEEV  354
+            +++Y++K + FYR+KKY+ V
+Sbjct  355  IMLYVLKSKNFYREKKYQNV  374
+
+
+>lcl|28787165 Hsa-CCDC88A
+Length=1420
+
+ Score = 30.4 bits (67),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 33/63 (52%), Gaps = 3/63 (5%)
+
+Query  344  EFYRDKKYEEVRGLEDSSQEAEDEASGLGLSEQL--TSGPGLLGMP-EQQELQEPPEAKR  400
+            EF +  + ++   LE   +EA    SG+ LS+QL  TS   +L +  E Q LQ+  E  R
+Sbjct  402  EFEKKNRLQQNTTLEKELEEAHTRTSGISLSDQLNETSNAKVLRLELENQLLQQKIEELR  461
+
+Query  401  GSS  403
+             +S
+Sbjct  462  ENS  464
+
+
+>lcl|28788840 No best human hit identifed in Excel file
+Length=1833
+
+ Score = 29.6 bits (65),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  312   LMKAYGIRFDVMVNGKGAFFCDLVLIYLIKKREFYRDKKYEEVRGLED  359
+             LM A+ I   +  N    +F DL   YL   R F    K++E  GL++
+Sbjct  1135  LMTAFAIGIHITFNNVSIYFIDLKSTYLALFRIFLAMGKFKETFGLDN  1182
+
+
+>lcl|28803022 No best human hit identifed in Excel file
+Length=455
+
+ Score = 28.9 bits (63),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 45/96 (47%), Gaps = 16/96 (17%)
+
+Query  310  RTLMKAYGIRFDVMVNGKGAFFCDLVLIYLIKKREFYRDKKYEEVRGLEDSSQEAEDEAS  369
+            ++++  Y  ++D          CDL   Y+I K + Y +  + ++RG E   Q A     
+Sbjct  25   KSVLIVYSKQYDTT----DQHACDL---YIIAKTKVYIELNFTDLRGFEVPWQPANSSTV  77
+
+Query  370  GL------GLSEQLTSGPGL-LGM--PEQQELQEPP  396
+             +       ++E+ TSG    +G+  P Q+ L++PP
+Sbjct  78   SMECLPKISITERNTSGEEFRMGIICPVQKLLKDPP  113
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1899185736
+
+
+Query= sp|O15547|P2RX6_HUMAN P2X purinoceptor 6 OS=Homo sapiens GN=P2RX6
+PE=1 SV=2
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                233    4e-71
+lcl|28804833  Hsa-TMC7                                                30.8    1.3  
+lcl|28787739  Hsa-AARSD1                                              28.9    4.1  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  233 bits (593),  Expect = 4e-71, Method: Compositional matrix adjust.
+ Identities = 137/370 (37%), Positives = 209/370 (56%), Gaps = 20/370 (5%)
+
+Query  22   LLDYKTEKYVMTRNWRVGALQRLLQFGIVVYVVGWALLAKKGYQERDLEPQFSIITKLKG  81
+            + +Y T K V   + +VG + RLLQ  I+ Y+VG+ ++ KKGYQE D     SI TK+KG
+Sbjct  11   IFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDFVVG-SISTKVKG  69
+
+Query  82   VSVTQIKELGNR--LWDVADFVKPPQGENVFFLVTNFLVTPAQVQGRCPEHPSVPLANCW  139
+            +++T    L +   +WDVAD+V PPQ     F++TN ++T  Q Q RCP+  +     C 
+Sbjct  70   IALTNRTILSDTPGVWDVADYVVPPQENGAVFVMTNAIITYNQTQ-RCPQDVASG-DFCT  127
+
+Query  140  VDEDCPEGEGGTHSHGVKTGQCVVF--NGTHRTCEIWSWCPVESGVVPSRPLLAQAQNFT  197
+             D DCP         G +TG+CV    NGT + CEI++WCP E+  +   PLL  A NFT
+Sbjct  128  TDADCPAETMIPSGDGFRTGRCVNSSQNGT-KVCEIYAWCPFENDTL-GEPLLKSAANFT  185
+
+Query  198  LFIKNTVTFSKFNFSKSNALETWDPTYFKHCRYEPQFSP--YCPVFRIGDLV--AKAGGT  253
+            +F+KN V F KF  S+ N +   +      CRY+P+ +   +CP+F I D++   K   +
+Sbjct  186  IFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGDDS  245
+
+Query  254  FEDLALLGGSVGIRVHWDCDLDTGDSGCWPHYSFQLQEKS------YNFRTATHWWEQPG  307
+             E +  +G S+ + + W+C+LD     C P Y F   ++S      +NFR A  +++   
+Sbjct  246  TESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNVVSEGFNFRFA-KYFQNEN  304
+
+Query  308  VEARTLLKLYGIRFDILVTGQAGKFGLIPTAVTLGTGAAWLGVVTFFCDLLLLYVDREAH  367
+               RTL+K YGI+F I + G+AGKF ++P  + LG+G A L + +   D+++LYV +  +
+Sbjct  305  QSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVLKSKN  364
+
+Query  368  FYWRTKYEEA  377
+            FY   KY+  
+Sbjct  365  FYREKKYQNV  374
+
+
+>lcl|28804833 Hsa-TMC7
+Length=625
+
+ Score = 30.8 bits (68),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 26/84 (31%), Positives = 33/84 (39%), Gaps = 6/84 (7%)
+
+Query  243  IGDLVAKAGGTFEDLA--LLGG---SVGIRVHWDCDLDTGDSGCWPHYSFQLQEKSYNFR  297
+            I  +V+ A G  E L   L  G   S  +   WD  +      CW      LQE   +  
+Sbjct  154  IAIIVSIAKGIKESLINQLSTGVPFSQKVFASWDFCMKNDKIVCWKKTCL-LQELRADLA  212
+
+Query  298  TATHWWEQPGVEARTLLKLYGIRF  321
+            T    WE+     RT +KLY  RF
+Sbjct  213  TQRELWEKSNRSFRTKVKLYSTRF  236
+
+
+>lcl|28787739 Hsa-AARSD1
+Length=233
+
+ Score = 28.9 bits (63),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 26/65 (40%), Gaps = 1/65 (2%)
+
+Query  238  CPVFRIGDLVAKAGGTFEDLALLGGSVGIRVHWDCDLDTGDSGCWPHYSFQLQEKSYNFR  297
+             PV RI    A+A    E    +G  V + V W+   D        H    L +K + F+
+Sbjct  4    VPVHRITRRAAEAVNFVESELTVGKDVHLVVDWERRFDNMQQHSGQHLITALADKMFGFK  63
+
+Query  298  TATHW  302
+            T T W
+Sbjct  64   T-TSW  67
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010902544
+
+
+Query= sp|Q9UBL9|P2RX2_HUMAN P2X purinoceptor 2 OS=Homo sapiens GN=P2RX2
+PE=2 SV=1
+
+Length=471
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                255    1e-79
+lcl|28784514  Hsa-MGAT5                                               30.0    2.4  
+lcl|28786156  Hsa-MTHFR                                               29.6    3.4  
+
+
+>lcl|28789053 Hsa-P2RX4
+Length=404
+
+ Score =  255 bits (652),  Expect = 1e-79, Method: Compositional matrix adjust.
+ Identities = 145/372 (39%), Positives = 222/372 (60%), Gaps = 19/372 (5%)
+
+Query  23   SALWDYETPKVIVVRNRRLGVLYRAVQLLILLYFVWYVFIVQKSYQESETGPESSIITKV  82
+            S +++Y+TPK++ + ++++G++ R +QL+I+ Y V YV + +K YQE +     SI TKV
+Sbjct  9    SLIFEYDTPKIVHIHSKKVGIINRLLQLIIIGYIVGYVIVYKKGYQEFDF-VVGSISTKV  67
+
+Query  83   KGITTSEHK-------VWDVEEYVKPP-EGGSVFSIITRVEATHSQTQGTCPESIRVHNA  134
+            KGI  +          VWDV +YV PP E G+VF ++T    T++QTQ  CP+ +     
+Sbjct  68   KGIALTNRTILSDTPGVWDVADYVVPPQENGAVF-VMTNAIITYNQTQ-RCPQDV-ASGD  124
+
+Query  135  TCLSDADCVAGELDMLGNGLRTGRCVPYYQGPSKTCEVFGWCPVEDGASVSQFLGTMAPN  194
+             C +DADC A  +   G+G RTGRCV   Q  +K CE++ WCP E+  ++ + L   A N
+Sbjct  125  FCTTDADCPAETMIPSGDGFRTGRCVNSSQNGTKVCEIYAWCPFEND-TLGEPLLKSAAN  183
+
+Query  195  FTILIKNSIHYPKFHFSKGNIAD-RTDGYLKRCTF--HEASDLYCPIFKLGFIVE--KAG  249
+            FTI +KN++H+PKF  S+ NI     +  L +C +    A++ +CPIF +  I++  K  
+Sbjct  184  FTIFVKNNVHFPKFKVSRRNIIGFENNRQLSKCRYDPRNATNRFCPIFTIQDILDLVKGD  243
+
+Query  250  ESFTELAHKGGVIGVIINWDCDLDLPASECNPKYSFRRLDPKHVPASSGYNFRFAKYYKI  309
+            +S   +   G  I V I W+C+LD    EC P+Y F RLD  +V  S G+NFRFAKY++ 
+Sbjct  244  DSTESILKMGASIQVNIVWNCNLDFSLDECLPEYRFTRLDRSNV-VSEGFNFRFAKYFQN  302
+
+Query  310  NGTTTRTLIKAYGIRIDVIVHGQAGKFSLIPTIINLATALTSVGVGSFLCDWILLTFMNK  369
+               + RTLIKAYGI+  + + G+AGKFS++P ++NL + L  + + S + D I+L  +  
+Sbjct  303  ENQSMRTLIKAYGIQFLITIQGRAGKFSIVPLLLNLGSGLALLSLASVVADIIMLYVLKS  362
+
+Query  370  NKVYSHKKFDKV  381
+               Y  KK+  V
+Sbjct  363  KNFYREKKYQNV  374
+
+
+>lcl|28784514 Hsa-MGAT5
+Length=519
+
+ Score = 30.0 bits (66),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  238  IFKLGFIVEKAGESFTELAHKGGVIGVIINW  268
+            +  LG + ++ G  F E+  KGG +G ++ W
+Sbjct  85   LIHLGLLTKQTGWKFAEMQFKGGPLGELVQW  115
+
+
+>lcl|28786156 Hsa-MTHFR
+Length=631
+
+ Score = 29.6 bits (65),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 25/112 (22%), Positives = 44/112 (39%), Gaps = 3/112 (3%)
+
+Query  106  SVFSIITRVEATHSQTQGTCPESIRVHNATCLSDADCVAGELDMLG-NGLRTGRCVPYYQ  164
+             V+++       H    G     I   +    ++   ++ +L  L  NG+ T    P   
+Sbjct  415  DVWNVFYYFIKGHENQNGVKVTHIPWSDDVLSTETSLISDQLAYLNKNGVLTINSQPAIN  474
+
+Query  165  GPSKTCEVFGWCPVEDGASVSQFLG--TMAPNFTILIKNSIHYPKFHFSKGN  214
+            G S T  +FGW   +       +L   T   N  +L K  ++YP+ ++  GN
+Sbjct  475  GFSSTHPIFGWGNPDGYVYQKAYLEFFTSKENVEVLKKLLVNYPQVNYHIGN  526
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2173127677
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

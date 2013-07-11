@@ -1,0 +1,759 @@
+BLASTP 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ./000.origional.docs/octProteome.fa
+           22,345 sequences; 8,091,987 total letters
+
+
+
+Query= sp|P78348|ASIC1_HUMAN Acid-sensing ion channel 1 OS=Homo sapiens
+GN=ASIC1 PE=1 SV=3
+
+Length=528
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                174    1e-46
+lcl|28794382  Hsa-SCNN1G                                               111    4e-26
+lcl|28785778  No best human hit identifed in Excel file                105    2e-25
+lcl|28798776  No best human hit identifed in Excel file               72.8    1e-14
+lcl|28798775  No best human hit identifed in Excel file               37.4    0.009
+lcl|28787843  Hsa-ACAT2                                               33.5    0.18 
+lcl|28809604  No best human hit identifed in Excel file               31.6    0.82 
+lcl|28801114  Hsa-CPE                                                 30.0    2.5  
+lcl|28799446  Hsa-AGXT2                                               29.6    3.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2491605634
+
+
+Query= sp|Q96FT7|ASIC4_HUMAN Acid-sensing ion channel 4 OS=Homo sapiens
+GN=ASIC4 PE=1 SV=2
+
+Length=647
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                140    8e-35
+lcl|28794382  Hsa-SCNN1G                                              99.8    6e-22
+lcl|28785778  No best human hit identifed in Excel file               86.3    1e-18
+lcl|28798776  No best human hit identifed in Excel file               57.8    1e-09
+lcl|28801114  Hsa-CPE                                                 31.6    1.2  
+lcl|28790405  Hsa-DHDDS                                               31.2    1.3  
+lcl|28804474  Hsa-DNAJC19                                             28.1    5.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3167974365
+
+
+Query= sp|Q9UHC3|ASIC3_HUMAN Acid-sensing ion channel 3 OS=Homo sapiens
+GN=ASIC3 PE=1 SV=2
+
+Length=531
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                175    8e-47
+lcl|28794382  Hsa-SCNN1G                                               112    2e-26
+lcl|28785778  No best human hit identifed in Excel file                104    5e-25
+lcl|28798776  No best human hit identifed in Excel file               70.5    7e-14
+lcl|28798775  No best human hit identifed in Excel file               35.4    0.041
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2509111060
+
+
+Query= sp|Q16515|ASIC2_HUMAN Acid-sensing ion channel 2 OS=Homo sapiens
+GN=ASIC2 PE=1 SV=1
+
+Length=512
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                158    4e-41
+lcl|28785778  No best human hit identifed in Excel file                112    7e-28
+lcl|28794382  Hsa-SCNN1G                                               111    5e-26
+lcl|28798776  No best human hit identifed in Excel file               69.7    1e-13
+lcl|28798775  No best human hit identifed in Excel file               41.2    6e-04
+lcl|28792224  No best human hit identifed in Excel file               38.1    0.006
+lcl|28804036  Hsa-LRRC15                                              31.6    0.69 
+lcl|28804794  Hsa-ALDOC                                               29.3    3.3  
+lcl|28791168  No best human hit identifed in Excel file               28.5    6.7  
+lcl|28794705  Hsa-C11orf54                                            28.5    6.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2413284644
+
+
+Query= sp|Q9NY37|ASIC5_HUMAN Acid-sensing ion channel 5 OS=Homo sapiens
+GN=ASIC5 PE=1 SV=1
+
+Length=505
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28798254  Hsa-ACCN3                                                145    8e-37
+lcl|28785778  No best human hit identifed in Excel file               92.4    8e-21
+lcl|28794382  Hsa-SCNN1G                                              89.4    6e-19
+lcl|28798776  No best human hit identifed in Excel file               66.2    2e-12
+lcl|28798775  No best human hit identifed in Excel file               42.0    3e-04
+lcl|28806331  Hsa-PTN                                                 29.3    1.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2372282235
+
+
+Query= sp|P51168|SCNNB_HUMAN Amiloride-sensitive sodium channel subunit
+beta OS=Homo sapiens GN=SCNN1B PE=1 SV=2
+
+Length=640
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              77.0    9e-15
+lcl|28798254  Hsa-ACCN3                                               76.3    2e-14
+lcl|28785778  No best human hit identifed in Excel file               72.0    6e-14
+lcl|28798776  No best human hit identifed in Excel file               60.5    2e-10
+lcl|28791358  Hsa-FAM185B                                             30.4    2.2  
+lcl|28806830  No best human hit identifed in Excel file               29.3    2.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3127284786
+
+
+Query= sp|P37088|SCNNA_HUMAN Amiloride-sensitive sodium channel subunit
+alpha OS=Homo sapiens GN=SCNN1A PE=1 SV=1
+
+Length=669
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              77.0    9e-15
+lcl|28798776  No best human hit identifed in Excel file               53.5    4e-08
+lcl|28798254  Hsa-ACCN3                                               52.0    6e-07
+lcl|28785778  No best human hit identifed in Excel file               46.6    1e-05
+lcl|28798775  No best human hit identifed in Excel file               43.9    1e-04
+lcl|28798161  No best human hit identifed in Excel file               32.7    0.47 
+lcl|28794341  Hsa-PCDHB2                                              32.0    1.00 
+lcl|28793044  Hsa-MED12L                                              30.4    2.8  
+lcl|28806729  No best human hit identifed in Excel file               30.0    3.3  
+lcl|28795322  Hsa-SFRS16                                              29.3    6.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3277395832
+
+
+Query= sp|P51170|SCNNG_HUMAN Amiloride-sensitive sodium channel subunit
+gamma OS=Homo sapiens GN=SCNN1G PE=1 SV=4
+
+Length=649
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              70.1    1e-12
+lcl|28798254  Hsa-ACCN3                                               67.4    1e-11
+lcl|28785778  No best human hit identifed in Excel file               60.1    6e-10
+lcl|28798776  No best human hit identifed in Excel file               48.5    2e-06
+lcl|28798775  No best human hit identifed in Excel file               45.1    5e-05
+lcl|28802242  Hsa-ABCB4                                               31.6    1.3  
+lcl|28802482  Hsa-GRIN1                                               31.6    1.3  
+lcl|28785798  No best human hit identifed in Excel file               29.6    2.4  
+lcl|28788488  No best human hit identifed in Excel file               30.4    2.4  
+lcl|28791815  Hsa-TBRG4                                               29.3    5.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3179599959
+
+
+Query= sp|P51172|SCNND_HUMAN Amiloride-sensitive sodium channel subunit
+delta OS=Homo sapiens GN=SCNN1D PE=1 SV=2
+
+Length=638
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28794382  Hsa-SCNN1G                                              66.2    2e-11
+lcl|28798254  Hsa-ACCN3                                               55.8    4e-08
+lcl|28785778  No best human hit identifed in Excel file               47.0    1e-05
+lcl|28798776  No best human hit identifed in Excel file               43.5    8e-05
+lcl|28800237  No best human hit identifed in Excel file               34.3    0.14 
+lcl|28786326  Hsa-CDC73                                               30.4    2.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3115659192
+
+
+Query= sp|Q9BRQ5|ORAI3_HUMAN Protein orai-3 OS=Homo sapiens GN=ORAI3 PE=1
+SV=2
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                187    1e-57
+lcl|28789341  Hsa-ANKRD50                                             31.2    0.70 
+lcl|28787559  No best human hit identifed in Excel file               30.4    0.77 
+lcl|28799865  Hsa-BRD2                                                29.3    2.2  
+lcl|28786253  Hsa-CIRH1A                                              27.3    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1193842400
+
+
+Query= sp|Q96D31|CRCM1_HUMAN Calcium release-activated calcium channel
+protein 1 OS=Homo sapiens GN=ORAI1 PE=1 SV=2
+
+Length=301
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                235    2e-76
+lcl|28786253  Hsa-CIRH1A                                              27.7    7.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1219107735
+
+
+Query= sp|Q96SN7|ORAI2_HUMAN Protein orai-2 OS=Homo sapiens GN=ORAI2 PE=1
+SV=1
+
+Length=254
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                231    1e-75
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 958649120
+
+
+Query= sp|Q99572|P2RX7_HUMAN P2X purinoceptor 7 OS=Homo sapiens GN=P2RX7
+PE=1 SV=4
+
+Length=595
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                203    1e-58
+lcl|28783439  No best human hit identifed in Excel file               30.0    0.57 
+lcl|28807544  Hsa-PLXNA1                                              30.8    2.2  
+lcl|28810206  No best human hit identifed in Excel file               27.7    2.9  
+lcl|28788292  Hsa-DDX58                                               29.3    6.2  
+lcl|28795288  Hsa-CCDC53                                              28.1    7.7  
+lcl|28799637  No best human hit identifed in Excel file               28.9    9.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2865708921
+
+
+Query= sp|P56373|P2RX3_HUMAN P2X purinoceptor 3 OS=Homo sapiens GN=P2RX3
+PE=2 SV=2
+
+Length=397
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                265    4e-84
+lcl|28786700  No best human hit identifed in Excel file               31.2    0.82 
+lcl|28795073  No best human hit identifed in Excel file               30.8    1.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1764750923
+
+
+Query= sp|Q99571|P2RX4_HUMAN P2X purinoceptor 4 OS=Homo sapiens GN=P2RX4
+PE=1 SV=2
+
+Length=388
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                333    1e-110
+lcl|28796348  Hsa-MUC6                                                32.7    0.27  
+lcl|28798969  No best human hit identifed in Excel file               29.3    2.3   
+lcl|28809834  Hsa-ATP2C1                                              29.3    3.1   
+lcl|28795053  No best human hit identifed in Excel file               28.1    4.8   
+lcl|28810391  No best human hit identifed in Excel file               28.5    5.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1711631330
+
+
+Query= sp|P51575|P2RX1_HUMAN P2X purinoceptor 1 OS=Homo sapiens GN=P2RX1
+PE=1 SV=1
+
+Length=399
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                282    1e-90
+lcl|28804152  No best human hit identifed in Excel file               31.6    0.42 
+lcl|28790888  Hsa-GTPBP8                                              28.9    2.4  
+lcl|28793282  No best human hit identifed in Excel file               28.5    5.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1776555277
+
+
+Query= sp|Q93086|P2RX5_HUMAN P2X purinoceptor 5 OS=Homo sapiens GN=P2RX5
+PE=2 SV=4
+
+Length=422
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                274    4e-87
+lcl|28787165  Hsa-CCDC88A                                             30.4    1.9  
+lcl|28788840  No best human hit identifed in Excel file               29.6    3.1  
+lcl|28803022  No best human hit identifed in Excel file               28.9    4.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1899185736
+
+
+Query= sp|O15547|P2RX6_HUMAN P2X purinoceptor 6 OS=Homo sapiens GN=P2RX6
+PE=1 SV=2
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                233    4e-71
+lcl|28804833  Hsa-TMC7                                                30.8    1.3  
+lcl|28787739  Hsa-AARSD1                                              28.9    4.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010902544
+
+
+Query= sp|Q9UBL9|P2RX2_HUMAN P2X purinoceptor 2 OS=Homo sapiens GN=P2RX2
+PE=2 SV=1
+
+Length=471
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                255    1e-79
+lcl|28784514  Hsa-MGAT5                                               30.0    2.4  
+lcl|28786156  Hsa-MTHFR                                               29.6    3.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2173127677
+
+
+Query= sp|Q9BRQ5|ORAI3_HUMAN Protein orai-3 OS=Homo sapiens GN=ORAI3 PE=1
+SV=2
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                187    1e-57
+lcl|28789341  Hsa-ANKRD50                                             31.2    0.70 
+lcl|28787559  No best human hit identifed in Excel file               30.4    0.77 
+lcl|28799865  Hsa-BRD2                                                29.3    2.2  
+lcl|28786253  Hsa-CIRH1A                                              27.3    9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1193842400
+
+
+Query= sp|Q96D31|CRCM1_HUMAN Calcium release-activated calcium channel
+protein 1 OS=Homo sapiens GN=ORAI1 PE=1 SV=2
+
+Length=301
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                235    2e-76
+lcl|28786253  Hsa-CIRH1A                                              27.7    7.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1219107735
+
+
+Query= sp|Q96SN7|ORAI2_HUMAN Protein orai-2 OS=Homo sapiens GN=ORAI2 PE=1
+SV=1
+
+Length=254
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28800208  Hsa-ORAI3                                                231    1e-75
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 958649120
+
+
+Query= sp|Q99572|P2RX7_HUMAN P2X purinoceptor 7 OS=Homo sapiens GN=P2RX7
+PE=1 SV=4
+
+Length=595
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                203    1e-58
+lcl|28783439  No best human hit identifed in Excel file               30.0    0.57 
+lcl|28807544  Hsa-PLXNA1                                              30.8    2.2  
+lcl|28810206  No best human hit identifed in Excel file               27.7    2.9  
+lcl|28788292  Hsa-DDX58                                               29.3    6.2  
+lcl|28795288  Hsa-CCDC53                                              28.1    7.7  
+lcl|28799637  No best human hit identifed in Excel file               28.9    9.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2865708921
+
+
+Query= sp|P56373|P2RX3_HUMAN P2X purinoceptor 3 OS=Homo sapiens GN=P2RX3
+PE=2 SV=2
+
+Length=397
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                265    4e-84
+lcl|28786700  No best human hit identifed in Excel file               31.2    0.82 
+lcl|28795073  No best human hit identifed in Excel file               30.8    1.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1764750923
+
+
+Query= sp|Q99571|P2RX4_HUMAN P2X purinoceptor 4 OS=Homo sapiens GN=P2RX4
+PE=1 SV=2
+
+Length=388
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                333    1e-110
+lcl|28796348  Hsa-MUC6                                                32.7    0.27  
+lcl|28798969  No best human hit identifed in Excel file               29.3    2.3   
+lcl|28809834  Hsa-ATP2C1                                              29.3    3.1   
+lcl|28795053  No best human hit identifed in Excel file               28.1    4.8   
+lcl|28810391  No best human hit identifed in Excel file               28.5    5.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1711631330
+
+
+Query= sp|P51575|P2RX1_HUMAN P2X purinoceptor 1 OS=Homo sapiens GN=P2RX1
+PE=1 SV=1
+
+Length=399
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                282    1e-90
+lcl|28804152  No best human hit identifed in Excel file               31.6    0.42 
+lcl|28790888  Hsa-GTPBP8                                              28.9    2.4  
+lcl|28793282  No best human hit identifed in Excel file               28.5    5.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1776555277
+
+
+Query= sp|Q93086|P2RX5_HUMAN P2X purinoceptor 5 OS=Homo sapiens GN=P2RX5
+PE=2 SV=4
+
+Length=422
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                274    4e-87
+lcl|28787165  Hsa-CCDC88A                                             30.4    1.9  
+lcl|28788840  No best human hit identifed in Excel file               29.6    3.1  
+lcl|28803022  No best human hit identifed in Excel file               28.9    4.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1899185736
+
+
+Query= sp|O15547|P2RX6_HUMAN P2X purinoceptor 6 OS=Homo sapiens GN=P2RX6
+PE=1 SV=2
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                233    4e-71
+lcl|28804833  Hsa-TMC7                                                30.8    1.3  
+lcl|28787739  Hsa-AARSD1                                              28.9    4.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010902544
+
+
+Query= sp|Q9UBL9|P2RX2_HUMAN P2X purinoceptor 2 OS=Homo sapiens GN=P2RX2
+PE=2 SV=1
+
+Length=471
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28789053  Hsa-P2RX4                                                255    1e-79
+lcl|28784514  Hsa-MGAT5                                               30.0    2.4  
+lcl|28786156  Hsa-MTHFR                                               29.6    3.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2173127677
+
+
+  Database: ./000.origional.docs/octProteome.fa
+    Posted date:  Jul 3, 2013  1:18 PM
+  Number of letters in database: 8,091,987
+  Number of sequences in database:  22,345
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
