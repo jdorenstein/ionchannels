@@ -79,4 +79,13 @@ commands:
 
 ----------------------
 
+CREATE HSA CGS DB
+
+fasta file:
+	./non-selective.k/geneset/candidate.geneset.fa
+command:
+	makeblastdb -in /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out non-selective.kDB -dbtype prot -parse_seqids
+
+-----------------------
+
 
