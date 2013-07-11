@@ -57,7 +57,7 @@ use 'cat clcn1.clcnka.clcnkb.fasta > candidate.geneset.fa'
 
 ---------------------------------
 
-AST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET, SHOW ALIGNMENTS (10) AND DESCRIPTIONS (10). (out.blast.001)
+BLAST THE CANDIDATE GENESET AGAINST THE OCTOPUS GENESET, SHOW ALIGNMENTS (10) AND DESCRIPTIONS (10). (out.blast.001)
 
 FASTA files (candidate.geneset.fa)
 	/Users/ionchannel/research/projects/ionchannels/chloride/geneset/***

@@ -21,246 +21,6 @@ Database: ./000.origional.docs/octProteome.fa
 
 
 
-Query= sp|Q09470|KCNA1_HUMAN Potassium voltage-gated channel subfamily A
-member 1 OS=Homo sapiens GN=KCNA1 PE=1 SV=2
-
-Length=495
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                645    0.0   
-lcl|28795158  Hsa-KCNA1                                                583    0.0   
-lcl|28802919  No best human hit identifed in Excel file                391    2e-131
-lcl|28787354  Hsa-KCNB2                                                240    3e-73 
-lcl|28800378  Hsa-KCNC2                                                215    2e-63 
-lcl|28792113  Hsa-KCNC2                                                211    3e-63 
-lcl|28790572  Hsa-KCNC3                                                214    7e-62 
-lcl|28809142  Hsa-KCNC2                                                200    2e-58 
-lcl|28797625  Hsa-KCND3                                                189    2e-54 
-lcl|28802453  Hsa-KCNC3                                                190    4e-53 
-
-
-
-Lambda      K        H        a         alpha
-   0.322    0.138    0.406    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2313707365
-
-
-Query= sp|P22460|KCNA5_HUMAN Potassium voltage-gated channel subfamily A
-member 5 OS=Homo sapiens GN=KCNA5 PE=1 SV=4
-
-Length=613
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                593    0.0   
-lcl|28795158  Hsa-KCNA1                                                534    0.0   
-lcl|28802919  No best human hit identifed in Excel file                349    2e-113
-lcl|28787354  Hsa-KCNB2                                                232    5e-69 
-lcl|28792113  Hsa-KCNC2                                                207    1e-60 
-lcl|28800378  Hsa-KCNC2                                                202    1e-57 
-lcl|28797625  Hsa-KCND3                                                191    1e-54 
-lcl|28790572  Hsa-KCNC3                                                195    6e-54 
-lcl|28809142  Hsa-KCNC2                                                185    3e-52 
-lcl|28808999  No best human hit identifed in Excel file                177    4e-50 
-
-
-
-Lambda      K        H        a         alpha
-   0.321    0.140    0.427    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2970339267
-
-
-Query= sp|P16389|KCNA2_HUMAN Potassium voltage-gated channel subfamily A
-member 2 OS=Homo sapiens GN=KCNA2 PE=1 SV=2
-
-Length=499
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                644    0.0   
-lcl|28795158  Hsa-KCNA1                                                570    0.0   
-lcl|28802919  No best human hit identifed in Excel file                381    2e-127
-lcl|28787354  Hsa-KCNB2                                                238    3e-72 
-lcl|28790572  Hsa-KCNC3                                                218    3e-63 
-lcl|28792113  Hsa-KCNC2                                                211    5e-63 
-lcl|28800378  Hsa-KCNC2                                                207    3e-60 
-lcl|28809142  Hsa-KCNC2                                                200    2e-58 
-lcl|28797625  Hsa-KCND3                                                193    6e-56 
-lcl|28808999  No best human hit identifed in Excel file                183    7e-53 
-
-
-
-Lambda      K        H        a         alpha
-   0.322    0.138    0.410    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2337137313
-
-
-Query= sp|Q16322|KCA10_HUMAN Potassium voltage-gated channel subfamily A
-member 10 OS=Homo sapiens GN=KCNA10 PE=1 SV=2
-
-Length=511
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                558    0.0   
-lcl|28795158  Hsa-KCNA1                                                526    0.0   
-lcl|28802919  No best human hit identifed in Excel file                372    8e-124
-lcl|28792113  Hsa-KCNC2                                                231    1e-70 
-lcl|28787354  Hsa-KCNB2                                                233    3e-70 
-lcl|28809142  Hsa-KCNC2                                                211    2e-62 
-lcl|28800378  Hsa-KCNC2                                                211    8e-62 
-lcl|28790572  Hsa-KCNC3                                                212    7e-61 
-lcl|28797625  Hsa-KCND3                                                203    9e-60 
-lcl|28808999  No best human hit identifed in Excel file                181    9e-52 
-
-
-
-Lambda      K        H        a         alpha
-   0.322    0.139    0.410    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2407427157
-
-
-Query= sp|P22459|KCNA4_HUMAN Potassium voltage-gated channel subfamily A
-member 4 OS=Homo sapiens GN=KCNA4 PE=1 SV=2
-
-Length=653
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                612    0.0   
-lcl|28795158  Hsa-KCNA1                                                553    0.0   
-lcl|28802919  No best human hit identifed in Excel file                368    4e-120
-lcl|28787354  Hsa-KCNB2                                                237    2e-70 
-lcl|28792113  Hsa-KCNC2                                                220    3e-65 
-lcl|28790572  Hsa-KCNC3                                                206    2e-57 
-lcl|28809142  Hsa-KCNC2                                                196    5e-56 
-lcl|28800378  Hsa-KCNC2                                                195    7e-55 
-lcl|28797625  Hsa-KCND3                                                192    1e-54 
-lcl|28802453  Hsa-KCNC3                                                186    9e-51 
-
-
-
-Lambda      K        H        a         alpha
-   0.319    0.135    0.397    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 3202851147
-
-
-Query= sp|Q96RP8|KCNA7_HUMAN Potassium voltage-gated channel subfamily A
-member 7 OS=Homo sapiens GN=KCNA7 PE=2 SV=1
-
-Length=456
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                551    0.0   
-lcl|28795158  Hsa-KCNA1                                                498    1e-172
-lcl|28802919  No best human hit identifed in Excel file                357    1e-118
-lcl|28787354  Hsa-KCNB2                                                229    3e-69 
-lcl|28792113  Hsa-KCNC2                                                217    9e-66 
-lcl|28809142  Hsa-KCNC2                                                197    2e-57 
-lcl|28797625  Hsa-KCND3                                                196    2e-57 
-lcl|28790572  Hsa-KCNC3                                                199    1e-56 
-lcl|28800378  Hsa-KCNC2                                                187    2e-53 
-lcl|28808999  No best human hit identifed in Excel file                183    3e-53 
-
-
-
-Lambda      K        H        a         alpha
-   0.327    0.144    0.454    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2099100024
-
-
-Query= sp|P17658|KCNA6_HUMAN Potassium voltage-gated channel subfamily A
-member 6 OS=Homo sapiens GN=KCNA6 PE=1 SV=1
-
-Length=529
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                575    0.0   
-lcl|28795158  Hsa-KCNA1                                                528    0.0   
-lcl|28802919  No best human hit identifed in Excel file                359    2e-118
-lcl|28787354  Hsa-KCNB2                                                223    3e-66 
-lcl|28792113  Hsa-KCNC2                                                202    2e-59 
-lcl|28800378  Hsa-KCNC2                                                197    2e-56 
-lcl|28790572  Hsa-KCNC3                                                193    4e-54 
-lcl|28808999  No best human hit identifed in Excel file                176    8e-50 
-lcl|28809142  Hsa-KCNC2                                                176    2e-49 
-lcl|28797625  Hsa-KCND3                                                175    3e-49 
-
-
-
-Lambda      K        H        a         alpha
-   0.322    0.141    0.429    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2497440776
-
-
-Query= sp|P22001|KCNA3_HUMAN Potassium voltage-gated channel subfamily A
-member 3 OS=Homo sapiens GN=KCNA3 PE=2 SV=3
-
-Length=575
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28784664  Hsa-KCNA2                                                620    0.0   
-lcl|28795158  Hsa-KCNA1                                                556    0.0   
-lcl|28802919  No best human hit identifed in Excel file                371    1e-122
-lcl|28787354  Hsa-KCNB2                                                234    2e-70 
-lcl|28792113  Hsa-KCNC2                                                217    1e-64 
-lcl|28800378  Hsa-KCNC2                                                214    4e-62 
-lcl|28790572  Hsa-KCNC3                                                204    1e-57 
-lcl|28809142  Hsa-KCNC2                                                195    5e-56 
-lcl|28797625  Hsa-KCND3                                                190    2e-54 
-lcl|28808999  No best human hit identifed in Excel file                178    1e-50 
-
-
-
-Lambda      K        H        a         alpha
-   0.321    0.138    0.420    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 2765857308
-
-
 Query= sp|Q03721|KCNC4_HUMAN Potassium voltage-gated channel subfamily C
 member 4 OS=Homo sapiens GN=KCNC4 PE=1 SV=2
 
@@ -829,6 +589,246 @@ Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
 Effective search space used: 4631084172
+
+
+Query= sp|Q09470|KCNA1_HUMAN Potassium voltage-gated channel subfamily A
+member 1 OS=Homo sapiens GN=KCNA1 PE=1 SV=2
+
+Length=495
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                645    0.0   
+lcl|28795158  Hsa-KCNA1                                                583    0.0   
+lcl|28802919  No best human hit identifed in Excel file                391    2e-131
+lcl|28787354  Hsa-KCNB2                                                240    3e-73 
+lcl|28800378  Hsa-KCNC2                                                215    2e-63 
+lcl|28792113  Hsa-KCNC2                                                211    3e-63 
+lcl|28790572  Hsa-KCNC3                                                214    7e-62 
+lcl|28809142  Hsa-KCNC2                                                200    2e-58 
+lcl|28797625  Hsa-KCND3                                                189    2e-54 
+lcl|28802453  Hsa-KCNC3                                                190    4e-53 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2313707365
+
+
+Query= sp|P22460|KCNA5_HUMAN Potassium voltage-gated channel subfamily A
+member 5 OS=Homo sapiens GN=KCNA5 PE=1 SV=4
+
+Length=613
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                593    0.0   
+lcl|28795158  Hsa-KCNA1                                                534    0.0   
+lcl|28802919  No best human hit identifed in Excel file                349    2e-113
+lcl|28787354  Hsa-KCNB2                                                232    5e-69 
+lcl|28792113  Hsa-KCNC2                                                207    1e-60 
+lcl|28800378  Hsa-KCNC2                                                202    1e-57 
+lcl|28797625  Hsa-KCND3                                                191    1e-54 
+lcl|28790572  Hsa-KCNC3                                                195    6e-54 
+lcl|28809142  Hsa-KCNC2                                                185    3e-52 
+lcl|28808999  No best human hit identifed in Excel file                177    4e-50 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2970339267
+
+
+Query= sp|P16389|KCNA2_HUMAN Potassium voltage-gated channel subfamily A
+member 2 OS=Homo sapiens GN=KCNA2 PE=1 SV=2
+
+Length=499
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                644    0.0   
+lcl|28795158  Hsa-KCNA1                                                570    0.0   
+lcl|28802919  No best human hit identifed in Excel file                381    2e-127
+lcl|28787354  Hsa-KCNB2                                                238    3e-72 
+lcl|28790572  Hsa-KCNC3                                                218    3e-63 
+lcl|28792113  Hsa-KCNC2                                                211    5e-63 
+lcl|28800378  Hsa-KCNC2                                                207    3e-60 
+lcl|28809142  Hsa-KCNC2                                                200    2e-58 
+lcl|28797625  Hsa-KCND3                                                193    6e-56 
+lcl|28808999  No best human hit identifed in Excel file                183    7e-53 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2337137313
+
+
+Query= sp|Q16322|KCA10_HUMAN Potassium voltage-gated channel subfamily A
+member 10 OS=Homo sapiens GN=KCNA10 PE=1 SV=2
+
+Length=511
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                558    0.0   
+lcl|28795158  Hsa-KCNA1                                                526    0.0   
+lcl|28802919  No best human hit identifed in Excel file                372    8e-124
+lcl|28792113  Hsa-KCNC2                                                231    1e-70 
+lcl|28787354  Hsa-KCNB2                                                233    3e-70 
+lcl|28809142  Hsa-KCNC2                                                211    2e-62 
+lcl|28800378  Hsa-KCNC2                                                211    8e-62 
+lcl|28790572  Hsa-KCNC3                                                212    7e-61 
+lcl|28797625  Hsa-KCND3                                                203    9e-60 
+lcl|28808999  No best human hit identifed in Excel file                181    9e-52 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2407427157
+
+
+Query= sp|P22459|KCNA4_HUMAN Potassium voltage-gated channel subfamily A
+member 4 OS=Homo sapiens GN=KCNA4 PE=1 SV=2
+
+Length=653
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                612    0.0   
+lcl|28795158  Hsa-KCNA1                                                553    0.0   
+lcl|28802919  No best human hit identifed in Excel file                368    4e-120
+lcl|28787354  Hsa-KCNB2                                                237    2e-70 
+lcl|28792113  Hsa-KCNC2                                                220    3e-65 
+lcl|28790572  Hsa-KCNC3                                                206    2e-57 
+lcl|28809142  Hsa-KCNC2                                                196    5e-56 
+lcl|28800378  Hsa-KCNC2                                                195    7e-55 
+lcl|28797625  Hsa-KCND3                                                192    1e-54 
+lcl|28802453  Hsa-KCNC3                                                186    9e-51 
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3202851147
+
+
+Query= sp|Q96RP8|KCNA7_HUMAN Potassium voltage-gated channel subfamily A
+member 7 OS=Homo sapiens GN=KCNA7 PE=2 SV=1
+
+Length=456
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                551    0.0   
+lcl|28795158  Hsa-KCNA1                                                498    1e-172
+lcl|28802919  No best human hit identifed in Excel file                357    1e-118
+lcl|28787354  Hsa-KCNB2                                                229    3e-69 
+lcl|28792113  Hsa-KCNC2                                                217    9e-66 
+lcl|28809142  Hsa-KCNC2                                                197    2e-57 
+lcl|28797625  Hsa-KCND3                                                196    2e-57 
+lcl|28790572  Hsa-KCNC3                                                199    1e-56 
+lcl|28800378  Hsa-KCNC2                                                187    2e-53 
+lcl|28808999  No best human hit identifed in Excel file                183    3e-53 
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.144    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2099100024
+
+
+Query= sp|P17658|KCNA6_HUMAN Potassium voltage-gated channel subfamily A
+member 6 OS=Homo sapiens GN=KCNA6 PE=1 SV=1
+
+Length=529
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                575    0.0   
+lcl|28795158  Hsa-KCNA1                                                528    0.0   
+lcl|28802919  No best human hit identifed in Excel file                359    2e-118
+lcl|28787354  Hsa-KCNB2                                                223    3e-66 
+lcl|28792113  Hsa-KCNC2                                                202    2e-59 
+lcl|28800378  Hsa-KCNC2                                                197    2e-56 
+lcl|28790572  Hsa-KCNC3                                                193    4e-54 
+lcl|28808999  No best human hit identifed in Excel file                176    8e-50 
+lcl|28809142  Hsa-KCNC2                                                176    2e-49 
+lcl|28797625  Hsa-KCND3                                                175    3e-49 
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.141    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2497440776
+
+
+Query= sp|P22001|KCNA3_HUMAN Potassium voltage-gated channel subfamily A
+member 3 OS=Homo sapiens GN=KCNA3 PE=2 SV=3
+
+Length=575
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|28784664  Hsa-KCNA2                                                620    0.0   
+lcl|28795158  Hsa-KCNA1                                                556    0.0   
+lcl|28802919  No best human hit identifed in Excel file                371    1e-122
+lcl|28787354  Hsa-KCNB2                                                234    2e-70 
+lcl|28792113  Hsa-KCNC2                                                217    1e-64 
+lcl|28800378  Hsa-KCNC2                                                214    4e-62 
+lcl|28790572  Hsa-KCNC3                                                204    1e-57 
+lcl|28809142  Hsa-KCNC2                                                195    5e-56 
+lcl|28797625  Hsa-KCND3                                                190    2e-54 
+lcl|28808999  No best human hit identifed in Excel file                178    1e-50 
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2765857308
 
 
 Query= sp|O95259|KCNH1_HUMAN Potassium voltage-gated channel subfamily H
@@ -1486,33 +1486,6 @@ Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
 Effective search space used: 1558149286
-
-
-Query= sp|B7U540|IRK18_HUMAN Inward rectifier potassium channel 18 OS=Homo
-sapiens GN=KCNJ18 PE=1 SV=2
-
-Length=433
-                                                                      Score     E
-Sequences producing significant alignments:                          (Bits)  Value
-
-lcl|28803402  Hsa-KCNJ6                                                369    3e-123
-lcl|28790798  Hsa-KCNJ14                                               280    3e-89 
-lcl|28785940  Hsa-KCNJ13                                               191    7e-56 
-lcl|28795319  Hsa-KCNK16                                              30.4    1.3   
-lcl|28795158  Hsa-KCNA1                                               29.3    3.6   
-lcl|28790910  No best human hit identifed in Excel file               28.5    4.3   
-lcl|28787925  Hsa-PCDH11X                                             28.1    9.0   
-
-
-
-Lambda      K        H        a         alpha
-   0.324    0.138    0.418    0.792     4.96 
-
-Gapped
-Lambda      K        H        a         alpha    sigma
-   0.267   0.0410    0.140     1.90     42.6     43.6 
-
-Effective search space used: 1963863888
 
 
 Query= sp|Q9NYG8|KCNK4_HUMAN Potassium channel subfamily K member 4 OS=Homo
