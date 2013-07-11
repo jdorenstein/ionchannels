@@ -12,5 +12,8 @@ PREPARE THE CANDIDATE GENESET
 fasta files
 	../ionchannels/other.cation.channels/geneset
 	consult with Eric about the ASC genes
-##create "candidate.geneset.fa" -> contains all the fasta files in one single fasta file
-##	use 'cat * > candidate.geneset.fa'
+create "candidate.geneset.full.unsafe.fa" -> contains all the fasta files in one single fasta file (note: contains asc.fasta. the accuracy of the information is uncertain)
+	use 'cat * > candidate.geneset.full.unsafe.fa'
+
+create "candidate.geneset.fa" -> contains only orai and p2rx fasta files
+	use 'cat orai.fasta p2rx.fasta > candidate.geneset.fa'
