@@ -183,3 +183,44 @@ command:
 USE THE mbh.sorter.13.07.12 TO SORT OUT THE MBH HITS AND NON HITS INTO RESPECTIVE FOLDERS BASED ON THEIR EVALUE(out.mbh.e_val…) (out.not.mbh.e_val…)
 
 -----------------------------
+-----------------------------
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM62, E=10 (out.blast.fam.001)
+
+fasta file
+	./non-selective.k/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.fam.001 2> /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.fam.001 -num_threads 2 -evalue 10 -matrix BLOSUM62 &
+
+-------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM62, E=1 (out.blast.fam.002)
+
+fasta file
+	./non-selective.k/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.fam.002 2> /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.fam.002 -num_threads 2 -evalue 1 -matrix BLOSUM62 &
+
+
+------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM62, E=0.1 (out.blast.fam.003)
+
+fasta file
+	./non-selective.k/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.fam.003 2> /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.fam.003 -num_threads 2 -evalue 0.1 -matrix BLOSUM62 &
+
+
+-------------------------------
+
