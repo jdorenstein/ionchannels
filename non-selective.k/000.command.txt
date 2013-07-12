@@ -224,3 +224,40 @@ command:
 
 -------------------------------
 
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM45, E=10 (out.blast.fam.004)
+
+fasta file
+	./non-selective.k/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.fam.004 2> /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.fam.004 -num_threads 2 -evalue 10 -matrix BLOSUM45 &
+
+-------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM45, E=1 (out.blast.fam.005)
+
+fasta file
+	./non-selective.k/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.fam.005 2> /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.fam.005 -num_threads 2 -evalue 1 -matrix BLOSUM45 &
+
+
+------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM45, E=0.1 (out.blast.fam.006)
+
+fasta file
+	./non-selective.k/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.fam.006 2> /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.fam.006 -num_threads 2 -evalue 0.1 -matrix BLOSUM45 &
