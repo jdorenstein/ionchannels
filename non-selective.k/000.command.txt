@@ -130,3 +130,50 @@ hsa blast DB(non-selective.kDB):
 
 command:
 	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val0.01.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.006 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.006 -num_threads 2 &
+
+
+==================13.07.12===
+
+
+RERUN mbh.blast.out.fasta.creator.13.07.11.py TO CREATE A NEW SET OF FASTA FILES THAT ARE TO BE BLASTED AGAINST THE HUMAN DATABASE
+
+----------------------------------
+
+
+BLAST mbh.candidate.e_val10.fa AGAINST HSA DB (out.blast.mbh.007)
+
+fasta file:
+	./non-selective.k/geneset/mbh.candidate.e_val10.fa
+hsa blast DB(non-selective.kDB):
+	./non-selective.k/geneset/**
+
+command:
+	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val10.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.007 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.007 -num_threads 2 &
+
+
+--------------------------
+
+
+BLAST mbh.candidate.e_val1.fa AGAINST HSA DB (out.blast.mbh.008)
+
+fasta file:
+	./non-selective.k/geneset/mbh.candidate.e_val1.fa
+hsa blast DB(non-selective.kDB):
+	./non-selective.k/geneset/**
+
+command:
+	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val1.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.008 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.008 -num_threads 2 &
+
+
+----------------------------
+
+
+BLAST mbh.candidate.e_val0.01.fa AGAINST HSA DB (out.blast.mbh.009)
+
+fasta file:
+	./non-selective.k/geneset/mbh.candidate.e_val0.01.fa
+hsa blast DB(non-selective.kDB):
+	./non-selective.k/geneset/**
+
+command:
+	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val0.01.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.009 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.009 -num_threads 2 &
