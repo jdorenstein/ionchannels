@@ -177,3 +177,9 @@ hsa blast DB(non-selective.kDB):
 
 command:
 	blastp -db /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/non-selective.kDB -query /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/mbh.candidate.e_val0.01.fa -out /Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.blast.mbh.009 2>/Users/ionchannel/research/projects/ionchannels/non-selective.k/geneset/out.errors.blast.mbh.009 -num_threads 2 &
+
+-------------------
+
+USE THE mbh.sorter.13.07.12 TO SORT OUT THE MBH HITS AND NON HITS INTO RESPECTIVE FOLDERS BASED ON THEIR EVALUE(out.mbh.e_val…) (out.not.mbh.e_val…)
+
+-----------------------------
