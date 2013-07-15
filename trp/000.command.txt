@@ -58,3 +58,85 @@ BLAST THE CANDIDATE GENESET AGAINST THE OCTOPUS DATABASE, SHOWS DESCRIPTIONS ONL
 	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/geneset.candidate.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.002 -num_alignments 0 -num_descriptions 10 2>/Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.002 -num_threads 2 &
 
 
+
+==================13.07.15===
+CREATE A CANDIDATE.GENESET.FA (RENAMED COPY OF GENESET.CANDIDATE.FA)
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM62, E=10 (out.blast.fam.001)
+
+fasta file
+	./trp/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.fam.001 2> /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.fam.001 -num_threads 2 -evalue 10 -matrix BLOSUM62 &
+
+-------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM62, E=1 (out.blast.fam.002)
+
+fasta file
+	./trp/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.fam.002 2> /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.fam.002 -num_threads 2 -evalue 1 -matrix BLOSUM62 &
+
+
+------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM62, E=0.1 (out.blast.fam.003)
+
+fasta file
+	./trp/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.fam.003 2> /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.fam.003 -num_threads 2 -evalue 0.1 -matrix BLOSUM62 &
+
+
+-------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM45, E=10 (out.blast.fam.004)
+
+fasta file
+	./trp/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.fam.004 2> /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.fam.004 -num_threads 2 -evalue 10 -matrix BLOSUM45 &
+
+-------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM45, E=1 (out.blast.fam.005)
+
+fasta file
+	./trp/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.fam.005 2> /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.fam.005 -num_threads 2 -evalue 1 -matrix BLOSUM45 &
+
+
+------------------------------
+
+
+BLAST candidate.geneset.fa AGAINST octProteomeDB, BLOSUM45, E=0.1 (out.blast.fam.006)
+
+fasta file
+	./trp/geneset/candidate.geneset.fa
+octProteomeDB
+	/research/tools/db/blast/oct.proteome/***
+
+command:
+	blastp -db /Users/ionchannel/research/tools/db/blast/oct.proteome/octProteomeDB -query /Users/ionchannel/research/projects/ionchannels/trp/geneset/candidate.geneset.fa -out /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.blast.fam.006 2> /Users/ionchannel/research/projects/ionchannels/trp/geneset/out.errors.blast.fam.006 -num_threads 2 -evalue 0.1 -matrix BLOSUM45 &
+
+
